@@ -1,0 +1,6 @@
+{
+  "name": "egg-swagger-jsdoc",
+  "eggPlugin": {
+    "name": "egg-swagger-jsdoc"
+  }
+}

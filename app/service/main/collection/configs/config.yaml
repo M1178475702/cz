@@ -1,0 +1,32 @@
+name: cz.collecton
+version: 0.1.0
+logger:
+  fluent_addr: 127.0.0.1:1000
+  file: _
+  stdout: true
+  enable_fluent: true
+  enable_file: true
+server:
+  http:
+    addr: 0.0.0.0:8000
+    timeout: 1s
+  grpc:
+    addr: 0.0.0.0:9000
+    timeout: 1s
+data:
+  mysql:
+    user: xd
+    password: xd#123456
+    host: _
+    port: 33061
+    database: xd_test
+  redis:
+    addr: 127.0.0.1:6379
+    read_timeout: 0.2s
+    write_timeout: 0.2s
+registry:
+  user_rpc_client: cz.user
+  consul:
+    address: _
+    schema: _
+

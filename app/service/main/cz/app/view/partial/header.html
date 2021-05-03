@@ -1,0 +1,61 @@
+<style>
+    .top-bar{
+       padding: 0;
+    }
+    .dt-header{
+        height: 50px;
+        background-color: #F8FBFC;
+    }
+    .dt-header-title{
+        font-size: 18px;
+        height: 50px;
+        line-height: 50px;
+        padding-left: 10px;
+        float: left;
+        font-weight: bolder;
+        background-color: #234260;
+        width: 170px;
+        color: #fff;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 90% auto;
+        background-image: url("/project/back/img/pic_title_logo.png");
+    }
+    .dt-header-user{
+        margin-left: 190px;
+        padding-right: 15px;
+        font-size: 12px;
+        text-indent: 35px;
+        background-size: 15px;
+        background-position-x: 10px;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-image: url("/project/back/img/ic_title_notice.png");
+    }
+    .dt-user-name,.dt-login-out{
+        line-height: 50px;
+        height: 50px;
+    }
+    .dt-login-out{
+        position: absolute;
+        top:0;
+        right: 10px;
+        width: 100px;
+        text-align: 20px;
+        background-size: 15px;
+        background-position-x: 10px;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-image: url("/project/back/img/ic_title_logout.png");
+    }
+
+</style>
+<div class="top-bar navbar-fixed-top dt-header">
+    <div class="dt-header-title"> </div>
+
+    <div class="dt-header-user">
+        <div class="dt-user-name" id="userName"> <%- userName%>，你好</div>
+
+        <div class="dt-login-out dt-button-pointer" onclick="backLoginOut()">&nbsp退出登录</div>
+    </div>
+</div>

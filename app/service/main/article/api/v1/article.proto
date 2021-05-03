@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package cz.collection.v1;
+
+import "google/api/annotations.proto";
+
+option go_package = "cz/app/service/main/article/api/v1;v1";
+option java_multiple_files = true;
+option java_package = "dev.kratos.api.cz.v1";
+option java_outer_classname = "CollectionProtoV1";
+
+// The request message containing the user's name.
+message GetArticleMetaByIdsReq {
+  repeated int32 aids = 1;
+}
+
+message ModelArticleMeta {
+  int32 aid = 1;
+  string title = 2;
+}
+
+message GetArticleMetaByIdsRes {
+  repeated ModelArticleMeta arcMetas = 1;
+}
+
+// The greeting service definition.
+service Collection {
+  // Sends a greeting
+  rpc GetArticleMetaByIds (GetArticleMetaByIdsReq) returns (GetArticleMetaByIdsRes)  {};
+}

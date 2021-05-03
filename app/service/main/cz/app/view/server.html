@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+    <script src="https://cdn.bootcss.com/element-ui/2.8.2/index.js"></script>
+    <!-- 引入组件库 -->
+    <link href="https://cdn.bootcss.com/element-ui/2.8.2/theme-chalk/index.css" rel="stylesheet">
+    <script src="   https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+</head>
+<body >
+<div id="form">
+    <p>是否可以工作:   {{isCanWork}}</p>
+    <p>可用进程数:    {{wingmanCount}}</p>
+    <p>运行进程数:    {{runningCount}}</p>
+    <p>剩余任务数:   {{leftTaskCount}}</p>
+</div>
+<script>
+    new Vue({
+        el: '#form',
+        data(){
+            return {
+                "isCanWork":'',
+                "runningCount":'',
+                "leftTaskCount":'',
+                "wingmanCount":''
+            }
+        },
+        created(){
+            this.start();
+        },
+        methods:{
+
+            start(){
+                setInterval(this.getStatus,1000);
+            },
+            getStatus(){
+                $.ajax({
+                    method: 'GET',
+                    url: 'http://api.hzxuedao.com/server/wingman/status',
+                    success:(res)=>{
+                        const data = res.data;
+                        this.isCanWork = data.isCanWork;
+                        this.runningCount = data.runningCount;
+                        this.leftTaskCount = data.leftTaskCount;
+                        this.wingmanCount = data.wingmanCount;
+                    }
+                })
+            }
+
+        }
+    })
+</script>
+</body>
+</html>

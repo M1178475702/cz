@@ -1,0 +1,96 @@
+syntax = "proto3";
+
+package cz.collection.v1;
+
+import "google/api/annotations.proto";
+
+option go_package = "cz/app/service/main/collection/api/v1;v1";
+option java_multiple_files = true;
+option java_package = "dev.kratos.api.cz.v1";
+option java_outer_classname = "CollectionProtoV1";
+
+
+
+// The request message containing the user's name.
+message GetCollectionListReq {
+  int32 userId = 1;
+  int32 folder = 2;
+  int32 ps = 3;
+  string lm = 4;
+}
+
+message ModelCollectionListItem {
+  int32 collId = 1;
+  string collName = 3;
+  int64 itemId = 5;
+  string ModifyTime = 9;
+}
+
+// The response message containing the greetings
+message GetCollectionListRes {
+  repeated ModelCollectionListItem list = 1;
+  string lm = 2;
+}
+
+message GetCollectionReq {
+  int32 userId = 1;
+  int32 itemId = 2;
+  int32 collType = 3;
+}
+
+message GetCollectionRes {
+  int32 collId = 1;
+  int32 userId = 2;
+  string collName = 3;
+  int64 folder = 4;
+  int64 itemId = 5;
+  int32 collType = 6;
+  int32 status = 7;
+  string CreateTime = 8;
+  string ModifyTime = 9;
+}
+
+message DoCollectReq {
+  int32 userId = 1;
+  int32 itemId = 2;
+  int32 collType = 3;
+  int32 folder = 4;
+  string collName = 5;
+}
+
+message DoCollectRes {
+
+}
+
+message UndoCollectReq {
+  int32 collId = 1;
+}
+
+message UndoCollectRes {
+
+}
+
+message IsCollectedReq {
+  int32 itemId = 1;
+  int32 collType = 2;
+  int32 userId = 3;
+}
+
+
+message IsCollectedRes {
+  bool isCollected = 1;
+}
+
+// The greeting service definition.
+service Collection {
+  // Sends a greeting
+  rpc GetCollectionList (GetCollectionListReq) returns (GetCollectionListRes)  {};
+
+  rpc GetCollection (GetCollectionReq) returns (GetCollectionRes) {};
+
+  rpc DoCollect (DoCollectReq) returns (DoCollectRes) {};
+
+  rpc undoCollect (UndoCollectReq) returns (UndoCollectRes) {};
+
+  rpc isCollected (IsCollectedReq) returns (IsCollectedRes) {};
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package cz.collection.v1;
+
+import "kratos/api/annotations.proto";
+
+option go_package = "cz/app/service/main/collection/api/errors;errors";
+option java_multiple_files = true;
+option java_package = "dev.kratos.api.cz.v1";
+option java_outer_classname = "CollectionProtoV1";
+
+
+enum Collection {
+  option (kratos.api.errors) = true;
+
+  InternalError = 0;
+  CollectionNotExist = 1;
+  Collected = 2;
+}
