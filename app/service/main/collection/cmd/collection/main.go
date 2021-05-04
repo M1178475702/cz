@@ -24,22 +24,34 @@ func init() {
 func newApp(logger log.Logger, hs *http.Server, gs *grpc.Server, bc *conf.Bootstrap) *kratos.App {
 
 	//服务注册
-	reg, err := rpc.GetConsulClient()
-	if err != nil {
-		panic(err)
+	if bc.Registry.Enable {
+		reg, err := rpc.GetConsulClient()
+		if err != nil {
+			panic(err)
+		}
+		return kratos.New(
+			kratos.Name(bc.Name),
+			kratos.Version(bc.Version),
+			kratos.Metadata(map[string]string{}),
+			kratos.Logger(logger),
+			kratos.Registrar(reg),
+			kratos.Server(
+				hs,
+				gs,
+			),
+		)
+	} else {
+		return kratos.New(
+			kratos.Name(bc.Name),
+			kratos.Version(bc.Version),
+			kratos.Metadata(map[string]string{}),
+			kratos.Logger(logger),
+			kratos.Server(
+				hs,
+				gs,
+			),
+		)
 	}
-
-	return kratos.New(
-		kratos.Name(bc.Name),
-		kratos.Version(bc.Version),
-		kratos.Metadata(map[string]string{}),
-		kratos.Logger(logger),
-		kratos.Registrar(reg),
-		kratos.Server(
-			hs,
-			gs,
-		),
-	)
 }
 
 func main() {
@@ -55,7 +67,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-
+	rpc.Init(bc.Registry)
 	app, cleanup, err := initApp(bc.Server, bc.Data, logger, bc)
 	if err != nil {
 		panic(err)

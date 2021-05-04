@@ -6,6 +6,14 @@ const constant = require('../app/common/constant/xd-constant');
 module.exports = appInfo => {
     const config = {};
 
+    config.rpc = {
+        collectionClient: {
+            name: "cz_collection",
+            addr: "localhost:9000"
+
+        }
+    }
+
     config.middleware = ['cors', 'clientAuthenticate', 'backAuthenticate'];
 
     config.cluster = {

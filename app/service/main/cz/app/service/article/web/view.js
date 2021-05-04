@@ -132,7 +132,7 @@ class ArticleService extends Service {
 
             const [record_like, isCollected, record, isAppearRedPack] = await Promise.all([
                 this.service.article.record.getRecordArticleAttitude(user_id, article_id),
-                this.service.collection.common.isCollected(user_id, article_id, this.constant.COLLECTION_TYPE.ARTICLE),
+                this.service.collection.rpc.isCollected(user_id, article_id, this.constant.COLLECTION_TYPE.ARTICLE),
                 this.service.article.record.createRecordView(user_id, article_id, src),
                 // this.service.redpack.articleInsideRedPack.isAppearRedPack(user_id)
             ]);

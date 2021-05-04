@@ -25,7 +25,7 @@ class Topic extends Service {
         await dao.topic.incrementTopicViewsCount(topic_id, 1);
         topic.is_collected = false;
         if (this.ctx.session.userId){
-            topic.is_collected = await this.service.collection.common.isCollected(topic_id, this.constant.COLLECTION_TYPE.TOPIC, this.ctx.session.userId);
+            topic.is_collected = await this.service.collection.rpc.isCollected(topic_id, this.constant.COLLECTION_TYPE.TOPIC, this.ctx.session.userId);
         }
          return topic;
     }

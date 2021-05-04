@@ -1,32 +1,34 @@
-name: cz.collecton
+name: cz_collecton
 version: 0.1.0
 logger:
   fluent_addr: 127.0.0.1:1000
   file: _
   stdout: true
-  enable_fluent: true
-  enable_file: true
+  enable_fluent: false
+  enable_file: false
 server:
   http:
     addr: 0.0.0.0:8000
-    timeout: 1s
+    timeout: 100000000000
   grpc:
     addr: 0.0.0.0:9000
-    timeout: 1s
+    timeout: 100000000000  # nano
 data:
   mysql:
     user: xd
     password: xd#123456
-    host: _
-    port: 33061
+    host: 47.98.146.46
+    port: "33061"
     database: xd_test
   redis:
     addr: 127.0.0.1:6379
-    read_timeout: 0.2s
-    write_timeout: 0.2s
+    read_timeout: 2000
+    write_timeout: 2000
 registry:
-  user_rpc_client: cz.user
+  enable: false
+  user_client:
+    name: cz_user
   consul:
-    address: _
-    schema: _
+#    address: _
+#    schema: _
 

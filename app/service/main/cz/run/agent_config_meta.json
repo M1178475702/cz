@@ -1,0 +1,410 @@
+{
+  "rpc": {
+    "collectionClient": {
+      "name": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+      "addr": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js"
+    }
+  },
+  "middleware": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "port": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+    }
+  },
+  "upload": {
+    "host": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "static_prefix": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "upload_dir": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js"
+  },
+  "session": {
+    "key": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "maxAge": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "encrypt": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "renew": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "httpOnly": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-session/config/config.default.js"
+  },
+  "WingmanClient": {
+    "exec": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "count": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "maxQueueSize": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js"
+  },
+  "bodyParser": {
+    "jsonLimit": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "enable": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "strict": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "depth": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+  },
+  "redPack": {
+    "mch_id": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "wxappid": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "client_ip": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "key": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js"
+  },
+  "validate": {
+    "convert": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "validateRoot": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js"
+  },
+  "clientAuthenticate": {
+    "match": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js"
+  },
+  "backAuthenticate": {
+    "match": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js"
+  },
+  "keys": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+  "logger": {
+    "appLogName": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "coreLogName": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "agentLogName": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "errorLogName": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "dir": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "env": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "level": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+  },
+  "security": {
+    "csrf": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "domainWhiteList": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "knex": {
+    "client": {
+      "dialect": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+      "connection": {
+        "host": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+        "port": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+        "user": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+        "password": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+        "database": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+        "requestTimeout": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js"
+      },
+      "pool": {
+        "min": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+        "max": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js"
+      },
+      "acquireConnectionTimeout": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js"
+    },
+    "app": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "agent": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "default": {
+      "dialect": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/config/config.default.js",
+      "connection": {
+        "database": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/config/config.default.js"
+      },
+      "pool": {
+        "min": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/config/config.default.js",
+        "max": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/config/config.default.js"
+      },
+      "acquireConnectionTimeout": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/config/config.default.js"
+    }
+  },
+  "sequelize": {
+    "dialect": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "database": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "username": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "password": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "host": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "port": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "pool": {
+      "max": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+      "idle": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+      "acquire": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js"
+    },
+    "define": {
+      "timestamps": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js"
+    },
+    "timezone": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "defaultViewEngine": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "defaultExtension": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "mapping": {
+      ".ejs": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js"
+    },
+    "cache": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-view/config/config.local.js"
+  },
+  "appBaseDir": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+  "multipart": {
+    "fileSize": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "fileExtensions": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "mode": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "static": {
+    "dir": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "maxAge": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "buffer": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "prefix": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-static/config/config.default.js"
+  },
+  "development": {
+    "overrideDefault": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "watchDirs": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "ignoreDirs": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-development/config/config.default.js"
+  },
+  "swagger": {
+    "swaggerPath": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+    "swaggerDefinition": {
+      "swagger": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+      "info": {
+        "swagger": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+        "title": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+        "version": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js",
+        "description": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js"
+      },
+      "basePath": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js"
+    },
+    "apis": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-schedule/config/config.default.js"
+    },
+    "knex": {
+      "file": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-schedule/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "httpProxy": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-http-proxy/config/config.default.js",
+  "logview": {
+    "prefix": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logview/config/config.default.js",
+    "staticHost": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logview/config/config.default.js"
+  },
+  "env": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+  "name": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "version": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "description": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "private": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "@grpc/proto-loader": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "cluster-client": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "dicer": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "egg": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "egg-cluster": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "egg-http-proxy": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "egg-knex": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "knex": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "egg-logger": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "egg-logview": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "egg-oss": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "grpc": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "mkdirp": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "moment": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "mz-modules": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "node-schedule": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "node-uuid": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "request": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "request-promise": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "sdk-base": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "sequelize": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "sharp": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "stream-to-array": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "stream-wormhole": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "string-width": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "swagger-jsdoc": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "underscore": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "uuid": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "xml-js": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "dev": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "debug": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "test": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "cov": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "ci": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "url": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "logging": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/config.default.js"
+}

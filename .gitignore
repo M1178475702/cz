@@ -1,0 +1,6 @@
+*.idea/
+go.sum
+*.exe
+*bin/
+*package-lock.json
+*node_modules/

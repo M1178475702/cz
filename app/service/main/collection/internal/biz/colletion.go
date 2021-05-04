@@ -115,6 +115,7 @@ func (b *CollectionBiz) UndoCollect(ctx context.Context, collId int) (err error)
 func (b *CollectionBiz) IsCollected(ctx context.Context, userId int, itemId, collType int) (isCollected bool,err error) {
 	collection, err := b.dao.GetCollectionByUIC(ctx, userId, itemId, collType, CollTypeDo)
 	if err != nil {
+		b.log.Error(err)
 		return
 	}
 	if collection == nil {

@@ -3,10 +3,9 @@ package data
 import (
 	"context"
 	"cz/app/service/main/collection/internal/conf"
-	v1 "cz/app/service/main/user/api/v1"
+	//v1 "cz/app/service/main/user/api/v1"
 	db2 "cz/lib/db"
 	http2 "cz/lib/net/http"
-	"cz/lib/net/rpc"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/google/wire"
 	"gorm.io/gorm"
@@ -20,7 +19,7 @@ type Data struct {
 	// TODO warpped database client
 	db      *gorm.DB
 	client  *http2.CzHttpClient
-	userRPC v1.UserClient
+	//userRPC v1.UserClient
 	log     *log.Helper
 }
 
@@ -33,10 +32,10 @@ func NewData(c *conf.Data, logger log.Logger) (*Data, func(), error) {
 	if err != nil {
 		return nil, nil, err
 	}
-	conn, err := rpc.NewClient(c.UserRPCClient.Name)
+	//conn, err := rpc.NewClient(c.UserClient.Name)
 	return &Data{
 		log:     log.NewHelper("collection.data", logger),
-		userRPC: v1.NewUserClient(conn),
+		//userRPC: v1.NewUserClient(conn),
 		db:      db,
 	}, cleanup, nil
 }

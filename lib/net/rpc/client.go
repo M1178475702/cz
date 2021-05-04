@@ -10,17 +10,23 @@ import (
 )
 
 var (
-	consulConfig *consulApi.Config
+	registry *Registry
 )
 
-func Init(config *consulApi.Config) {
-	if consulConfig != nil {
-		consulConfig = config
+type Registry struct {
+	Enable bool
+	Name   string
+	Consul *consulApi.Config
+}
+
+func Init(config *Registry) {
+	if registry == nil {
+		registry = config
 	}
 }
 
 func GetConsulClient() (*consul.Registry, error){
-	ccli, err := consulApi.NewClient(consulConfig)
+	ccli, err := consulApi.NewClient(registry.Consul)
 	if err != nil {
 		return nil, err
 	}
@@ -31,15 +37,21 @@ func GetConsulClient() (*consul.Registry, error){
 
 
 func NewClient(name string) (conn *grpc.ClientConn, err error) {
-	dis, err := GetConsulClient()
-	if err != nil {
+	if registry.Enable {
+		var dis *consul.Registry
+		dis, err = GetConsulClient()
+		if err != nil {
+			return
+		}
+		//指定provider（service name）
+		endpoint := fmt.Sprintf("discovery://default/%s", name)
+		conn ,err = kgrpc.Dial(context.Background(), kgrpc.WithEndpoint(endpoint), kgrpc.WithDiscovery(dis))
+		if err != nil {
+			return
+		}
+		return
+	} else {
+		conn, err = kgrpc.Dial(context.Background(), kgrpc.WithEndpoint("localhost:8001"))
 		return
 	}
-	//指定provider（service name）
-	endpoint := fmt.Sprintf("discovery://default/%s", name)
-	conn ,err = kgrpc.Dial(context.Background(), kgrpc.WithEndpoint(endpoint), kgrpc.WithDiscovery(dis))
-	if err != nil {
-		return
-	}
-	return
 }

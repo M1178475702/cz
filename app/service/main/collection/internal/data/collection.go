@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	sqlSelectCollectionList = "select coll_id, item_id, coll_name, modify_time from xd_xd_collection where user_id = ? and folder = ? and status = ? and modify_time < ？limit 0, ?"
+	sqlSelectCollectionList = "select coll_id, item_id, coll_name, modify_time from xd_xd_collection where user_id = ? and folder = ? and status = ? and modify_time < ? limit 0, ?"
 	sqlCreateCollection = "insert into xd_xd_collection (user_id, item_id, coll_name, coll_type, folder) values(?,?,?,?,?)"
 	sqlIncreaseCollectionCount = "update xd_xd_collect_count set count = count - ? where id = ?"
 	sqlDecreaseCollectionCount = "update xd_xd_collect_count set count = count - ? where id = ?"
@@ -43,6 +43,11 @@ func (d *Data) GetCollectionByUIC(ctx context.Context, userId, itemId, collType,
 		Where("status = ?", status).
 		Where("coll_type = ?", collType).First(&collection).Error
 	if err != nil {
+		if err == gorm.ErrRecordNotFound{
+			collection = nil
+			err = nil
+			return
+		}
 		collection = nil
 		err = errors.Wrapf(err, "data.GetCollectionByUIC error")
 		return

@@ -27,7 +27,7 @@ module.exports = app => {
 
   require('./router/back/tag')(app);
 
-  require('./router/web/collection')(app);
+  // require('./router/web/collection')(app);
 
   require('./router/server/wingmanClient')(app);
 

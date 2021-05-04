@@ -5,7 +5,7 @@ const fsPromises = fs.promises;
 const path = require('path');
 const moment = require('moment');
 const util = require('util');
-const stringWidth = require('string-width');
+// const stringWidth = require('string-width');
 // const lodash = require('lodash');
 const _ = require('underscore');
 const binary_search = require('./binary_search');
@@ -23,7 +23,7 @@ exports.getPromises = Promises.getPromises;
 
 exports.binary_search = binary_search;
 
-exports.stringWidth = stringWidth;
+// exports.stringWidth = stringWidth;
 /**
  * @description 产生指定长度的随机16进制字符串
  * @param size  指定字符串长度

@@ -1,0 +1,671 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "xd_sid",
+      "httpOnly": true,
+      "encrypt": true,
+      "logValue": true,
+      "renew": true
+    },
+    "security": {
+      "domainWhiteList": [],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": false,
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true
+      },
+      "methodnoallow": {
+        "enable": true
+      },
+      "noopen": {
+        "enable": true
+      },
+      "nosniff": {
+        "enable": true
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "ipExceptionList": null,
+        "checkAddress": null
+      },
+      "_protocolWhiteListSet": "<Set>"
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-onerror/lib/onerror_page.mustache"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieDomain": "",
+      "cookieMaxAge": "1y"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "egg-schedule.log"
+      },
+      "knex": {
+        "file": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/egg-knex.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "stream",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": "100kb",
+      "fields": 10,
+      "fileSize": "100mb",
+      "files": 10,
+      "fileExtensions": [
+        ".xls",
+        ".xlsx",
+        ".pdf"
+      ],
+      "whitelist": null,
+      "tmpdir": "/var/folders/gq/n9yg235x3xx71qr9kcn9_m7r0000gn/T/egg-multipart-tmp/XD_APP_DEV",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *"
+      }
+    },
+    "development": {
+      "watchDirs": [
+        "app/controller",
+        "app/service",
+        "app/middleware",
+        "app/model",
+        "app/router",
+        "app/view"
+      ],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": true,
+      "overrideIgnore": false
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": true,
+      "maxFiles": 1000,
+      "maxAge": 3153600
+    },
+    "view": {
+      "root": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view,/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/public",
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "ejs",
+      "mapping": {
+        ".ejs": "ejs"
+      }
+    },
+    "sequelize": {
+      "dialect": "mysql",
+      "database": "xd_test",
+      "host": "47.98.146.46",
+      "port": "33061",
+      "username": "xd",
+      "password": "<String len: 9>",
+      "pool": {
+        "max": 20,
+        "idle": 300000,
+        "acquire": 600000
+      },
+      "define": {
+        "timestamps": false
+      },
+      "timezone": "+08:00"
+    },
+    "httpProxy": {},
+    "validate": {
+      "convert": true,
+      "validateRoot": false
+    },
+    "logview": {
+      "prefix": "__logs",
+      "staticHost": "https://cdn.bootcss.com"
+    },
+    "knex": {
+      "default": {
+        "dialect": "mysql",
+        "connection": {
+          "database": null
+        },
+        "pool": {
+          "min": 0,
+          "max": 5
+        },
+        "acquireConnectionTimeout": 30000
+      },
+      "app": true,
+      "agent": false,
+      "client": {
+        "dialect": "mysql",
+        "connection": {
+          "host": "47.98.146.46",
+          "port": "33061",
+          "user": "xd",
+          "password": "<String len: 9>",
+          "database": "xd_test",
+          "requestTimeout": 600000
+        },
+        "pool": {
+          "min": 0,
+          "max": 1
+        },
+        "acquireConnectionTimeout": 600000
+      }
+    },
+    "env": "local",
+    "name": "XD_APP_DEV",
+    "keys": "<String len: 29>",
+    "cookies": {},
+    "proxy": false,
+    "maxIpsCount": 0,
+    "maxProxyCount": 0,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "XD_APP_DEV",
+      "version": "1.0.0",
+      "description": "学到app后端系统",
+      "private": true,
+      "dependencies": {
+        "@grpc/proto-loader": "^0.6.1",
+        "cluster-client": "latest",
+        "dicer": "^0.3.0",
+        "egg": "^2.14.2",
+        "egg-cluster": "latest",
+        "egg-http-proxy": "^0.1.0",
+        "egg-knex": "^2.0.0",
+        "knex": "^0.16.3",
+        "egg-logger": "latest",
+        "egg-logview": "^2.0.0",
+        "egg-oss": "^2.0.0",
+        "egg-sequelize": "^4.3.1",
+        "egg-validate": "^2.0.2",
+        "grpc": "^1.24.7",
+        "mkdirp": "^0.5.1",
+        "moment": "^2.24.0",
+        "mysql2": "^1.6.5",
+        "mz-modules": "^2.1.0",
+        "node-schedule": "latest",
+        "node-uuid": "^1.4.8",
+        "request": "^2.88.0",
+        "request-promise": "^4.2.4",
+        "sdk-base": "latest",
+        "sequelize": "^4.37.6",
+        "sharp": "^0.28.1",
+        "stream-to-array": "^2.3.0",
+        "stream-wormhole": "^1.0.4",
+        "string-width": "latest",
+        "swagger-jsdoc": "^3.2.9",
+        "underscore": "^1.9.0",
+        "uuid": "^3.3.2",
+        "xml-js": "latest"
+      },
+      "devDependencies": {
+        "egg-bin": "^4.8.5",
+        "egg-ci": "^1.8.0",
+        "egg-mock": "^3.20.0",
+        "webstorm-disable-index": "^1.2.0"
+      },
+      "engines": {
+        "node": ">=8.9.0"
+      },
+      "scripts": {
+        "dev": "egg-bin dev --workers 1 --port 6001",
+        "debug": "egg-bin debug",
+        "test": "npm run lint -- --fix && npm run test-local",
+        "test-local": "egg-bin test",
+        "cov": "egg-bin cov",
+        "ci": "npm run lint && npm run cov"
+      },
+      "ci": {
+        "version": "8"
+      },
+      "repository": {
+        "type": "git",
+        "url": ""
+      }
+    },
+    "baseDir": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz",
+    "HOME": "/Users/bakatora",
+    "rundir": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 6463>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "1mb",
+      "jsonLimit": "50mb",
+      "textLimit": "1mb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "onerror": "<Function onerror>"
+    },
+    "logger": {
+      "dir": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "INFO",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "XD_APP_DEV-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": false,
+      "type": "agent"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
+      "dnsCacheMaxLength": 1000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "bodyParser",
+      "overrideMethod"
+    ],
+    "workerStartTimeout": 600000,
+    "serverTimeout": null,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 6001,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "rpc": {
+      "collectionClient": {
+        "name": "cz_collection",
+        "addr": "localhost:9000"
+      }
+    },
+    "middleware": [
+      "cors",
+      "clientAuthenticate",
+      "backAuthenticate"
+    ],
+    "upload": {
+      "host": "http://www.dmt2017.xyz:6001",
+      "static_prefix": "/public",
+      "upload_dir": "/upload"
+    },
+    "WingmanClient": {
+      "exec": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/ClusterClient/WingmanClient/task_process",
+      "count": 1,
+      "maxQueueSize": 80
+    },
+    "redPack": {
+      "mch_id": "1545833341",
+      "wxappid": "wxfc468f2617f9238d",
+      "client_ip": "47.98.146.46",
+      "key": "hangzhouxuedaojiaoyukeji01234567"
+    },
+    "clientAuthenticate": {
+      "match": "<Function match>"
+    },
+    "backAuthenticate": {
+      "match": "<Function match>"
+    },
+    "appBaseDir": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app",
+    "swagger": {
+      "swaggerPath": "/swagger.json",
+      "swaggerDefinition": {
+        "swagger": "2.0",
+        "info": {
+          "swagger": "2.0",
+          "title": "学到API文档",
+          "version": "1.0.0",
+          "description": "学到API文档\n\r每个API的返回结果的格式为：\n\r  {   data:{},   msg:{     error:\"\",     prompt:\"\"   },   retcode: 1}\n\r  note:\n\r    retcode的可能值：1 成功 -1参数错误 -401未认证（未登录） -403未授权（权限不足）-500服务器错误\n\r    prompt为向用户返回的操作提示信息\n\r    error仅在调试期使用，返回内部错误信息\n\r  "
+        },
+        "basePath": "/"
+      },
+      "apis": [
+        "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/*/*.js"
+      ]
+    },
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware"
+  },
+  "plugins": {
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-onerror",
+      "version": "2.1.0"
+    },
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-session",
+      "version": "3.3.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-i18n",
+      "version": "2.1.1"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-watcher",
+      "version": "3.1.1"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart",
+      "version": "2.10.3"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-security",
+      "version": "2.9.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-development",
+      "version": "2.7.0"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator",
+      "version": "3.1.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-schedule",
+      "version": "3.6.6"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-static",
+      "version": "2.2.0"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-view",
+      "version": "2.1.3"
+    },
+    "cluster": {
+      "enable": true,
+      "package": "egg-cluster",
+      "name": "cluster",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_egg-cluster@1.27.0@egg-cluster",
+      "version": "1.27.0"
+    },
+    "sequelize": {
+      "enable": true,
+      "package": "egg-sequelize",
+      "name": "sequelize",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-sequelize",
+      "version": "4.3.1"
+    },
+    "httpProxy": {
+      "enable": true,
+      "package": "egg-http-proxy",
+      "name": "httpProxy",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-http-proxy",
+      "version": "0.1.0"
+    },
+    "validate": {
+      "enable": true,
+      "package": "egg-validate",
+      "name": "validate",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-validate",
+      "version": "2.0.2"
+    },
+    "logview": {
+      "package": "egg-logview",
+      "enable": true,
+      "name": "logview",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [
+        "local",
+        "default",
+        "test",
+        "unittest"
+      ],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logview",
+      "version": "2.0.1"
+    },
+    "knex": {
+      "enable": true,
+      "package": "egg-knex",
+      "name": "knex",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/plugin.js",
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex",
+      "version": "2.3.0"
+    },
+    "redpack": {
+      "enable": false,
+      "path": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/plugin/egg-wxredpack",
+      "name": "redpack",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/config/plugin.js"
+    }
+  }
+}

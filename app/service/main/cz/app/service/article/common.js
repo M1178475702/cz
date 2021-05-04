@@ -10,12 +10,3 @@ class ArticleService extends Service {
 
 module.exports = ArticleService;
 
-
-
-
-
-
-
-
-
-

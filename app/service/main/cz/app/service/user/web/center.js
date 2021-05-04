@@ -7,7 +7,7 @@ class UserCenterService extends Service {
             promises.push(this.getUserViewDurationRank(user_id));
         promises.push(this.getViewHistoryRecord(user_id, new Date(), 5));
         promises.push(this.getUserInfoAndPoints(user_id));
-        promises.push(this.service.collection.web.view.getCollectionList(user_id, 0, 5, new Date()));
+        promises.push(this.service.collection.rpc.getCollectionList(user_id, 0, 5, new Date()));
         const [rank, history, user_info, collection] = await promises.execute();
         return {
             rank: rank,

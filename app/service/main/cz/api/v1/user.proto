@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package helloworld.v1;
+
+import "google/api/annotations.proto";
+
+option go_package = "cz/app/service/main/user/api/v1;v1";
+option java_multiple_files = true;
+option java_package = "dev.kratos.api.collection.v1";
+option java_outer_classname = "UserProtoV1";
+
+// The greeting service definition.
+service User {
+  // Sends a greeting
+  rpc GetUserById (GetUserByIdRequest) returns (GetUserByIdResponse)  {
+    //    option (google.api.http) = {
+    //      get: "/redpack/{name}",
+    //    };
+  }
+}
+
+// The request message containing the user's name.
+message GetUserByIdRequest {
+  int32 userId = 1;
+}
+
+// The response message containing the greetings
+message GetUserByIdResponse {
+  string avatar = 1;
+  string nickname = 2;
+  int32 userId = 3;
+  string openId = 4;
+  int32 status = 5;
+  int32 userRole = 6;
+}

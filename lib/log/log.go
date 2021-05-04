@@ -26,7 +26,8 @@ func NewLogger(config *Config) (logger log.Logger, err error) {
 		}
 		return
 	} else if config.EnableFile {
-		file, err := os.Open(config.File)
+		var file *os.File
+		file, err = os.Open(config.File)
 		if err != nil {
 			return nil, err
 		}

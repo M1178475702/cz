@@ -68,14 +68,14 @@ func (s *CollectionService) DoCollect(ctx context.Context, req *pb.DoCollectReq)
 	}
 	return &pb.DoCollectRes{}, nil
 }
-func (s *CollectionService) undoCollect(ctx context.Context, req *pb.UndoCollectReq) (*pb.UndoCollectRes, error) {
+func (s *CollectionService) UndoCollect(ctx context.Context, req *pb.UndoCollectReq) (*pb.UndoCollectRes, error) {
 	err := s.biz.UndoCollect(ctx, int(req.CollId))
 	if err != nil {
 		return nil, errors.Internal(pe.Errors_InternalError, "")
 	}
 	return &pb.UndoCollectRes{}, nil
 }
-func (s *CollectionService) isCollected(ctx context.Context, req *pb.IsCollectedReq) (*pb.IsCollectedRes, error) {
+func (s *CollectionService) IsCollected(ctx context.Context, req *pb.IsCollectedReq) (*pb.IsCollectedRes, error) {
 	isCollected, err := s.biz.IsCollected(ctx, int(req.UserId), int(req.ItemId), int(req.CollType))
 	if err != nil {
 		return nil, errors.Internal(pe.Errors_InternalError, "")

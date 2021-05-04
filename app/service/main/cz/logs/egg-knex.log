@@ -1,0 +1,183 @@
+2021-05-04 14:39:45,650 INFO 34209 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 14:39:47,432 ERROR 34209 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_egg-knex@2.3.0@egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:30:19)
+
+pid: 34209
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:39:47,433 INFO 34209 [egg-knex] instance[0] status OK
+2021-05-04 14:41:09,740 INFO 34435 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 14:41:10,507 ERROR 34435 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_egg-knex@2.3.0@egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:30:19)
+
+pid: 34435
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:41:10,507 INFO 34435 [egg-knex] instance[0] status OK
+2021-05-04 14:42:40,792 INFO 34648 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 14:42:41,548 ERROR 34648 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_egg-knex@3.0.0@egg-knex/lib/knex.js:171:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:30:19)
+    at async isReady (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_egg-knex@3.0.0@egg-knex/lib/knex.js:128:20)
+
+pid: 34648
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:42:41,548 INFO 34648 [egg-knex] instance[0] status OK
+2021-05-04 14:46:32,027 INFO 35354 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 14:46:32,836 ERROR 35354 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:171:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+    at async isReady (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:128:20)
+
+pid: 35354
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:46:32,836 INFO 35354 [egg-knex] instance[0] status OK
+2021-05-04 14:47:21,939 INFO 35510 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 14:47:22,831 ERROR 35510 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:171:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+    at async isReady (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:128:20)
+
+pid: 35510
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:47:22,831 INFO 35510 [egg-knex] instance[0] status OK
+2021-05-04 14:47:50,470 INFO 35628 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 14:47:52,379 ERROR 35628 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+
+pid: 35628
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:47:52,379 INFO 35628 [egg-knex] instance[0] status OK
+2021-05-04 14:59:59,672 INFO 36596 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 15:00:00,923 ERROR 36596 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+
+pid: 36596
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 15:00:00,923 INFO 36596 [egg-knex] instance[0] status OK
+2021-05-04 15:18:54,593 INFO 37660 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 15:18:55,515 ERROR 37660 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+
+pid: 37660
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 15:18:55,516 INFO 37660 [egg-knex] instance[0] status OK
+2021-05-04 15:19:27,369 INFO 37776 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 15:19:28,156 ERROR 37776 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+
+pid: 37776
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 15:19:28,156 INFO 37776 [egg-knex] instance[0] status OK
+2021-05-04 15:25:50,012 INFO 37934 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 15:25:51,073 INFO 37934 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-04 15:25:51,073 INFO 37934 [egg-knex] instance[0] status OK
+2021-05-04 16:15:01,037 INFO 39008 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 16:15:02,553 INFO 39008 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-04 16:15:02,554 INFO 39008 [egg-knex] instance[0] status OK
+2021-05-04 16:15:36,585 INFO 39083 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 16:15:38,323 INFO 39083 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-04 16:15:38,323 INFO 39083 [egg-knex] instance[0] status OK
+2021-05-04 16:17:01,128 INFO 39113 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 16:17:03,935 INFO 39113 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-04 16:17:03,936 INFO 39113 [egg-knex] instance[0] status OK
+2021-05-04 16:27:18,980 INFO 39296 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 16:27:20,279 INFO 39296 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-04 16:27:20,284 INFO 39296 [egg-knex] instance[0] status OK
+2021-05-04 16:28:44,349 INFO 39327 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 16:28:46,604 INFO 39327 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-04 16:28:46,606 INFO 39327 [egg-knex] instance[0] status OK
+2021-05-04 16:29:29,761 INFO 39358 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 16:29:31,029 INFO 39358 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-04 16:29:31,029 INFO 39358 [egg-knex] instance[0] status OK
+2021-05-04 16:38:32,907 INFO 39738 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 16:38:34,102 INFO 39738 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-04 16:38:34,102 INFO 39738 [egg-knex] instance[0] status OK
+2021-05-04 16:39:11,170 INFO 39780 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 16:39:12,328 INFO 39780 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-04 16:39:12,329 INFO 39780 [egg-knex] instance[0] status OK
+2021-05-04 17:04:31,303 INFO 40729 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 17:04:32,619 INFO 40729 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-04 17:04:32,619 INFO 40729 [egg-knex] instance[0] status OK
+2021-05-04 17:22:58,731 INFO 41067 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 17:23:02,533 INFO 41067 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-04 17:23:02,543 INFO 41067 [egg-knex] instance[0] status OK
+2021-05-04 17:26:42,873 INFO 41116 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 17:26:44,197 INFO 41116 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-04 17:26:44,197 INFO 41116 [egg-knex] instance[0] status OK
+2021-05-04 17:27:34,115 INFO 41144 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 17:27:35,438 INFO 41144 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-04 17:27:35,438 INFO 41144 [egg-knex] instance[0] status OK
+2021-05-04 17:33:33,227 INFO 41199 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 17:33:34,588 INFO 41199 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-04 17:33:34,589 INFO 41199 [egg-knex] instance[0] status OK
+2021-05-04 17:34:29,983 INFO 41234 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-04 17:34:31,803 INFO 41234 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-04 17:34:31,804 INFO 41234 [egg-knex] instance[0] status OK
