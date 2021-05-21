@@ -47,7 +47,7 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "dev": "egg-bin dev --workers 1 --port 6002",
+    "dev": "egg-bin dev --workers 1 --port 8000",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",

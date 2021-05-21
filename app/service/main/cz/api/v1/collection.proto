@@ -84,19 +84,11 @@ message IsCollectedRes {
 // The greeting service definition.
 service Collection {
   // Sends a greeting
-  rpc GetCollectionList (GetCollectionListReq) returns (GetCollectionListRes)  {
-    option (google.api.http) = {
-      get: "/list",
-    };
-  };
+  rpc GetCollectionList (GetCollectionListReq) returns (GetCollectionListRes)  {};
 
   rpc GetCollection (GetCollectionReq) returns (GetCollectionRes) {};
 
-  rpc DoCollect (DoCollectReq) returns (DoCollectRes) {
-    option (google.api.http) = {
-      post: "/list",
-    };
-  };
+  rpc DoCollect (DoCollectReq) returns (DoCollectRes) {};
 
   rpc undoCollect (UndoCollectReq) returns (UndoCollectRes) {};
 

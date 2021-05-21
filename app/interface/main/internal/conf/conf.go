@@ -47,7 +47,7 @@ type Server struct {
 func Init(confPath string) (cb *Bootstrap, err error) {
 	var c config.Config
 	if confPath == "" {
-		confPath = ""
+		confPath = "/etc/cz/config.yml"
 		err = conf.Remote(confPath)
 		if err != nil {
 			return

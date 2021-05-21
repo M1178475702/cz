@@ -2,6 +2,7 @@ package main
 
 import (
 	"cz/app/interface/main/internal/conf"
+	config "cz/lib/conf"
 	clog "cz/lib/log"
 	"cz/lib/net/rpc"
 	"flag"
@@ -51,8 +52,8 @@ func newApp(logger log.Logger, hs *http.Server, bc *conf.Bootstrap) *kratos.App 
 func main() {
 	flag.Parse()
 
-
-	bc, err := conf.Init(flagconf)
+	bc := &conf.Bootstrap{}
+	err := config.Init(flagconf, bc)
 	if err != nil {
 		panic(err)
 	}
@@ -61,7 +62,10 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	rpc.Init(bc.Registry)
+	err = rpc.Init(bc.Registry)
+	if err != nil {
+		panic(err)
+	}
 	app, cleanup, err := initApp(logger, bc)
 	if err != nil {
 		panic(err)

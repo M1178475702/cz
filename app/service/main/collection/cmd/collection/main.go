@@ -2,6 +2,7 @@ package main
 
 import (
 	"cz/app/service/main/collection/internal/conf"
+	config "cz/lib/conf"
 	clog "cz/lib/log"
 	"cz/lib/net/rpc"
 	"flag"
@@ -54,7 +55,8 @@ func newApp(logger log.Logger, hs *http.Server, gs *grpc.Server, bc *conf.Bootst
 func main() {
 	flag.Parse()
 	//初始化配置
-	bc, err := conf.Init(flagconf)
+	bc := &conf.Bootstrap{}
+	err := config.Init(flagconf, bc)
 	if err != nil {
 		panic(err)
 	}

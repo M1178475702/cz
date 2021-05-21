@@ -8,9 +8,8 @@ module.exports = appInfo => {
 
     config.rpc = {
         collectionClient: {
-            name: "cz_collection",
-            addr: "localhost:9000"
-
+            name: "cz-collection",
+            addr: "cz-collection:9000"
         }
     }
 
@@ -18,13 +17,13 @@ module.exports = appInfo => {
 
     config.cluster = {
         listen: {
-            port: 6002,
+            port: 8000,
         }
     };
 
     config.upload = {
         // host: 'http://api.hzxuedao.com',
-        host: 'http://www.dmt2017.xyz:6001',
+        host: 'http://www.dmt2017.xyz:8000',
         // host: 'http://localhost:6001',
         static_prefix: '/public',
         upload_dir: '/upload'

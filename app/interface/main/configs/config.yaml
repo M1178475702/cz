@@ -1,7 +1,7 @@
 name: cz-api
 version: 0.1.0
 logger:
-  fluent_addr: tcp://localhost:24224
+  fluent_addr: tcp://fluentd:24224
   file: _
   stdout: false
   enable_fluent: true
@@ -14,10 +14,10 @@ client:
   collection_client:
     name: cz-collection
 cz:
-  base: http://localhost:6002
+  base: http://cz-main:6002
 registry:
   enable: true
   consul:
-    address: "localhost:8500"
+    address: "elasticsearch:8500"
     schema: "http"
 
