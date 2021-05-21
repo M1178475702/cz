@@ -19,13 +19,13 @@ import (
 
 // initApp init kratos application.
 func initApp(confServer *conf.Server, confData *conf.Data, logger log.Logger, bootstrap *conf.Bootstrap) (*kratos.App, func(), error) {
-	dataData, cleanup, err := data.NewData(confData, logger)
+	dataData, cleanup, err := data.NewData(bootstrap, logger)
 	if err != nil {
 		return nil, nil, err
 	}
-	collectionBiz := biz.NewCollectionBiz(dataData, logger)
-	collectionService := service.NewCollectionService(collectionBiz)
-	httpServer := server.NewHTTPServer(confServer, collectionService, logger)
+	collectionBiz := biz.NewCollectionBiz(bootstrap, dataData, logger)
+	collectionService := service.NewCollectionService(bootstrap, collectionBiz, logger)
+	httpServer := server.NewHTTPServer(bootstrap, collectionService, logger)
 	grpcServer := server.NewGRPCServer(confServer, collectionService, logger)
 	app := newApp(logger, httpServer, grpcServer, bootstrap)
 	return app, func() {

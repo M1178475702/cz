@@ -1,0 +1,809 @@
+2021-05-04 14:04:47,169 ERROR 30544 nodejs.unhandledRejectionError: The process has be killed
+    at Wingman.get process [as process] (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/ClusterClient/WingmanClient/Wingman.js:48:19)
+    at WingmanClientBase.onWingmanExit (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/ClusterClient/WingmanClient/WingmanClientBase.js:130:51)
+    at Wingman.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/ClusterClient/WingmanClient/WingmanClientBase.js:61:32)
+    at Wingman.emit (events.js:315:20)
+    at ChildProcess.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/ClusterClient/WingmanClient/Wingman.js:30:18)
+    at ChildProcess.emit (events.js:315:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:277:12)
+name: "unhandledRejectionError"
+pid: 30544
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:39:47,432 ERROR 34209 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_egg-knex@2.3.0@egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:30:19)
+
+pid: 34209
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:39:47,434 ERROR 34209 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_egg-knex@2.3.0@egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:30:19)
+
+pid: 34209
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:41:10,506 ERROR 34435 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_egg-knex@2.3.0@egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:30:19)
+
+pid: 34435
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:41:10,508 ERROR 34435 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_egg-knex@2.3.0@egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:30:19)
+
+pid: 34435
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:42:41,547 ERROR 34648 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_egg-knex@3.0.0@egg-knex/lib/knex.js:171:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:30:19)
+    at async isReady (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_egg-knex@3.0.0@egg-knex/lib/knex.js:128:20)
+
+pid: 34648
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:42:41,549 ERROR 34648 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_egg-knex@3.0.0@egg-knex/lib/knex.js:171:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_knex@0.95.4@knex/lib/execution/runner.js:30:19)
+    at async isReady (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_egg-knex@3.0.0@egg-knex/lib/knex.js:128:20)
+
+pid: 34648
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:46:32,830 ERROR 35354 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:171:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+    at async isReady (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:128:20)
+
+pid: 35354
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:46:32,837 ERROR 35354 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:171:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+    at async isReady (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:128:20)
+
+pid: 35354
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:47:22,829 ERROR 35510 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:171:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+    at async isReady (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:128:20)
+
+pid: 35510
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:47:22,832 ERROR 35510 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:171:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+    at async isReady (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:128:20)
+
+pid: 35510
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:47:52,378 ERROR 35628 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+
+pid: 35628
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 14:47:52,383 ERROR 35628 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+
+pid: 35628
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 15:00:00,922 ERROR 36596 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+
+pid: 36596
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 15:00:00,924 ERROR 36596 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+
+pid: 36596
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 15:18:55,514 ERROR 37660 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+
+pid: 37660
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 15:18:55,518 ERROR 37660 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+
+pid: 37660
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 15:19:28,155 ERROR 37776 nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+
+pid: 37776
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 15:19:28,157 ERROR 37776 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: knex.client._formatQuery is not a function
+    at Function.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-knex/lib/knex.js:221:23)
+    at Function.emit (events.js:315:20)
+    at Client_MySQL.<anonymous> (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/knex-builder/make-knex.js:300:10)
+    at Client_MySQL.emit (events.js:315:20)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:154:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Runner.ensureConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:272:14)
+    at async Runner.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/knex/lib/execution/runner.js:30:19)
+
+pid: 37776
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 16:22:33,657 ERROR 39113 [-/::1/-/622ms POST /web/user/login?wxcode=1111] nodejs.InvalidError: invalid wxcode
+    at XdWxApp.getWxAccessToken (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/common/app/XdWxApp.js:47:34)
+    at async UserService.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/user/web/login.js:13:50)
+    at async UserController.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/user.js:45:32)
+name: "InvalidError"
+err_code: -1
+pid: 39113
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 16:22:49,324 ERROR 39113 [-/::1/-/279ms POST /web/user/login] nodejs.InvalidError: invalid wxcode
+    at XdWxApp.getWxAccessToken (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/common/app/XdWxApp.js:47:34)
+    at async UserService.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/user/web/login.js:13:50)
+    at async UserController.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/user.js:45:32)
+name: "InvalidError"
+err_code: -1
+pid: 39113
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 16:24:07,589 ERROR 39113 [-/::1/-/61192ms POST /web/user/login] nodejs.InvalidError: invalid wxcode
+    at XdWxApp.getWxAccessToken (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/common/app/XdWxApp.js:47:34)
+    at async UserService.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/user/web/login.js:13:50)
+    at async UserController.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/user.js:45:32)
+name: "InvalidError"
+err_code: -1
+pid: 39113
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 16:25:43,243 ERROR 39113 [-/::1/-/197ms GET /web/article/10345] nodejs.TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/base_context_class.js:25:20)
+    at new BaseContextClass (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg/lib/core/base_context_class.js:13:1)
+    at new ApiService (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/service/ApiService.js:5:9)
+    at new CollectionService (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/collection/rpc.js:11:9)
+    at getInstance (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/context_loader.js:92:18)
+    at ClassLoader.get (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/context_loader.js:27:22)
+    at ArticleService.getClientArticleDetail (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/article/web/view.js:135:41)
+    at async WebArticleController.getWebArticleDetail (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/article.js:42:32)
+
+pid: 39113
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 16:27:31,790 ERROR 39296 [-/::1/-/6317ms GET /web/article/10345] nodejs.TypeError: Cannot read property 'Collection' of undefined
+    at new CollectionService (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/collection/rpc.js:12:51)
+    at getInstance (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/context_loader.js:92:18)
+    at ClassLoader.get (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/context_loader.js:27:22)
+    at ArticleService.getClientArticleDetail (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/article/web/view.js:135:41)
+    at async WebArticleController.getWebArticleDetail (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/article.js:42:32)
+
+pid: 39296
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 16:28:55,756 ERROR 39327 [-/::1/-/6462ms GET /web/article/10345] nodejs.ReferenceError: grpc is not defined
+    at new CollectionService (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/collection/rpc.js:12:105)
+    at getInstance (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/context_loader.js:92:18)
+    at ClassLoader.get (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/context_loader.js:27:22)
+    at ArticleService.getClientArticleDetail (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/article/web/view.js:135:41)
+    at async WebArticleController.getWebArticleDetail (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/article.js:42:32)
+
+pid: 39327
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 16:29:39,068 ERROR 39358 [-/::1/-/3877ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz_collection_v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz_collection_v1.Collection"
+pid: 39358
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 16:31:27,292 ERROR 39354 nodejs.ClusterClientNoResponseError: client no response in 76458ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 39354
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 16:31:28,569 ERROR 39358 [-/::1/-/68862ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz_collection_v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz_collection_v1.Collection"
+pid: 39358
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 16:36:03,135 ERROR 39358 [-/::1/-/9203ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz_collection_v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz_collection_v1.Collection"
+pid: 39358
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 16:38:49,372 ERROR 39738 [-/::1/-/4407ms GET /web/article/10345] nodejs.TypeError: Channel's second argument (credentials) must be a ChannelCredentials
+    at ServiceClient.Client (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client.js:460:23)
+    at new ServiceClient (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client.js:986:12)
+    at new CollectionService (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/collection/rpc.js:12:30)
+    at getInstance (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/context_loader.js:92:18)
+    at ClassLoader.get (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/context_loader.js:27:22)
+    at ArticleService.getClientArticleDetail (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/article/web/view.js:135:41)
+    at async WebArticleController.getWebArticleDetail (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/article.js:42:32)
+
+pid: 39738
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 16:40:27,639 ERROR 39776 nodejs.ClusterClientNoResponseError: client no response in 75430ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 39776
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 16:43:14,531 ERROR 39780 [-/::1/-/237434ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz_collection_v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz_collection_v1.Collection"
+pid: 39780
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:04:05,753 ERROR 39780 [-/::1/-/7589ms GET /web/article/10345] nodejs.Error: 2 UNKNOWN: : rpc error: code = Unimplemented desc = method IsCollected not implemented
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 2
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 02 12 4b 3a 20 72 70 63 20 65 72 72 6f 72 3a 20 63 6f 64 65 20 3d 20 55 6e 69 6d 70 6c 65 6d 65 6e 74 65 64 20 64 65 73 63 20 3d 20 6d 65 74 68 6f ...(212) >"]},"flags":0}
+details: ": rpc error: code = Unimplemented desc = method IsCollected not implemented"
+pid: 39780
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:04:40,815 ERROR 40729 [-/::1/-/3087ms GET /web/article/10345] nodejs.Error: 2 UNKNOWN: : rpc error: code = Unimplemented desc = method IsCollected not implemented
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 2
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 02 12 4b 3a 20 72 70 63 20 65 72 72 6f 72 3a 20 63 6f 64 65 20 3d 20 55 6e 69 6d 70 6c 65 6d 65 6e 74 65 64 20 64 65 73 63 20 3d 20 6d 65 74 68 6f ...(212) >"]},"flags":0}
+details: ": rpc error: code = Unimplemented desc = method IsCollected not implemented"
+pid: 40729
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:06:03,296 ERROR 40729 [-/::1/-/2289ms GET /web/article/10345] nodejs.Error: 2 UNKNOWN: : rpc error: code = Unimplemented desc = method IsCollected not implemented
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 2
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 02 12 4b 3a 20 72 70 63 20 65 72 72 6f 72 3a 20 63 6f 64 65 20 3d 20 55 6e 69 6d 70 6c 65 6d 65 6e 74 65 64 20 64 65 73 63 20 3d 20 6d 65 74 68 6f ...(212) >"]},"flags":0}
+details: ": rpc error: code = Unimplemented desc = method IsCollected not implemented"
+pid: 40729
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:07:19,748 ERROR 40729 [-/::1/-/2333ms GET /web/article/10345] nodejs.Error: 13 INTERNAL: Collection_InternalError: 
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 13
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 0d 12 1a 43 6f 6c 6c 65 63 74 69 6f 6e 5f 49 6e 74 65 72 6e 61 6c 45 72 72 6f 72 3a 20 1a 53 0a 28 74 79 70 65 2e 67 6f 6f 67 6c 65 61 70 69 73 2e ...(115) >"]},"flags":0}
+details: "Collection_InternalError: "
+pid: 40729
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:08:42,074 ERROR 40729 [-/::1/-/21871ms GET /web/article/10345] nodejs.Error: 13 INTERNAL: Collection_InternalError: 
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 13
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 0d 12 1a 43 6f 6c 6c 65 63 74 69 6f 6e 5f 49 6e 74 65 72 6e 61 6c 45 72 72 6f 72 3a 20 1a 53 0a 28 74 79 70 65 2e 67 6f 6f 67 6c 65 61 70 69 73 2e ...(115) >"]},"flags":0}
+details: "Collection_InternalError: "
+pid: 40729
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:08:59,725 ERROR 40729 [-/::1/-/2456ms GET /web/article/10345] nodejs.Error: 13 INTERNAL: Collection_InternalError: 
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 13
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 0d 12 1a 43 6f 6c 6c 65 63 74 69 6f 6e 5f 49 6e 74 65 72 6e 61 6c 45 72 72 6f 72 3a 20 1a 53 0a 28 74 79 70 65 2e 67 6f 6f 67 6c 65 61 70 69 73 2e ...(115) >"]},"flags":0}
+details: "Collection_InternalError: "
+pid: 40729
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:09:03,275 ERROR 40729 [-/::1/-/93ms GET /web/article/10345] nodejs.Error: 13 INTERNAL: Collection_InternalError: 
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 13
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 0d 12 1a 43 6f 6c 6c 65 63 74 69 6f 6e 5f 49 6e 74 65 72 6e 61 6c 45 72 72 6f 72 3a 20 1a 53 0a 28 74 79 70 65 2e 67 6f 6f 67 6c 65 61 70 69 73 2e ...(115) >"]},"flags":0}
+details: "Collection_InternalError: "
+pid: 40729
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:10:09,553 ERROR 40729 [-/::1/-/37263ms GET /web/article/10345] nodejs.Error: 13 INTERNAL: Collection_InternalError: 
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 13
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 0d 12 1a 43 6f 6c 6c 65 63 74 69 6f 6e 5f 49 6e 74 65 72 6e 61 6c 45 72 72 6f 72 3a 20 1a 53 0a 28 74 79 70 65 2e 67 6f 6f 67 6c 65 61 70 69 73 2e ...(115) >"]},"flags":0}
+details: "Collection_InternalError: "
+pid: 40729
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:10:50,778 ERROR 40729 [-/::1/-/126ms GET /web/article/10345] nodejs.Error: 13 INTERNAL: Collection_InternalError: 
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 13
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 0d 12 1a 43 6f 6c 6c 65 63 74 69 6f 6e 5f 49 6e 74 65 72 6e 61 6c 45 72 72 6f 72 3a 20 1a 53 0a 28 74 79 70 65 2e 67 6f 6f 67 6c 65 61 70 69 73 2e ...(115) >"]},"flags":0}
+details: "Collection_InternalError: "
+pid: 40729
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:11:14,604 ERROR 40729 [-/::1/-/150ms GET /web/article/10345] nodejs.Error: 13 INTERNAL: Collection_InternalError: 
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 13
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 0d 12 1a 43 6f 6c 6c 65 63 74 69 6f 6e 5f 49 6e 74 65 72 6e 61 6c 45 72 72 6f 72 3a 20 1a 53 0a 28 74 79 70 65 2e 67 6f 6f 67 6c 65 61 70 69 73 2e ...(115) >"]},"flags":0}
+details: "Collection_InternalError: "
+pid: 40729
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:12:11,534 ERROR 40729 [-/::1/-/324ms GET /web/article/10345] nodejs.Error: 13 INTERNAL: Collection_InternalError: 
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 13
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 0d 12 1a 43 6f 6c 6c 65 63 74 69 6f 6e 5f 49 6e 74 65 72 6e 61 6c 45 72 72 6f 72 3a 20 1a 53 0a 28 74 79 70 65 2e 67 6f 6f 67 6c 65 61 70 69 73 2e ...(115) >"]},"flags":0}
+details: "Collection_InternalError: "
+pid: 40729
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:12:43,793 ERROR 40729 [-/::1/-/19578ms GET /web/article/10345] nodejs.Error: 13 INTERNAL: Collection_InternalError: 
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 13
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 0d 12 1a 43 6f 6c 6c 65 63 74 69 6f 6e 5f 49 6e 74 65 72 6e 61 6c 45 72 72 6f 72 3a 20 1a 53 0a 28 74 79 70 65 2e 67 6f 6f 67 6c 65 61 70 69 73 2e ...(115) >"]},"flags":0}
+details: "Collection_InternalError: "
+pid: 40729
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:14:23,707 ERROR 40729 [-/::1/-/16403ms GET /web/article/10345] nodejs.Error: 13 INTERNAL: Collection_InternalError: 
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 13
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 0d 12 1a 43 6f 6c 6c 65 63 74 69 6f 6e 5f 49 6e 74 65 72 6e 61 6c 45 72 72 6f 72 3a 20 1a 53 0a 28 74 79 70 65 2e 67 6f 6f 67 6c 65 61 70 69 73 2e ...(115) >"]},"flags":0}
+details: "Collection_InternalError: "
+pid: 40729
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:15:44,656 ERROR 40729 [-/::1/-/40478ms GET /web/article/10345] nodejs.Error: 2 UNKNOWN: Stream removed
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 2
+metadata: {"_internal_repr":{},"flags":0}
+details: "Stream removed"
+pid: 40729
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:19:04,259 ERROR 40729 [-/::1/-/218ms GET /web/article/10345] nodejs.Error: 13 INTERNAL: Collection_InternalError: 
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 13
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 0d 12 1a 43 6f 6c 6c 65 63 74 69 6f 6e 5f 49 6e 74 65 72 6e 61 6c 45 72 72 6f 72 3a 20 1a 53 0a 28 74 79 70 65 2e 67 6f 6f 67 6c 65 61 70 69 73 2e ...(115) >"]},"flags":0}
+details: "Collection_InternalError: "
+pid: 40729
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:19:27,888 ERROR 40729 [-/::1/-/8801ms GET /web/article/10345] nodejs.Error: 2 UNKNOWN: Stream removed
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 2
+metadata: {"_internal_repr":{},"flags":0}
+details: "Stream removed"
+pid: 40729
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:22:32,711 ERROR 40729 [-/::1/-/29ms GET /web/user/center] nodejs.TypeError: Cannot read property 'getCollectionList' of undefined
+    at UserCenterService.getUserCenterContent (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/user/web/center.js:10:55)
+    at UserController.getUserCenterContent (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/user.js:191:67)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:7:20)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 40729
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:23:05,754 ERROR 41067 [-/::1/-/424ms GET /web/user/center] nodejs.Error: 13 INTERNAL: Collection_InternalError: 
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 13
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 0d 12 1a 43 6f 6c 6c 65 63 74 69 6f 6e 5f 49 6e 74 65 72 6e 61 6c 45 72 72 6f 72 3a 20 1a 53 0a 28 74 79 70 65 2e 67 6f 6f 67 6c 65 61 70 69 73 2e ...(115) >"]},"flags":0}
+details: "Collection_InternalError: "
+pid: 41067
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:24:12,585 ERROR 41067 [-/::1/-/244ms GET /web/user/center] nodejs.Error: 13 INTERNAL: Collection_InternalError: 
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 13
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 0d 12 1a 43 6f 6c 6c 65 63 74 69 6f 6e 5f 49 6e 74 65 72 6e 61 6c 45 72 72 6f 72 3a 20 1a 53 0a 28 74 79 70 65 2e 67 6f 6f 67 6c 65 61 70 69 73 2e ...(115) >"]},"flags":0}
+details: "Collection_InternalError: "
+pid: 41067
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:24:18,247 ERROR 41067 [-/::1/-/222ms GET /web/user/center] nodejs.Error: 13 INTERNAL: Collection_InternalError: 
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 13
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 0d 12 1a 43 6f 6c 6c 65 63 74 69 6f 6e 5f 49 6e 74 65 72 6e 61 6c 45 72 72 6f 72 3a 20 1a 53 0a 28 74 79 70 65 2e 67 6f 6f 67 6c 65 61 70 69 73 2e ...(115) >"]},"flags":0}
+details: "Collection_InternalError: "
+pid: 41067
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:25:02,079 ERROR 41067 [-/::1/-/17553ms GET /web/user/center] nodejs.Error: 13 INTERNAL: Collection_InternalError: 
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 13
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 0d 12 1a 43 6f 6c 6c 65 63 74 69 6f 6e 5f 49 6e 74 65 72 6e 61 6c 45 72 72 6f 72 3a 20 1a 53 0a 28 74 79 70 65 2e 67 6f 6f 67 6c 65 61 70 69 73 2e ...(115) >"]},"flags":0}
+details: "Collection_InternalError: "
+pid: 41067
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:27:52,556 ERROR 41144 [-/::1/-/162ms GET /web/user/center] nodejs.Error: 2 UNKNOWN: : data.GetCollectionList select error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, ?' at line 1
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 2
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 02 12 c9 01 3a 20 64 61 74 61 2e 47 65 74 43 6f 6c 6c 65 63 74 69 6f 6e 4c 69 73 74 20 73 65 6c 65 63 74 20 65 72 72 6f 72 3a 20 45 72 72 6f 72 20 ...(468) >"]},"flags":0}
+details: ": data.GetCollectionList select error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, ?' at line 1"
+pid: 41144
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:28:10,372 ERROR 41144 [-/::1/-/66ms GET /web/user/center] nodejs.Error: 2 UNKNOWN: : data.GetCollectionList select error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, ?' at line 1
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 2
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 02 12 c9 01 3a 20 64 61 74 61 2e 47 65 74 43 6f 6c 6c 65 63 74 69 6f 6e 4c 69 73 74 20 73 65 6c 65 63 74 20 65 72 72 6f 72 3a 20 45 72 72 6f 72 20 ...(468) >"]},"flags":0}
+details: ": data.GetCollectionList select error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, ?' at line 1"
+pid: 41144
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:29:21,984 ERROR 41144 [-/::1/-/12132ms GET /web/user/center] nodejs.Error: 2 UNKNOWN: : data.GetCollectionList select error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, ?' at line 1
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 2
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 02 12 c9 01 3a 20 64 61 74 61 2e 47 65 74 43 6f 6c 6c 65 63 74 69 6f 6e 4c 69 73 74 20 73 65 6c 65 63 74 20 65 72 72 6f 72 3a 20 45 72 72 6f 72 20 ...(468) >"]},"flags":0}
+details: ": data.GetCollectionList select error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, ?' at line 1"
+pid: 41144
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:30:46,489 ERROR 41144 [-/::1/-/39771ms GET /web/user/center] nodejs.Error: 2 UNKNOWN: : data.GetCollectionList select error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, ?' at line 1
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 2
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 02 12 c9 01 3a 20 64 61 74 61 2e 47 65 74 43 6f 6c 6c 65 63 74 69 6f 6e 4c 69 73 74 20 73 65 6c 65 63 74 20 65 72 72 6f 72 3a 20 45 72 72 6f 72 20 ...(468) >"]},"flags":0}
+details: ": data.GetCollectionList select error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, ?' at line 1"
+pid: 41144
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:33:51,627 ERROR 41199 [-/::1/-/9830ms GET /web/user/center] nodejs.Error: 2 UNKNOWN: : data.GetCollectionList select error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, ?' at line 1
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 2
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 02 12 c9 01 3a 20 64 61 74 61 2e 47 65 74 43 6f 6c 6c 65 63 74 69 6f 6e 4c 69 73 74 20 73 65 6c 65 63 74 20 65 72 72 6f 72 3a 20 45 72 72 6f 72 20 ...(468) >"]},"flags":0}
+details: ": data.GetCollectionList select error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, ?' at line 1"
+pid: 41199
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 17:34:36,498 ERROR 41234 [-/::1/-/2650ms GET /web/user/center] nodejs.Error: 2 UNKNOWN: : data.GetCollectionList select error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, ?' at line 1
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 2
+metadata: {"_internal_repr":{"grpc-status-details-bin":["<Buffer 08 02 12 c9 01 3a 20 64 61 74 61 2e 47 65 74 43 6f 6c 6c 65 63 74 69 6f 6e 4c 69 73 74 20 73 65 6c 65 63 74 20 65 72 72 6f 72 3a 20 45 72 72 6f 72 20 ...(468) >"]},"flags":0}
+details: ": data.GetCollectionList select error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, ?' at line 1"
+pid: 41234
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 18:28:55,320 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 1803300ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 18:46:38,019 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 1021691ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 19:04:23,103 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 1023791ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-04 23:42:50,154 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 1805708ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 00:00:01,081 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 989698ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+

@@ -1,0 +1,716 @@
+2021-05-06 03:38:27,703 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 9347644ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 03:48:26,968 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 576193ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 04:09:24,951 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 1215608ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 04:25:14,312 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 908186ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 04:37:27,273 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 712040ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 04:47:42,398 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 573120ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 04:57:55,257 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 571548ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 05:08:09,335 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 572575ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 05:18:23,533 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 571981ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 05:28:35,932 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 571411ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 05:38:49,242 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 572759ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 05:48:46,811 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 577456ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 05:59:01,080 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 573061ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 06:09:20,706 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 576040ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 06:19:36,365 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 572633ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 06:29:53,113 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 575808ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 06:40:08,216 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 574638ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 06:50:22,125 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 570842ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 07:00:36,030 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 573268ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 07:10:49,194 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 572286ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 07:21:02,349 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 572070ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 07:31:15,339 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 571604ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 07:41:28,187 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 572746ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 07:51:43,231 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 572208ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 08:01:55,337 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 570948ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 08:12:08,953 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 572064ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 08:22:23,430 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 573711ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 08:32:37,906 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 572807ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 08:42:51,427 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 572477ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 08:53:05,126 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 572215ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 09:03:17,259 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 571798ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 09:13:32,162 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 573857ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 09:23:46,058 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 572745ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 09:34:01,052 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 573216ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 09:44:14,365 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 572540ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 09:54:27,774 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 571955ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 10:03:38,275 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 509272ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 10:43:01,128 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 2361600ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 11:41:23,166 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 299770ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 11:47:20,166 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 316852ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 12:10:53,128 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 572684ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 12:19:32,087 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 478532ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 12:34:39,157 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 606693ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-17 19:17:02,018 ERROR 27657 [-/::1/-/50ms POST /web/user/login] nodejs.PropertyRequiredError: 缺少参数 : wxcode
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserController.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/user.js:44:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:7:20)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 27657
+hostname: 192.168.0.102
+
+2021-05-17 19:19:50,167 ERROR 28113 [-/::1/-/50619ms POST /web/user/login] nodejs.PropertyRequiredError: 缺少参数 : wxcode
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserController.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/user.js:44:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:7:20)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 28113
+hostname: 192.168.0.102
+
+2021-05-17 19:21:07,226 ERROR 28113 [-/::1/-/3714ms POST /web/user/login] nodejs.PropertyRequiredError: 缺少参数 : wxcode
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserController.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/user.js:44:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:7:20)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 28113
+hostname: 192.168.0.102
+
+2021-05-17 19:23:19,115 ERROR 28113 [-/::1/-/14ms POST /web/user/login] nodejs.PropertyRequiredError: 缺少参数 : wxcode
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserController.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/user.js:44:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:7:20)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 28113
+hostname: 192.168.0.102
+
+2021-05-17 20:04:33,901 ERROR 28113 [-/::1/-/18244ms POST /web/user/login] nodejs.SequelizeDatabaseError: read ETIMEDOUT
+    at Query.formatError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Connection._notifyError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/mysql2/lib/connection.js:188:21)
+    at Connection._handleFatalError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/mysql2/lib/connection.js:151:10)
+    at Connection._handleNetworkError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/mysql2/lib/connection.js:160:10)
+    at Socket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+From previous event:
+    at Query.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/sequelize.js:561:20
+From previous event:
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/sequelize.js:558:8
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/sequelize.js:457:28)
+    at QueryInterface.startTransaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/query-interface.js:1404:27)
+    at Transaction.begin (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/transaction.js:154:8)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/transaction.js:134:21
+    at processImmediate (internal/timers.js:461:21)
+    at process.callbackTrampoline (internal/async_hooks.js:131:14)
+From previous event:
+    at Transaction.prepareEnvironment (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/transaction.js:133:8)
+    at Sequelize.transaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/sequelize.js:996:43)
+    at Object.getTransaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:17:37)
+    at UserService.getTransaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/service/ApiService.js:12:24)
+    at UserService.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/user/web/login.js:8:30)
+    at UserController.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/user.js:45:61)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:7:20)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "SequelizeDatabaseError"
+parent: {"errno":-60,"code":"ETIMEDOUT","syscall":"read","fatal":true,"sql":"START TRANSACTION;"}
+original: {"errno":-60,"code":"ETIMEDOUT","syscall":"read","fatal":true,"sql":"START TRANSACTION;"}
+sql: "START TRANSACTION;"
+pid: 28113
+hostname: 192.168.0.102
+
+2021-05-17 21:10:51,803 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 569012ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+
+2021-05-17 21:20:59,019 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 566526ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+
+2021-05-17 21:28:54,161 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 434657ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+
+2021-05-17 21:41:08,076 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 573658ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+
+2021-05-17 21:51:16,075 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 567596ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+
+2021-05-17 22:01:22,069 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 565329ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+
+2021-05-17 22:11:29,070 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 566616ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+
+2021-05-17 22:21:40,024 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 567447ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+
+2021-05-17 22:31:46,081 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 565710ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+
+2021-05-17 22:41:54,069 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 567635ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+
+2021-05-17 22:52:02,084 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 566818ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+
+2021-05-17 23:02:08,057 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 566017ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+
+2021-05-17 23:12:15,080 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 566281ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+
+2021-05-17 23:22:24,075 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 567948ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+
+2021-05-17 23:35:59,017 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 566969ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+
+2021-05-17 23:46:05,053 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 565767ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+
+2021-05-17 23:56:14,069 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 568056ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+
+2021-05-18 00:06:21,245 ERROR 28714 nodejs.ClusterClientNoResponseError: client no response in 567064ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 28714
+hostname: 192.168.0.102
+

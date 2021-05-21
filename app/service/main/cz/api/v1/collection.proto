@@ -1,10 +1,10 @@
 syntax = "proto3";
 
-package cz_collection_v1;
+package cz.collection.v1;
 
 import "google/api/annotations.proto";
 
-option go_package = "cz/app/service/main/collection/api/v1;v1";
+option go_package = "cz/app/service/main/api/api/v1;v1";
 option java_multiple_files = true;
 option java_package = "dev.kratos.api.cz.v1";
 option java_outer_classname = "CollectionProtoV1";
@@ -84,11 +84,19 @@ message IsCollectedRes {
 // The greeting service definition.
 service Collection {
   // Sends a greeting
-  rpc GetCollectionList (GetCollectionListReq) returns (GetCollectionListRes)  {};
+  rpc GetCollectionList (GetCollectionListReq) returns (GetCollectionListRes)  {
+    option (google.api.http) = {
+      get: "/list",
+    };
+  };
 
   rpc GetCollection (GetCollectionReq) returns (GetCollectionRes) {};
 
-  rpc DoCollect (DoCollectReq) returns (DoCollectRes) {};
+  rpc DoCollect (DoCollectReq) returns (DoCollectRes) {
+    option (google.api.http) = {
+      post: "/list",
+    };
+  };
 
   rpc undoCollect (UndoCollectReq) returns (UndoCollectRes) {};
 

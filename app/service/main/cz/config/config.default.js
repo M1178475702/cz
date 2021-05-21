@@ -18,7 +18,7 @@ module.exports = appInfo => {
 
     config.cluster = {
         listen: {
-            port: 6001,
+            port: 6002,
         }
     };
 
@@ -33,7 +33,9 @@ module.exports = appInfo => {
     config.session = {
         key: 'xd_sid',
         maxAge: 1000 * 3600 * 24, // 1 天
-        encrypt: true,
+        encrypt: false,
+        // encode: (body) => {return JSON.stringify(body)},
+        // decode: (string) => {return JSON.parse(string)},
         renew: true
     };
 

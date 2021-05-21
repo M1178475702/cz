@@ -1,0 +1,23 @@
+name: cz-api
+version: 0.1.0
+logger:
+  fluent_addr: tcp://localhost:24224
+  file: _
+  stdout: false
+  enable_fluent: true
+  enable_file: false
+server:
+  http:
+    addr: 0.0.0.0:6001
+    timeout: 100000000000000000
+client:
+  collection_client:
+    name: cz-collection
+cz:
+  base: http://localhost:6002
+registry:
+  enable: true
+  consul:
+    address: "localhost:8500"
+    schema: "http"
+

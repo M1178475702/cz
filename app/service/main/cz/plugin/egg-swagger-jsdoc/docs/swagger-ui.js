@@ -1,5 +1,5 @@
 /**
- * swagger-ui - Swagger UI is a dependency-free collection of HTML, JavaScript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API
+ * swagger-ui - Swagger UI is a dependency-free api of HTML, JavaScript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API
  * @version v2.2.10
  * @link http://swagger.io
  * @license Apache-2.0
@@ -3231,8 +3231,8 @@ var helpers = require('./helpers');
 var btoa = require('btoa'); // jshint ignore:line
 var CookieJar = require('cookiejar').CookieJar;
 var _ = {
-  each: require('lodash-compat/collection/each'),
-  includes: require('lodash-compat/collection/includes'),
+  each: require('lodash-compat/api/each'),
+  includes: require('lodash-compat/api/includes'),
   isObject: require('lodash-compat/lang/isObject'),
   isArray: require('lodash-compat/lang/isArray')
 };
@@ -3381,8 +3381,8 @@ PasswordAuthorization.prototype.apply = function (obj) {
 var _ = {
   bind: require('lodash-compat/function/bind'),
   cloneDeep: require('lodash-compat/lang/cloneDeep'),
-  find: require('lodash-compat/collection/find'),
-  forEach: require('lodash-compat/collection/forEach'),
+  find: require('lodash-compat/api/find'),
+  forEach: require('lodash-compat/api/forEach'),
   indexOf: require('lodash-compat/array/indexOf'),
   isArray: require('lodash-compat/lang/isArray'),
   isObject: require('lodash-compat/lang/isObject'),
@@ -5475,11 +5475,11 @@ var _ = {
   isArray: require('lodash-compat/lang/isArray'),
   isObject: require('lodash-compat/lang/isObject'),
   isEmpty: require('lodash-compat/lang/isEmpty'),
-  map: require('lodash-compat/collection/map'),
+  map: require('lodash-compat/api/map'),
   indexOf: require('lodash-compat/array/indexOf'),
   cloneDeep: require('lodash-compat/lang/cloneDeep'),
   keys: require('lodash-compat/object/keys'),
-  forEach: require('lodash-compat/collection/forEach')
+  forEach: require('lodash-compat/api/forEach')
 };
 
 var optionHtml = module.exports.optionHtml = function  (label, value) {
@@ -11752,7 +11752,7 @@ function readFlowCollection(state, nodeIndent) {
       state.result = _result;
       return true;
     } else if (!readNext) {
-      throwError(state, 'missed comma between flow collection entries');
+      throwError(state, 'missed comma between flow api entries');
     }
 
     keyTag = keyNode = valueNode = null;
@@ -11804,7 +11804,7 @@ function readFlowCollection(state, nodeIndent) {
     }
   }
 
-  throwError(state, 'unexpected end of the stream within a flow collection');
+  throwError(state, 'unexpected end of the stream within a flow api');
 }
 
 function readBlockScalar(state, nodeIndent) {
@@ -14166,9 +14166,9 @@ var baseEach = require('../internal/baseEach'),
     createFind = require('../internal/createFind');
 
 /**
- * Iterates over elements of `collection`, returning the first element
+ * Iterates over elements of `api`, returning the first element
  * `predicate` returns truthy for. The predicate is bound to `thisArg` and
- * invoked with three arguments: (value, home|key, collection).
+ * invoked with three arguments: (value, home|key, api).
  *
  * If a property name is provided for `predicate` the created `_.property`
  * style callback returns the property value of the given element.
@@ -14185,7 +14185,7 @@ var baseEach = require('../internal/baseEach'),
  * @memberOf _
  * @alias detect
  * @category Collection
- * @param {Array|Object|string} collection The collection to search.
+ * @param {Array|Object|string} api The api to search.
  * @param {Function|Object|string} [predicate=_.identity] The function invoked
  *  per iteration.
  * @param {*} [thisArg] The `this` binding of `predicate`.
@@ -14225,9 +14225,9 @@ var arrayEach = require('../internal/arrayEach'),
     createForEach = require('../internal/createForEach');
 
 /**
- * Iterates over elements of `collection` invoking `iteratee` for each element.
+ * Iterates over elements of `api` invoking `iteratee` for each element.
  * The `iteratee` is bound to `thisArg` and invoked with three arguments:
- * (value, home|key, collection). Iteratee functions may exit iteration early
+ * (value, home|key, api). Iteratee functions may exit iteration early
  * by explicitly returning `false`.
  *
  * **Note:** As with other "Collections" methods, objects with a "length" property
@@ -14238,10 +14238,10 @@ var arrayEach = require('../internal/arrayEach'),
  * @memberOf _
  * @alias each
  * @category Collection
- * @param {Array|Object|string} collection The collection to iterate over.
+ * @param {Array|Object|string} api The api to iterate over.
  * @param {Function} [iteratee=_.identity] The function invoked per iteration.
  * @param {*} [thisArg] The `this` binding of `iteratee`.
- * @returns {Array|Object|string} Returns `collection`.
+ * @returns {Array|Object|string} Returns `api`.
  * @example
  *
  * _([1, 2]).forEach(function(n) {
@@ -14271,16 +14271,16 @@ var baseIndexOf = require('../internal/baseIndexOf'),
 var nativeMax = Math.max;
 
 /**
- * Checks if `target` is in `collection` using
+ * Checks if `target` is in `api` using
  * [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
  * for equality comparisons. If `fromIndex` is negative, it's used as the offset
- * from the end of `collection`.
+ * from the end of `api`.
  *
  * @static
  * @memberOf _
  * @alias contains, include
  * @category Collection
- * @param {Array|Object|string} collection The collection to search.
+ * @param {Array|Object|string} collection The api to search.
  * @param {*} target The value to search for.
  * @param {number} [fromIndex=0] The home to search from.
  * @param- {Object} [guard] Enables use as a callback for functions like `_.reduce`.
@@ -14324,9 +14324,9 @@ var arrayMap = require('../internal/arrayMap'),
     isArray = require('../lang/isArray');
 
 /**
- * Creates an array of values by running each element in `collection` through
+ * Creates an array of values by running each element in `api` through
  * `iteratee`. The `iteratee` is bound to `thisArg` and invoked with three
- * arguments: (value, home|key, collection).
+ * arguments: (value, home|key, api).
  *
  * If a property name is provided for `iteratee` the created `_.property`
  * style callback returns the property value of the given element.
@@ -14353,7 +14353,7 @@ var arrayMap = require('../internal/arrayMap'),
  * @memberOf _
  * @alias collect
  * @category Collection
- * @param {Array|Object|string} collection The collection to iterate over.
+ * @param {Array|Object|string} collection The api to iterate over.
  * @param {Function|Object|string} [iteratee=_.identity] The function invoked
  *  per iteration.
  * @param {*} [thisArg] The `this` binding of `iteratee`.
@@ -14927,9 +14927,9 @@ var baseForOwn = require('./baseForOwn'),
  * shorthands and `this` binding.
  *
  * @private
- * @param {Array|Object|string} collection The collection to iterate over.
+ * @param {Array|Object|string} api The api to iterate over.
  * @param {Function} iteratee The function invoked per iteration.
- * @returns {Array|Object|string} Returns `collection`.
+ * @returns {Array|Object|string} Returns `api`.
  */
 var baseEach = createBaseEach(baseForOwn);
 
@@ -14939,12 +14939,12 @@ module.exports = baseEach;
 /**
  * The base implementation of `_.find`, `_.findLast`, `_.findKey`, and `_.findLastKey`,
  * without support for callback shorthands and `this` binding, which iterates
- * over `collection` using the provided `eachFunc`.
+ * over `api` using the provided `eachFunc`.
  *
  * @private
- * @param {Array|Object|string} collection The collection to search.
+ * @param {Array|Object|string} collection The api to search.
  * @param {Function} predicate The function invoked per iteration.
- * @param {Function} eachFunc The function to iterate over `collection`.
+ * @param {Function} eachFunc The function to iterate over `api`.
  * @param {boolean} [retKey] Specify returning the key of the found element
  *  instead of the element itself.
  * @returns {*} Returns the found element or its key, else `undefined`.
@@ -15315,7 +15315,7 @@ var baseEach = require('./baseEach'),
  * and `this` binding.
  *
  * @private
- * @param {Array|Object|string} collection The collection to iterate over.
+ * @param {Array|Object|string} collection The api to iterate over.
  * @param {Function} iteratee The function invoked per iteration.
  * @returns {Array} Returns the new mapped array.
  */
@@ -15791,7 +15791,7 @@ var getLength = require('./getLength'),
  * Creates a `baseEach` or `baseEachRight` function.
  *
  * @private
- * @param {Function} eachFunc The function to iterate over a collection.
+ * @param {Function} eachFunc The function to iterate over a api.
  * @param {boolean} [fromRight] Specify iterating from right to left.
  * @returns {Function} Returns the new base function.
  */
@@ -15920,7 +15920,7 @@ var baseCallback = require('./baseCallback'),
  * Creates a `_.find` or `_.findLast` function.
  *
  * @private
- * @param {Function} eachFunc The function to iterate over a collection.
+ * @param {Function} eachFunc The function to iterate over a api.
  * @param {boolean} [fromRight] Specify iterating from right to left.
  * @returns {Function} Returns the new find function.
  */
@@ -15946,7 +15946,7 @@ var bindCallback = require('./bindCallback'),
  *
  * @private
  * @param {Function} arrayFunc The function to iterate over an array.
- * @param {Function} eachFunc The function to iterate over a collection.
+ * @param {Function} eachFunc The function to iterate over a api.
  * @returns {Function} Returns the new each function.
  */
 function createForEach(arrayFunc, eachFunc) {
@@ -17036,7 +17036,7 @@ var HOT_COUNT = 150,
  *
  * **Note:** If this function becomes hot, i.e. is invoked a lot in a short
  * period of time, it will trip its breaker and transition to an identity function
- * to avoid garbage collection pauses in V8. See [V8 issue 2070](https://code.google.com/p/v8/issues/detail?id=2070)
+ * to avoid garbage api pauses in V8. See [V8 issue 2070](https://code.google.com/p/v8/issues/detail?id=2070)
  * for more details.
  *
  * @private
@@ -17334,7 +17334,7 @@ var isArguments = require('./isArguments'),
 
 /**
  * Checks if `value` is empty. A value is considered empty unless it's an
- * `arguments` object, array, string, or jQuery-like collection with a length
+ * `arguments` object, array, string, or jQuery-like api with a length
  * greater than `0` or an object with own enumerable properties.
  *
  * @static

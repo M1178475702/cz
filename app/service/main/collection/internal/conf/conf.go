@@ -48,13 +48,13 @@ type Server struct {
 func Init(confPath string) (cb *Bootstrap, err error) {
 	var c config.Config
 	if confPath == "" {
-		confPath = ""
-		err = conf.Remote(confPath)
+		err = conf.Remote()
 		if err != nil {
 			return
 		}
 	}
 	c = config.New(
+		config.WithSource()
 		config.WithSource(
 			file.NewSource(confPath),
 		),

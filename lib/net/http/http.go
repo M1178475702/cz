@@ -12,66 +12,67 @@ import (
 )
 
 //HttpGet receives request and returns body of response in []byte
-func HttpGet(url string, headerRaw interface{}, params map[string]string) (resData []byte, err error) {
+func HttpGet(url string, headerRaw interface{}, params map[string]string) (resData []byte, cookieh string, err error) {
 	url = ParseQueryParams(url, params)
 	return DoRequest("GET", url, headerRaw, nil)
 }
 
 //HttpPost type of data should be string or map[string][string]
-func HttpPost(url string, headerRaw interface{}, dataRaw interface{}, params map[string]string) (resData []byte, err error) {
+func HttpPost(url string, headerRaw interface{}, dataRaw interface{}, params map[string]string) (resData []byte, cookieh string, err error) {
 	url = ParseQueryParams(url, params)
 	data, err := ParseData(dataRaw)
 	if err != nil {
-		return nil, err
+		return nil,"",  err
 	}
 	return DoRequest("POST", url, headerRaw, data)
 }
 
-func HttpDelete(url string, headerRaw interface{}, dataRaw interface{}, params map[string]string) (resData []byte, err error) {
+func HttpDelete(url string, headerRaw interface{}, dataRaw interface{}, params map[string]string) (resData []byte, cookieh string, err error) {
 	url = ParseQueryParams(url, params)
 	data, err := ParseData(dataRaw)
 	if err != nil {
-		return nil, err
+		return nil, "", err
 	}
 	return DoRequest("DELETE", url, headerRaw, data)
 }
 
-func HttpPut(url string, headerRaw interface{}, dataRaw interface{}, params map[string]string) (resData []byte, err error) {
+func HttpPut(url string, headerRaw interface{}, dataRaw interface{}, params map[string]string) (resData []byte, cookieh string, err error) {
 	url = ParseQueryParams(url, params)
 	data, err := ParseData(dataRaw)
 	if err != nil {
-		return nil, err
+		return nil, "", err
 	}
 	return DoRequest("Put", url, headerRaw, data)
 }
 
-func DoRequest(method, url string, headerRaw interface{}, data io.Reader) (resData []byte, err error) {
+func DoRequest(method, url string, headerRaw interface{}, data io.Reader) (resData []byte, cookieh string, err error) {
 	req, err := http.NewRequest(method, url, data)
 	if err != nil {
-		return nil, err
+		return nil, "", err
 	}
 
 	err = WriteHeader(req, headerRaw)
 	if err != nil {
-		return nil, err
+		return nil, "", err
 	}
 
 	res, err := http.DefaultClient.Do(req)
 	if err != nil {
-		return nil, err
+		return nil, "", err
 	}
+	cookieh = res.Header.Get("Set-Cookie")
 	resData, err = io.ReadAll(res.Body)
 	if err != nil {
-		return nil , err
+		return nil, "", err
 	}
-	return resData, nil
+	return resData, cookieh, nil
 }
 
 func ParseData(dataRaw interface{}) (data io.Reader, err error) {
 	//parse data
 	if dataRaw == nil {
 		return nil, nil
-	} else if  dataStr, ok := dataRaw.(string); ok {
+	} else if dataStr, ok := dataRaw.(string); ok {
 		data = bytes.NewBuffer([]byte(dataStr))
 		return data, nil
 	} else if m, ok := dataRaw.(map[string]string); ok {
@@ -81,6 +82,8 @@ func ParseData(dataRaw interface{}) (data io.Reader, err error) {
 		}
 		data = bytes.NewBuffer(bs)
 		return data, nil
+	} else if r, ok := dataRaw.(io.Reader); ok {
+		return r, nil
 	} else if util.IsPtr(dataRaw) {
 		bs, err := json.Marshal(dataRaw)
 		if err != nil {

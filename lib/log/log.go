@@ -1,18 +1,18 @@
 package log
 
 import (
+	"cz/lib/log/fluent"
 	"github.com/cockroachdb/errors"
-	"github.com/go-kratos/fluent"
 	"github.com/go-kratos/kratos/v2/log"
 	"os"
 )
 
 type Config struct {
-	FluentAddr   string
+	FluentAddr   string `json:"fluent_addr" yaml:"fluent_addr"`
 	File         string
 	Stdout       bool
-	EnableFluent bool
-	EnableFile   bool
+	EnableFluent bool `json:"enable_fluent" yaml:"enable_fluent"`
+	EnableFile   bool `yaml:"enable_file"`
 }
 
 func NewLogger(config *Config) (logger log.Logger, err error) {
@@ -20,7 +20,7 @@ func NewLogger(config *Config) (logger log.Logger, err error) {
 		logger = log.NewStdLogger(os.Stdout)
 		return
 	} else if config.EnableFluent {
-		logger,err = NewFluentLogger(config.FluentAddr)
+		logger, err = NewFluentLogger(config.FluentAddr)
 		if err != nil {
 			return
 		}
@@ -38,6 +38,6 @@ func NewLogger(config *Config) (logger log.Logger, err error) {
 }
 
 func NewFluentLogger(fluentAddr string) (log.Logger, error) {
-	logger, err := fluent.NewLogger(fluentAddr)
+	logger, err := fluent.NewLogger(fluentAddr, fluent.MarshalAsJson(true))
 	return logger, err
 }

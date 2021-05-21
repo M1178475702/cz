@@ -2,7 +2,7 @@ package data
 //
 //import (
 //	"context"
-//	"cz/app/service/main/collection/internal/model"
+//	"cz/app/service/main/api/internal/model"
 //	v1 "cz/app/service/main/user/api/v1"
 //)
 //

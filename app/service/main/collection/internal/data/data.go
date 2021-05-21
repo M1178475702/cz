@@ -3,6 +3,9 @@ package data
 import (
 	"context"
 	"cz/app/service/main/collection/internal/conf"
+	"fmt"
+	"time"
+
 	//v1 "cz/app/service/main/user/api/v1"
 	db2 "cz/lib/db"
 	http2 "cz/lib/net/http"
@@ -24,20 +27,22 @@ type Data struct {
 }
 
 // NewData .
-func NewData(c *conf.Data, logger log.Logger) (*Data, func(), error) {
+func NewData(c *conf.Bootstrap, logger log.Logger) (*Data, func(), error) {
 	cleanup := func() {
 		//log.Print("message", "closing the data resources")
 	}
-	db, err := db2.NewDb(c.Mysql)
+	db, err := db2.NewDb(c.Data.Mysql)
 	if err != nil {
 		return nil, nil, err
 	}
 	//conn, err := rpc.NewClient(c.UserClient.Name)
-	return &Data{
-		log:     log.NewHelper("collection.data", logger),
+	data := &Data{
+		log:     log.NewHelper(fmt.Sprintf("%v-data", c.Name), logger),
 		//userRPC: v1.NewUserClient(conn),
 		db:      db,
-	}, cleanup, nil
+	}
+	data.log.Infof("start at %v", time.Now())
+	return data, cleanup, nil
 }
 
 func (d *Data) BeginTx(ctx context.Context) (tx *gorm.DB, clean func(), err error) {

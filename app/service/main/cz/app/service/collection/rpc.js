@@ -4,7 +4,7 @@ const grpc = require('grpc');
 const path = require("path")
 
 const packageDefinition = protoLoader.loadSync(path.resolve(process.cwd(),"api/v1/collection.proto"), null);
-const collection_proto = grpc.loadPackageDefinition(packageDefinition)['cz_collection_v1'];
+const collection_proto = grpc.loadPackageDefinition(packageDefinition)['cz.collection.v1'];
 
 class CollectionService extends Service {
     constructor(self) {

@@ -4,7 +4,7 @@
       "maxAge": 86400000,
       "key": "xd_sid",
       "httpOnly": true,
-      "encrypt": true,
+      "encrypt": false,
       "logValue": true,
       "renew": true
     },
@@ -274,7 +274,7 @@
         "node": ">=8.9.0"
       },
       "scripts": {
-        "dev": "egg-bin dev --workers 1 --port 6001",
+        "dev": "egg-bin dev --workers 1 --port 6002",
         "debug": "egg-bin debug",
         "test": "npm run lint -- --fix && npm run test-local",
         "test-local": "egg-bin test",
@@ -377,7 +377,7 @@
     "cluster": {
       "listen": {
         "path": "",
-        "port": 6001,
+        "port": 6002,
         "hostname": ""
       }
     },

@@ -1,7 +1,7 @@
 module.exports = app => {
     const {router, controller} = app;
     const webapi = controller.web;
-    const base_path = '/web/collection';
+    const base_path = '/web/api';
 
     router.get(base_path + '/list', webapi.collection.getCollectionList);
 

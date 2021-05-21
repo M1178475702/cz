@@ -38,7 +38,7 @@ func NewCollectionHandler(srv CollectionHandler, opts ...http1.HandleOption) htt
 	}
 	r := mux.NewRouter()
 
-	r.HandleFunc("/cz_collection_v1.Collection/GetCollectionList", func(w http.ResponseWriter, r *http.Request) {
+	r.HandleFunc("/list", func(w http.ResponseWriter, r *http.Request) {
 		var in GetCollectionListReq
 		if err := h.Decode(r, &in); err != nil {
 			h.Error(w, r, err)
@@ -60,9 +60,9 @@ func NewCollectionHandler(srv CollectionHandler, opts ...http1.HandleOption) htt
 		if err := h.Encode(w, r, reply); err != nil {
 			h.Error(w, r, err)
 		}
-	}).Methods("POST")
+	}).Methods("GET")
 
-	r.HandleFunc("/cz_collection_v1.Collection/GetCollection", func(w http.ResponseWriter, r *http.Request) {
+	r.HandleFunc("/cz.api.v1.Collection/GetCollection", func(w http.ResponseWriter, r *http.Request) {
 		var in GetCollectionReq
 		if err := h.Decode(r, &in); err != nil {
 			h.Error(w, r, err)
@@ -86,7 +86,7 @@ func NewCollectionHandler(srv CollectionHandler, opts ...http1.HandleOption) htt
 		}
 	}).Methods("POST")
 
-	r.HandleFunc("/cz_collection_v1.Collection/DoCollect", func(w http.ResponseWriter, r *http.Request) {
+	r.HandleFunc("/list", func(w http.ResponseWriter, r *http.Request) {
 		var in DoCollectReq
 		if err := h.Decode(r, &in); err != nil {
 			h.Error(w, r, err)
@@ -110,7 +110,7 @@ func NewCollectionHandler(srv CollectionHandler, opts ...http1.HandleOption) htt
 		}
 	}).Methods("POST")
 
-	r.HandleFunc("/cz_collection_v1.Collection/undoCollect", func(w http.ResponseWriter, r *http.Request) {
+	r.HandleFunc("/cz.api.v1.Collection/undoCollect", func(w http.ResponseWriter, r *http.Request) {
 		var in UndoCollectReq
 		if err := h.Decode(r, &in); err != nil {
 			h.Error(w, r, err)
@@ -134,7 +134,7 @@ func NewCollectionHandler(srv CollectionHandler, opts ...http1.HandleOption) htt
 		}
 	}).Methods("POST")
 
-	r.HandleFunc("/cz_collection_v1.Collection/isCollected", func(w http.ResponseWriter, r *http.Request) {
+	r.HandleFunc("/cz.api.v1.Collection/isCollected", func(w http.ResponseWriter, r *http.Request) {
 		var in IsCollectedReq
 		if err := h.Decode(r, &in); err != nil {
 			h.Error(w, r, err)

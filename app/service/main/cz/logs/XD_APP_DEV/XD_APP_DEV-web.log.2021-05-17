@@ -1,0 +1,314 @@
+2021-05-17 18:39:11,497 INFO 27555 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-17 18:39:11,689 INFO 27555 [egg-sequelize](8ms) Executed (default): SELECT 1+1 AS result
+2021-05-17 18:39:11,711 INFO 27555 [egg-sequelize](9ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-17 18:39:11,736 INFO 27555 [egg-knex] knex singleton has been destroyed
+2021-05-17 18:40:02,180 INFO 27603 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-17 18:40:02,418 INFO 27603 [egg-sequelize](8ms) Executed (default): SELECT 1+1 AS result
+2021-05-17 18:40:02,440 INFO 27603 [egg-sequelize](8ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-17 18:40:02,463 INFO 27603 [egg-knex] knex singleton has been destroyed
+2021-05-17 18:40:28,453 INFO 27657 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-17 18:40:28,652 INFO 27657 [egg-sequelize](8ms) Executed (default): SELECT 1+1 AS result
+2021-05-17 18:40:28,681 INFO 27657 [egg-sequelize](11ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-17 18:40:28,740 INFO 27657 [egg-sequelize](37ms) Executed (default): SELECT `article_id`, `publish_time` FROM `xd_xd_article` AS `xd_xd_article` WHERE `xd_xd_article`.`status` = 4;
+2021-05-17 19:17:02,025 ERROR 27657 [-/::1/-/50ms POST /web/user/login] nodejs.PropertyRequiredError: 缺少参数 : wxcode
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserController.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/user.js:44:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:7:20)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 27657
+hostname: 192.168.0.102
+
+2021-05-17 19:18:30,650 INFO 28113 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-17 19:18:30,860 INFO 28113 [egg-sequelize](9ms) Executed (default): SELECT 1+1 AS result
+2021-05-17 19:18:30,945 INFO 28113 [egg-sequelize](10ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-17 19:18:31,069 INFO 28113 [egg-sequelize](10ms) Executed (default): SELECT `article_id`, `publish_time` FROM `xd_xd_article` AS `xd_xd_article` WHERE `xd_xd_article`.`status` = 4;
+2021-05-17 19:19:50,185 ERROR 28113 [-/::1/-/50619ms POST /web/user/login] nodejs.PropertyRequiredError: 缺少参数 : wxcode
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserController.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/user.js:44:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:7:20)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 28113
+hostname: 192.168.0.102
+
+2021-05-17 19:21:07,230 ERROR 28113 [-/::1/-/3714ms POST /web/user/login] nodejs.PropertyRequiredError: 缺少参数 : wxcode
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserController.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/user.js:44:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:7:20)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 28113
+hostname: 192.168.0.102
+
+2021-05-17 19:23:19,119 ERROR 28113 [-/::1/-/14ms POST /web/user/login] nodejs.PropertyRequiredError: 缺少参数 : wxcode
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserController.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/user.js:44:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:7:20)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 28113
+hostname: 192.168.0.102
+
+2021-05-17 19:28:18,075 INFO 28113 [egg-sequelize](11ms) Executed (52b9d851-d914-4faa-b7e2-a4748d1b05e0): START TRANSACTION;
+2021-05-17 19:28:18,174 INFO 28113 [egg-sequelize](30ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'ceshi';
+2021-05-17 19:28:18,200 INFO 28113 [egg-sequelize](12ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10000,'::1',11,CURRENT_TIMESTAMP);
+2021-05-17 19:28:18,214 INFO 28113 [egg-sequelize](9ms) Executed (52b9d851-d914-4faa-b7e2-a4748d1b05e0): COMMIT;
+2021-05-17 19:28:40,782 INFO 28113 [egg-sequelize](32ms) Executed (29d884cc-1b19-4f50-b549-764bcdba662e): START TRANSACTION;
+2021-05-17 19:28:40,799 INFO 28113 [egg-sequelize](11ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'ceshi';
+2021-05-17 19:28:40,814 INFO 28113 [egg-sequelize](10ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10000,'::1',11,CURRENT_TIMESTAMP);
+2021-05-17 19:28:40,823 INFO 28113 [egg-sequelize](7ms) Executed (29d884cc-1b19-4f50-b549-764bcdba662e): COMMIT;
+2021-05-17 19:28:58,113 INFO 28113 [egg-sequelize](12ms) Executed (3278ffb9-307d-4a24-9a6c-0cf1c1beb369): START TRANSACTION;
+2021-05-17 19:28:58,130 INFO 28113 [egg-sequelize](11ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'ceshi';
+2021-05-17 19:28:58,148 INFO 28113 [egg-sequelize](12ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10000,'::1',11,CURRENT_TIMESTAMP);
+2021-05-17 19:28:58,160 INFO 28113 [egg-sequelize](7ms) Executed (3278ffb9-307d-4a24-9a6c-0cf1c1beb369): COMMIT;
+2021-05-17 19:31:02,693 INFO 28113 [egg-sequelize](8ms) Executed (e7fae802-2319-4071-868d-47e0769b8aeb): START TRANSACTION;
+2021-05-17 19:31:02,715 INFO 28113 [egg-sequelize](15ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'ceshi';
+2021-05-17 19:31:02,734 INFO 28113 [egg-sequelize](11ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10000,'::1',11,CURRENT_TIMESTAMP);
+2021-05-17 19:31:02,746 INFO 28113 [egg-sequelize](8ms) Executed (e7fae802-2319-4071-868d-47e0769b8aeb): COMMIT;
+2021-05-17 19:31:38,286 INFO 28113 [egg-sequelize](7ms) Executed (8df1fcf0-678d-49a7-b604-ff1108a8b16e): START TRANSACTION;
+2021-05-17 19:31:38,301 INFO 28113 [egg-sequelize](10ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'ceshi';
+2021-05-17 19:31:38,318 INFO 28113 [egg-sequelize](10ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10000,'::1',11,CURRENT_TIMESTAMP);
+2021-05-17 19:31:38,329 INFO 28113 [egg-sequelize](7ms) Executed (8df1fcf0-678d-49a7-b604-ff1108a8b16e): COMMIT;
+2021-05-17 19:39:44,645 INFO 28113 [egg-sequelize](15ms) Executed (700f7fba-655d-45f2-b088-d28bf8c83e13): START TRANSACTION;
+2021-05-17 19:39:44,704 INFO 28113 [egg-sequelize](12ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'ceshi';
+2021-05-17 19:39:44,729 INFO 28113 [egg-sequelize](12ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10000,'::1',11,CURRENT_TIMESTAMP);
+2021-05-17 19:39:44,743 INFO 28113 [egg-sequelize](8ms) Executed (700f7fba-655d-45f2-b088-d28bf8c83e13): COMMIT;
+2021-05-17 19:40:24,228 INFO 28113 [egg-sequelize](11ms) Executed (7143723c-c72a-41d6-a9de-82aadc9ec6c4): START TRANSACTION;
+2021-05-17 19:40:24,244 INFO 28113 [egg-sequelize](10ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'ceshi';
+2021-05-17 19:40:24,263 INFO 28113 [egg-sequelize](10ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10000,'::1',11,CURRENT_TIMESTAMP);
+2021-05-17 19:40:24,276 INFO 28113 [egg-sequelize](10ms) Executed (7143723c-c72a-41d6-a9de-82aadc9ec6c4): COMMIT;
+2021-05-17 19:45:50,952 INFO 28113 [egg-sequelize](9ms) Executed (066db946-274f-4c35-92b8-3bcbbdc461cc): START TRANSACTION;
+2021-05-17 19:45:51,032 INFO 28113 [egg-sequelize](10ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'ceshi';
+2021-05-17 19:45:51,054 INFO 28113 [egg-sequelize](12ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10000,'::1',11,CURRENT_TIMESTAMP);
+2021-05-17 19:45:51,085 INFO 28113 [egg-sequelize](9ms) Executed (066db946-274f-4c35-92b8-3bcbbdc461cc): COMMIT;
+2021-05-17 19:46:03,682 INFO 28113 [egg-sequelize](9ms) Executed (14adc654-a8ba-40b8-967a-907597d7f7ad): START TRANSACTION;
+2021-05-17 19:46:03,699 INFO 28113 [egg-sequelize](11ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'ceshi';
+2021-05-17 19:46:03,738 INFO 28113 [egg-sequelize](19ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10000,'::1',11,CURRENT_TIMESTAMP);
+2021-05-17 19:46:03,749 INFO 28113 [egg-sequelize](7ms) Executed (14adc654-a8ba-40b8-967a-907597d7f7ad): COMMIT;
+2021-05-17 19:46:54,710 INFO 28113 [egg-sequelize](9ms) Executed (8fc5be6c-1976-4e40-9883-bdc3391875ad): START TRANSACTION;
+2021-05-17 19:46:54,725 INFO 28113 [egg-sequelize](10ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'ceshi';
+2021-05-17 19:46:54,740 INFO 28113 [egg-sequelize](9ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10000,'::1',11,CURRENT_TIMESTAMP);
+2021-05-17 19:46:54,761 INFO 28113 [egg-sequelize](11ms) Executed (8fc5be6c-1976-4e40-9883-bdc3391875ad): COMMIT;
+2021-05-17 19:56:33,170 INFO 28113 [egg-sequelize](9ms) Executed (e78c636b-c2de-46d5-b7c1-b1ae173ded45): START TRANSACTION;
+2021-05-17 19:56:33,233 INFO 28113 [egg-sequelize](13ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'ceshi';
+2021-05-17 19:56:33,252 INFO 28113 [egg-sequelize](10ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10000,'::1',11,CURRENT_TIMESTAMP);
+2021-05-17 19:56:33,262 INFO 28113 [egg-sequelize](7ms) Executed (e78c636b-c2de-46d5-b7c1-b1ae173ded45): COMMIT;
+2021-05-17 20:00:07,699 INFO 28113 [egg-sequelize](9ms) Executed (e89b6e1a-bdfe-4da5-849c-e7a0d81d4393): START TRANSACTION;
+2021-05-17 20:00:07,719 INFO 28113 [egg-sequelize](12ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'ceshi';
+2021-05-17 20:00:07,752 INFO 28113 [egg-sequelize](13ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10000,'::1',11,CURRENT_TIMESTAMP);
+2021-05-17 20:00:07,765 INFO 28113 [egg-sequelize](9ms) Executed (e89b6e1a-bdfe-4da5-849c-e7a0d81d4393): COMMIT;
+2021-05-17 20:04:33,842 INFO 28113 [egg-sequelize](18175ms) Executed (5e6fd4dc-4584-47dc-b88f-70d1084d1b55): START TRANSACTION;
+2021-05-17 20:04:33,883 INFO 28113 [egg-sequelize](0ms) Executed (5e6fd4dc-4584-47dc-b88f-70d1084d1b55): ROLLBACK;
+2021-05-17 20:04:33,903 ERROR 28113 [-/::1/-/18244ms POST /web/user/login] nodejs.SequelizeDatabaseError: read ETIMEDOUT
+    at Query.formatError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Connection._notifyError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/mysql2/lib/connection.js:188:21)
+    at Connection._handleFatalError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/mysql2/lib/connection.js:151:10)
+    at Connection._handleNetworkError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/mysql2/lib/connection.js:160:10)
+    at Socket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+From previous event:
+    at Query.run (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/sequelize.js:561:20
+From previous event:
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/sequelize.js:558:8
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/sequelize.js:457:28)
+    at QueryInterface.startTransaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/query-interface.js:1404:27)
+    at Transaction.begin (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/transaction.js:154:8)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/transaction.js:134:21
+    at processImmediate (internal/timers.js:461:21)
+    at process.callbackTrampoline (internal/async_hooks.js:131:14)
+From previous event:
+    at Transaction.prepareEnvironment (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/transaction.js:133:8)
+    at Sequelize.transaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/sequelize.js:996:43)
+    at Object.getTransaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:17:37)
+    at UserService.getTransaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/service/ApiService.js:12:24)
+    at UserService.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/user/web/login.js:8:30)
+    at UserController.login (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/user.js:45:61)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:7:20)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "SequelizeDatabaseError"
+parent: {"errno":-60,"code":"ETIMEDOUT","syscall":"read","fatal":true,"sql":"START TRANSACTION;"}
+original: {"errno":-60,"code":"ETIMEDOUT","syscall":"read","fatal":true,"sql":"START TRANSACTION;"}
+sql: "START TRANSACTION;"
+pid: 28113
+hostname: 192.168.0.102
+
+2021-05-17 20:20:17,860 INFO 28113 [egg-sequelize](7ms) Executed (f9c58744-949e-4c08-a01f-10545c106115): START TRANSACTION;
+2021-05-17 20:20:17,928 INFO 28113 [egg-sequelize](14ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'ceshi';
+2021-05-17 20:20:17,957 INFO 28113 [egg-sequelize](11ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10000,'::1',11,CURRENT_TIMESTAMP);
+2021-05-17 20:20:17,972 INFO 28113 [egg-sequelize](9ms) Executed (f9c58744-949e-4c08-a01f-10545c106115): COMMIT;
+2021-05-17 20:21:01,532 INFO 28718 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-17 20:21:01,748 INFO 28718 [egg-sequelize](9ms) Executed (default): SELECT 1+1 AS result
+2021-05-17 20:21:01,784 INFO 28718 [egg-sequelize](13ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-17 20:21:01,818 INFO 28718 [egg-sequelize](9ms) Executed (default): SELECT `article_id`, `publish_time` FROM `xd_xd_article` AS `xd_xd_article` WHERE `xd_xd_article`.`status` = 4;
+2021-05-17 20:21:10,945 INFO 28718 [egg-sequelize](9ms) Executed (9c269955-edb2-44b1-9c43-ab3586cb5f34): START TRANSACTION;
+2021-05-17 20:21:15,905 INFO 28718 [egg-sequelize](14ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'ceshi';
+2021-05-17 20:21:15,931 INFO 28718 [egg-sequelize](13ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10000,'::1',11,CURRENT_TIMESTAMP);
+2021-05-17 20:21:15,942 INFO 28718 [egg-sequelize](7ms) Executed (9c269955-edb2-44b1-9c43-ab3586cb5f34): COMMIT;
+2021-05-17 20:43:58,920 INFO 28718 [egg-sequelize](7ms) Executed (b5ee8295-f3eb-452f-894e-488163e183f6): START TRANSACTION;
+2021-05-17 20:43:58,989 INFO 28718 [egg-sequelize](10ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'ceshi';
+2021-05-17 20:43:59,013 INFO 28718 [egg-sequelize](10ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10000,'::1',11,CURRENT_TIMESTAMP);
+2021-05-17 20:43:59,026 INFO 28718 [egg-sequelize](6ms) Executed (b5ee8295-f3eb-452f-894e-488163e183f6): COMMIT;
+2021-05-17 20:46:19,766 INFO 28718 [egg-sequelize](120ms) Executed (03756e23-f6b5-4728-8e21-ff7bded47a5b): START TRANSACTION;
+2021-05-17 20:46:19,795 INFO 28718 [egg-sequelize](18ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'ceshi';
+2021-05-17 20:46:19,830 INFO 28718 [egg-sequelize](15ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10000,'::1',11,CURRENT_TIMESTAMP);
+2021-05-17 20:46:19,845 INFO 28718 [egg-sequelize](8ms) Executed (03756e23-f6b5-4728-8e21-ff7bded47a5b): COMMIT;

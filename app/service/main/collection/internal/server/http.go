@@ -14,8 +14,9 @@ import (
 )
 
 // NewHTTPServer new a HTTP server.
-func NewHTTPServer(c *conf.Server, collection *service.CollectionService, logger log.Logger) *http.Server {
+func NewHTTPServer(bc *conf.Bootstrap, collection *service.CollectionService, logger log.Logger) *http.Server {
 	var opts = []http.ServerOption{}
+	c := bc.Server
 	if c.Http.Network != "" {
 		opts = append(opts, http.Network(c.Http.Network))
 	}

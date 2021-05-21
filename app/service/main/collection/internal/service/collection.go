@@ -6,7 +6,10 @@ import (
 	pe "cz/app/service/main/collection/api/errors"
 	pb "cz/app/service/main/collection/api/v1"
 	"cz/app/service/main/collection/internal/biz"
+	"cz/app/service/main/collection/internal/conf"
+	"fmt"
 	"github.com/go-kratos/kratos/v2/errors"
+	"github.com/go-kratos/kratos/v2/log"
 )
 
 const (
@@ -16,11 +19,13 @@ const (
 type CollectionService struct {
 	pb.UnimplementedCollectionServer
 	biz *biz.CollectionBiz
+	log *log.Helper
 }
 
-func NewCollectionService(biz *biz.CollectionBiz) *CollectionService {
+func NewCollectionService(bc *conf.Bootstrap, biz *biz.CollectionBiz, logger log.Logger) *CollectionService {
 	return &CollectionService{
 		biz: biz,
+		log: log.NewHelper(fmt.Sprintf("%v-service", bc.Name), logger),
 	}
 }
 

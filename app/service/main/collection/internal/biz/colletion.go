@@ -2,8 +2,10 @@ package biz
 
 import (
 	"context"
+	"cz/app/service/main/collection/internal/conf"
 	"cz/app/service/main/collection/internal/data"
 	"cz/app/service/main/collection/internal/model"
+	"fmt"
 	"github.com/cockroachdb/errors"
 	"github.com/go-kratos/kratos/v2/log"
 )
@@ -19,10 +21,10 @@ const (
 )
 
 
-func NewCollectionBiz(dao *data.Data, logger log.Logger) *CollectionBiz {
+func NewCollectionBiz(bc *conf.Bootstrap, dao *data.Data, logger log.Logger) *CollectionBiz {
 	biz := &CollectionBiz{
 		dao: dao,
-		log: log.NewHelper("collection.biz", logger),
+		log: log.NewHelper(fmt.Sprintf("%v-biz", bc.Name), logger),
 	}
 	return biz
 }
@@ -46,7 +48,7 @@ func (b *CollectionBiz) GetCollection(ctx context.Context, userId, itemId, collT
 }
 
 func (b *CollectionBiz) DoCollect(ctx context.Context, userId, itemId, collType, folder int, collName string) (err error) {
-	//check collection is exist
+	//check api is exist
 	collection, err := b.dao.GetCollectionByUIC(ctx, userId, itemId, collType, CollTypeDo)
 	if err != nil {
 		b.log.Error()

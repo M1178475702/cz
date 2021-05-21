@@ -1,0 +1,392 @@
+2021-05-05 00:07:02,081 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 380532ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 03:13:07,098 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 561667ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 03:23:14,126 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 566266ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 03:33:23,101 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 568664ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 03:43:36,072 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 572871ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 03:53:46,076 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 569774ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 04:03:54,073 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 566453ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 04:14:04,079 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 569606ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 04:24:10,074 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 565598ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 04:34:22,112 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 571428ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 04:44:29,078 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 566323ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 04:54:40,072 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 570423ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 05:04:47,038 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 567044ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 05:14:57,020 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 569474ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 05:25:04,037 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 566865ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 05:35:16,067 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 570621ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 05:45:23,066 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 566814ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 05:55:35,130 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 568522ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 06:05:42,099 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 566558ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 06:15:53,076 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 570206ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 06:25:59,072 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 565720ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 06:36:11,069 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 570579ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 06:45:41,076 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 529909ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 09:59:05,085 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 11583955ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 10:08:57,068 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 571904ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 12:17:35,066 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 7697899ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 12:22:49,016 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 293907ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 12:25:26,070 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 136298ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 13:52:58,074 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 5231912ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 15:45:27,318 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 2308361ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 16:01:22,053 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 793494ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 16:10:07,088 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 304747ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 16:17:04,086 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 136889ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 16:26:38,077 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 393854ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 16:40:50,092 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 150845ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 17:42:34,170 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 2422290ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 17:50:29,028 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 474835ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 18:49:36,144 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 605339ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 19:00:05,077 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 608588ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 19:07:14,078 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 408029ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 20:01:17,099 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 3222983ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 20:17:13,104 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 915728ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 20:23:11,156 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 117421ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 20:48:21,141 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 149036ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 21:27:04,090 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 2282889ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 21:39:01,074 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 716872ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 22:01:45,066 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 1363917ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-05 22:30:00,071 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 1654078ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-06 01:02:39,270 ERROR 41230 nodejs.ClusterClientNoResponseError: client no response in 9138920ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41230
+hostname: bakatoradeMacBook-Pro.local
+

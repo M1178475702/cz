@@ -25,10 +25,7 @@ func newApp(logger log.Logger, hs *http.Server, gs *grpc.Server, bc *conf.Bootst
 
 	//服务注册
 	if bc.Registry.Enable {
-		reg, err := rpc.GetConsulClient()
-		if err != nil {
-			panic(err)
-		}
+		reg := rpc.GetKConsulClient()
 		return kratos.New(
 			kratos.Name(bc.Name),
 			kratos.Version(bc.Version),
@@ -56,18 +53,22 @@ func newApp(logger log.Logger, hs *http.Server, gs *grpc.Server, bc *conf.Bootst
 
 func main() {
 	flag.Parse()
-
-
+	//初始化配置
 	bc, err := conf.Init(flagconf)
 	if err != nil {
 		panic(err)
 	}
-
+	//初始化logger
 	logger, err := clog.NewLogger(bc.Logger)
 	if err != nil {
 		panic(err)
 	}
-	rpc.Init(bc.Registry)
+	//初始化rpc，进行服务注册
+	err = rpc.Init(bc.Registry)
+	if err != nil {
+		panic(err)
+	}
+	//初始化app
 	app, cleanup, err := initApp(bc.Server, bc.Data, logger, bc)
 	if err != nil {
 		panic(err)
@@ -75,7 +76,7 @@ func main() {
 	defer cleanup()
 
 	// start and wait for stop signal
-	if err := app.Run(); err != nil {
+	if err = app.Run(); err != nil {
 		panic(err)
 	}
 }

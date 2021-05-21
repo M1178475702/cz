@@ -1,0 +1,9 @@
+2021-05-05 04:34:22,105 INFO 44129 [Job#16201604620694014739749976811] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2021-05-05 04:34:22,172 INFO 44129 [Job#16201604620694014739749976811] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 62ms. 
+2021-05-05 04:34:22,091 INFO 41230 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86137928ms at 2021-05-06 04:30:00.019
+2021-05-06 01:02:39,261 INFO 44129 [Job#16202341591194751566243337272] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2021-05-06 01:02:39,305 INFO 44129 [Job#16202341591974751567014776802] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2021-05-06 01:02:39,460 INFO 44129 [Job#16202341591194751566243337272] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 184ms. 
+2021-05-06 01:02:39,518 INFO 44129 [Job#16202341591974751567014776802] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 204ms. 
+2021-05-06 01:02:39,186 INFO 41230 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 82640861ms at 2021-05-07 00:00:00.043
+2021-05-06 01:02:39,253 INFO 41230 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 82641784ms at 2021-05-07 00:00:01.037
