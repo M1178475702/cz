@@ -41,6 +41,9 @@ DockerBuild() {
 }
 
 DockerRun(){
+  CONF_HOST=consul
+  CONF_PORT=8500
+  CONF_PATH=$CONF_PATH
 	if [[ $Type = "i" ]];then
 		DockerRunInterface
 	elif [[ $Type = "s" ]];then
@@ -58,10 +61,14 @@ DockerRunService() {
 		--network cz-net --network-alias $ImageName \
 		-h $ImageName \
 		--privileged \
+		-e CONF_HOST=$CONF_HOST \
+		-e CONF_PATH=$CONF_PATH \
+		-e CONF_PORT=$CONF_PORT \
 		$ImageTag
 }
 
 DockerRunInterface() {
+
 	$dr rm -f $ImageName
 	$dr rmi $ImageTag
 	$dr run -itd  --name $ImageName \
@@ -69,6 +76,9 @@ DockerRunInterface() {
 		-h $ImageName \
 		--privileged \
 		-p 6001:6001 \
+		-e CONF_HOST=$CONF_HOST \
+		-e CONF_PATH=$CONF_PATH \
+		-e CONF_PORT=$CONF_PORT \
 		$ImageTag
 }
 
@@ -78,6 +88,7 @@ Type=$2
 Dir=$3
 ImageName=$4 #容器名
 Tag=$5
+CONF_PATH=$6
 ImageTag=registry.cn-hangzhou.aliyuncs.com/bakatora/$ImageName:$5
 ProjDir=""
 

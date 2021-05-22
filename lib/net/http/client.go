@@ -42,11 +42,11 @@ func (h *CzHttpClient) DoCzHttp(method string, path string, header *http.Header,
 		raw, cookieh, err = HttpPut(url, header, data, params)
 	} else if method == "DELETE" {
 		raw, cookieh, err = HttpDelete(url, header, data, params)
+	} else if method == "PATCH"{
+		raw, cookieh, err = HttpPatch(url, header, data, params)
 	} else {
 		return "", fmt.Errorf("unsupported method: %s", method)
 	}
-
-
 	resWrapper := &HttpCZResponse{
 		Data: res,
 	}

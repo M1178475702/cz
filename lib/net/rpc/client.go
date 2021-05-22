@@ -57,7 +57,7 @@ func NewClient(name string) (conn *grpc.ClientConn, err error) {
 		}
 		return
 	} else {
-		conn, err = kgrpc.Dial(context.Background(), kgrpc.WithEndpoint("localhost:8001"))
+		conn, err = kgrpc.Dial(context.Background(), kgrpc.WithEndpoint("localhost:9000"),kgrpc.WithOptions(grpc.WithInsecure()))
 		return
 	}
 }

@@ -4,7 +4,8 @@ const grpc = require('grpc');
 const path = require("path")
 
 const packageDefinition = protoLoader.loadSync(path.resolve(process.cwd(),"api/v1/collection.proto"), null);
-const collection_proto = grpc.loadPackageDefinition(packageDefinition)['cz.collection.v1'];
+const tmp =  grpc.loadPackageDefinition(packageDefinition);
+const collection_proto = tmp['cz']['collection']['v1'];
 
 class CollectionService extends Service {
     constructor(self) {
@@ -13,7 +14,7 @@ class CollectionService extends Service {
     }
     async getCollectionList(userId, folder, ps, lm){
         return new Promise((resolve, reject) => {
-            this.collectionRPC.getCollectionList({
+            this.collectionRPC.GetCollectionList({
                 userId: userId,
                 folder: folder,
                 ps: ps,

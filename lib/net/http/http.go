@@ -42,7 +42,16 @@ func HttpPut(url string, headerRaw interface{}, dataRaw interface{}, params map[
 	if err != nil {
 		return nil, "", err
 	}
-	return DoRequest("Put", url, headerRaw, data)
+	return DoRequest("PUT", url, headerRaw, data)
+}
+
+func HttpPatch(url string, headerRaw interface{}, dataRaw interface{}, params map[string]string) (resData []byte, cookieh string, err error) {
+	url = ParseQueryParams(url, params)
+	data, err := ParseData(dataRaw)
+	if err != nil {
+		return nil, "", err
+	}
+	return DoRequest("PATCH", url, headerRaw, data)
 }
 
 func DoRequest(method, url string, headerRaw interface{}, data io.Reader) (resData []byte, cookieh string, err error) {

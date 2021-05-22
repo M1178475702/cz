@@ -1,0 +1,244 @@
+2021-05-19 00:00:24,092 INFO 28718 [egg-logrotator] app logger reload: got log-reload message
+2021-05-22 18:16:38,981 INFO 4439 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-22 18:16:39,047 INFO 4439 [egg-multipart] stream mode enable
+2021-05-22 18:16:40,085 INFO 4439 [egg-static] starting static serve /public/ -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/public
+2021-05-22 18:16:40,087 INFO 4439 [egg-security] use methodnoallow middleware
+2021-05-22 18:16:40,088 INFO 4439 [egg-security] use noopen middleware
+2021-05-22 18:16:40,090 INFO 4439 [egg-security] use nosniff middleware
+2021-05-22 18:16:40,091 INFO 4439 [egg-security] use xssProtection middleware
+2021-05-22 18:16:40,092 INFO 4439 [egg-security] use xframe middleware
+2021-05-22 18:16:40,093 INFO 4439 [egg-security] use dta middleware
+2021-05-22 18:16:40,093 INFO 4439 [egg-security] compose 6 middlewares into one security middleware
+2021-05-22 18:16:40,155 INFO 4439 [egg:core] dump config after load, 5ms
+2021-05-22 18:16:40,182 INFO 4439 [egg-watcher:application] watcher start success
+2021-05-22 18:16:41,252 INFO 4439 [egg:core] dump config after ready, 9ms
+2021-05-22 21:16:28,125 WARN 4439 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 21:16:28,135 WARN 4439 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-22 21:16:28,142 WARN 4439 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 21:16:28,143 WARN 4439 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 21:16:28,391 WARN 4439 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 21:16:28,554 WARN 4439 [ClusterClient:TimerTaskManager] follower closed, and try to init it again
+2021-05-22 21:16:28,560 WARN 4439 [ClusterClient:ArticlePublishJobManager] follower closed, and try to init it again
+2021-05-22 21:16:28,561 WARN 4439 [ClusterClient:WingmanClientBase] follower closed, and try to init it again
+2021-05-22 21:32:07,085 WARN 4439 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 21:32:07,097 WARN 4439 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-22 21:32:07,098 WARN 4439 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 21:32:07,099 WARN 4439 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 21:32:07,099 WARN 4439 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 21:32:07,101 WARN 4439 [ClusterClient:WingmanClientBase] follower closed, and try to init it again
+2021-05-22 21:32:07,101 WARN 4439 [ClusterClient:TimerTaskManager] follower closed, and try to init it again
+2021-05-22 21:32:07,101 WARN 4439 [ClusterClient:ArticlePublishJobManager] follower closed, and try to init it again
+2021-05-22 21:40:11,008 WARN 4439 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 21:40:11,067 WARN 4439 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 21:40:11,067 WARN 4439 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 21:40:11,067 WARN 4439 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 21:40:11,067 WARN 4439 [ClusterClient:WingmanClientBase] follower closed, and try to init it again
+2021-05-22 21:40:11,068 WARN 4439 [ClusterClient:TimerTaskManager] follower closed, and try to init it again
+2021-05-22 21:40:11,068 WARN 4439 [ClusterClient:ArticlePublishJobManager] follower closed, and try to init it again
+2021-05-22 21:40:11,068 WARN 4439 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-22 21:49:43,524 WARN 4439 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 21:49:43,530 WARN 4439 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-22 21:49:43,534 WARN 4439 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 21:49:43,534 WARN 4439 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 21:49:43,537 WARN 4439 [ClusterClient:TimerTaskManager] follower closed, and try to init it again
+2021-05-22 21:49:43,540 WARN 4439 [ClusterClient:ArticlePublishJobManager] follower closed, and try to init it again
+2021-05-22 21:49:43,541 WARN 4439 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 21:49:43,543 WARN 4439 [ClusterClient:WingmanClientBase] follower closed, and try to init it again
+2021-05-22 21:56:25,377 INFO 5962 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-22 21:56:25,578 INFO 5962 [egg-multipart] stream mode enable
+2021-05-22 21:56:26,654 INFO 5962 [egg-static] starting static serve /public/ -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/public
+2021-05-22 21:56:26,656 INFO 5962 [egg-security] use methodnoallow middleware
+2021-05-22 21:56:26,658 INFO 5962 [egg-security] use noopen middleware
+2021-05-22 21:56:26,659 INFO 5962 [egg-security] use nosniff middleware
+2021-05-22 21:56:26,660 INFO 5962 [egg-security] use xssProtection middleware
+2021-05-22 21:56:26,661 INFO 5962 [egg-security] use xframe middleware
+2021-05-22 21:56:26,662 INFO 5962 [egg-security] use dta middleware
+2021-05-22 21:56:26,662 INFO 5962 [egg-security] compose 6 middlewares into one security middleware
+2021-05-22 21:56:26,739 INFO 5962 [egg:core] dump config after load, 8ms
+2021-05-22 21:56:26,761 INFO 5962 [egg-watcher:application] watcher start success
+2021-05-22 21:56:27,420 INFO 5962 [egg:core] dump config after ready, 6ms
+2021-05-22 22:02:40,132 INFO 6087 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-22 22:02:40,267 INFO 6087 [egg-multipart] stream mode enable
+2021-05-22 22:02:41,663 INFO 6087 [egg-static] starting static serve /public/ -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/public
+2021-05-22 22:02:41,665 INFO 6087 [egg-security] use methodnoallow middleware
+2021-05-22 22:02:41,666 INFO 6087 [egg-security] use noopen middleware
+2021-05-22 22:02:41,667 INFO 6087 [egg-security] use nosniff middleware
+2021-05-22 22:02:41,668 INFO 6087 [egg-security] use xssProtection middleware
+2021-05-22 22:02:41,669 INFO 6087 [egg-security] use xframe middleware
+2021-05-22 22:02:41,669 INFO 6087 [egg-security] use dta middleware
+2021-05-22 22:02:41,669 INFO 6087 [egg-security] compose 6 middlewares into one security middleware
+2021-05-22 22:02:41,735 INFO 6087 [egg:core] dump config after load, 8ms
+2021-05-22 22:02:41,760 INFO 6087 [egg-watcher:application] watcher start success
+2021-05-22 22:02:43,056 INFO 6087 [egg:core] dump config after ready, 5ms
+2021-05-22 22:06:59,571 WARN 6087 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 22:06:59,572 WARN 6087 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 22:06:59,573 WARN 6087 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 22:06:59,574 WARN 6087 [ClusterClient:TimerTaskManager] follower closed, and try to init it again
+2021-05-22 22:06:59,576 WARN 6087 [ClusterClient:ArticlePublishJobManager] follower closed, and try to init it again
+2021-05-22 22:06:59,604 WARN 6087 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-22 22:10:19,763 INFO 6174 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-22 22:10:20,027 INFO 6174 [egg-multipart] stream mode enable
+2021-05-22 22:10:22,179 INFO 6174 [egg-static] starting static serve /public/ -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/public
+2021-05-22 22:10:22,181 INFO 6174 [egg-security] use methodnoallow middleware
+2021-05-22 22:10:22,182 INFO 6174 [egg-security] use noopen middleware
+2021-05-22 22:10:22,184 INFO 6174 [egg-security] use nosniff middleware
+2021-05-22 22:10:22,184 INFO 6174 [egg-security] use xssProtection middleware
+2021-05-22 22:10:22,185 INFO 6174 [egg-security] use xframe middleware
+2021-05-22 22:10:22,186 INFO 6174 [egg-security] use dta middleware
+2021-05-22 22:10:22,186 INFO 6174 [egg-security] compose 6 middlewares into one security middleware
+2021-05-22 22:10:22,249 INFO 6174 [egg:core] dump config after load, 5ms
+2021-05-22 22:10:22,310 INFO 6174 [egg-watcher:application] watcher start success
+2021-05-22 22:10:23,048 INFO 6174 [egg:core] dump config after ready, 6ms
+2021-05-22 22:14:44,203 INFO 6221 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-22 22:14:44,310 INFO 6221 [egg-multipart] stream mode enable
+2021-05-22 22:14:45,562 INFO 6221 [egg-static] starting static serve /public/ -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/public
+2021-05-22 22:14:45,566 INFO 6221 [egg-security] use methodnoallow middleware
+2021-05-22 22:14:45,567 INFO 6221 [egg-security] use noopen middleware
+2021-05-22 22:14:45,568 INFO 6221 [egg-security] use nosniff middleware
+2021-05-22 22:14:45,569 INFO 6221 [egg-security] use xssProtection middleware
+2021-05-22 22:14:45,569 INFO 6221 [egg-security] use xframe middleware
+2021-05-22 22:14:45,573 INFO 6221 [egg-security] use dta middleware
+2021-05-22 22:14:45,573 INFO 6221 [egg-security] compose 6 middlewares into one security middleware
+2021-05-22 22:14:45,627 INFO 6221 [egg:core] dump config after load, 5ms
+2021-05-22 22:14:45,669 INFO 6221 [egg-watcher:application] watcher start success
+2021-05-22 22:14:46,452 INFO 6221 [egg:core] dump config after ready, 7ms
+2021-05-22 22:15:47,728 INFO 6248 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-22 22:15:47,820 INFO 6248 [egg-multipart] stream mode enable
+2021-05-22 22:15:49,114 INFO 6248 [egg-static] starting static serve /public/ -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/public
+2021-05-22 22:15:49,116 INFO 6248 [egg-security] use methodnoallow middleware
+2021-05-22 22:15:49,117 INFO 6248 [egg-security] use noopen middleware
+2021-05-22 22:15:49,119 INFO 6248 [egg-security] use nosniff middleware
+2021-05-22 22:15:49,120 INFO 6248 [egg-security] use xssProtection middleware
+2021-05-22 22:15:49,121 INFO 6248 [egg-security] use xframe middleware
+2021-05-22 22:15:49,121 INFO 6248 [egg-security] use dta middleware
+2021-05-22 22:15:49,122 INFO 6248 [egg-security] compose 6 middlewares into one security middleware
+2021-05-22 22:15:49,191 INFO 6248 [egg:core] dump config after load, 6ms
+2021-05-22 22:15:49,223 INFO 6248 [egg-watcher:application] watcher start success
+2021-05-22 22:15:50,151 INFO 6248 [egg:core] dump config after ready, 7ms
+2021-05-22 22:18:17,841 INFO 6287 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-22 22:18:17,966 INFO 6287 [egg-multipart] stream mode enable
+2021-05-22 22:18:19,477 INFO 6287 [egg-static] starting static serve /public/ -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/public
+2021-05-22 22:18:19,480 INFO 6287 [egg-security] use methodnoallow middleware
+2021-05-22 22:18:19,482 INFO 6287 [egg-security] use noopen middleware
+2021-05-22 22:18:19,485 INFO 6287 [egg-security] use nosniff middleware
+2021-05-22 22:18:19,485 INFO 6287 [egg-security] use xssProtection middleware
+2021-05-22 22:18:19,486 INFO 6287 [egg-security] use xframe middleware
+2021-05-22 22:18:19,488 INFO 6287 [egg-security] use dta middleware
+2021-05-22 22:18:19,488 INFO 6287 [egg-security] compose 6 middlewares into one security middleware
+2021-05-22 22:18:19,581 INFO 6287 [egg:core] dump config after load, 16ms
+2021-05-22 22:18:19,683 INFO 6287 [egg-watcher:application] watcher start success
+2021-05-22 22:18:20,657 INFO 6287 [egg:core] dump config after ready, 8ms
+2021-05-22 22:19:45,199 INFO 6342 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-22 22:19:45,293 INFO 6342 [egg-multipart] stream mode enable
+2021-05-22 22:19:54,100 INFO 6342 [egg-static] starting static serve /public/ -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/public
+2021-05-22 22:19:54,104 INFO 6342 [egg-security] use methodnoallow middleware
+2021-05-22 22:19:54,105 INFO 6342 [egg-security] use noopen middleware
+2021-05-22 22:19:54,108 INFO 6342 [egg-security] use nosniff middleware
+2021-05-22 22:19:54,109 INFO 6342 [egg-security] use xssProtection middleware
+2021-05-22 22:19:54,110 INFO 6342 [egg-security] use xframe middleware
+2021-05-22 22:19:54,110 INFO 6342 [egg-security] use dta middleware
+2021-05-22 22:19:54,110 INFO 6342 [egg-security] compose 6 middlewares into one security middleware
+2021-05-22 22:19:54,175 INFO 6342 [egg:core] dump config after load, 6ms
+2021-05-22 22:19:54,274 INFO 6342 [egg-watcher:application] watcher start success
+2021-05-22 22:19:55,017 INFO 6342 [egg:core] dump config after ready, 6ms
+2021-05-22 22:24:48,996 INFO 6467 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-22 22:24:49,154 INFO 6467 [egg-multipart] stream mode enable
+2021-05-22 22:24:51,613 INFO 6467 [egg-static] starting static serve /public/ -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/public
+2021-05-22 22:24:51,615 INFO 6467 [egg-security] use methodnoallow middleware
+2021-05-22 22:24:51,616 INFO 6467 [egg-security] use noopen middleware
+2021-05-22 22:24:51,617 INFO 6467 [egg-security] use nosniff middleware
+2021-05-22 22:24:51,618 INFO 6467 [egg-security] use xssProtection middleware
+2021-05-22 22:24:51,619 INFO 6467 [egg-security] use xframe middleware
+2021-05-22 22:24:51,620 INFO 6467 [egg-security] use dta middleware
+2021-05-22 22:24:51,620 INFO 6467 [egg-security] compose 6 middlewares into one security middleware
+2021-05-22 22:24:51,716 INFO 6467 [egg:core] dump config after load, 6ms
+2021-05-22 22:24:51,754 INFO 6467 [egg-watcher:application] watcher start success
+2021-05-22 22:24:52,574 INFO 6467 [egg:core] dump config after ready, 7ms
+2021-05-22 22:26:04,382 INFO 6498 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-22 22:26:04,470 INFO 6498 [egg-multipart] stream mode enable
+2021-05-22 22:26:05,533 INFO 6498 [egg-static] starting static serve /public/ -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/public
+2021-05-22 22:26:05,536 INFO 6498 [egg-security] use methodnoallow middleware
+2021-05-22 22:26:05,537 INFO 6498 [egg-security] use noopen middleware
+2021-05-22 22:26:05,539 INFO 6498 [egg-security] use nosniff middleware
+2021-05-22 22:26:05,540 INFO 6498 [egg-security] use xssProtection middleware
+2021-05-22 22:26:05,541 INFO 6498 [egg-security] use xframe middleware
+2021-05-22 22:26:05,543 INFO 6498 [egg-security] use dta middleware
+2021-05-22 22:26:05,543 INFO 6498 [egg-security] compose 6 middlewares into one security middleware
+2021-05-22 22:26:05,607 INFO 6498 [egg:core] dump config after load, 4ms
+2021-05-22 22:26:05,639 INFO 6498 [egg-watcher:application] watcher start success
+2021-05-22 22:26:06,423 INFO 6498 [egg:core] dump config after ready, 6ms
+2021-05-22 22:37:48,091 INFO 7057 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-22 22:37:48,246 INFO 7057 [egg-multipart] stream mode enable
+2021-05-22 22:37:49,653 INFO 7057 [egg-static] starting static serve /public/ -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/public
+2021-05-22 22:37:49,655 INFO 7057 [egg-security] use methodnoallow middleware
+2021-05-22 22:37:49,656 INFO 7057 [egg-security] use noopen middleware
+2021-05-22 22:37:49,657 INFO 7057 [egg-security] use nosniff middleware
+2021-05-22 22:37:49,658 INFO 7057 [egg-security] use xssProtection middleware
+2021-05-22 22:37:49,658 INFO 7057 [egg-security] use xframe middleware
+2021-05-22 22:37:49,659 INFO 7057 [egg-security] use dta middleware
+2021-05-22 22:37:49,659 INFO 7057 [egg-security] compose 6 middlewares into one security middleware
+2021-05-22 22:37:49,736 INFO 7057 [egg:core] dump config after load, 9ms
+2021-05-22 22:37:49,780 INFO 7057 [egg-watcher:application] watcher start success
+2021-05-22 22:37:50,372 INFO 7057 [egg:core] dump config after ready, 6ms
+2021-05-22 22:42:58,217 INFO 7177 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-22 22:42:58,311 INFO 7177 [egg-multipart] stream mode enable
+2021-05-22 22:42:59,447 INFO 7177 [egg-static] starting static serve /public/ -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/public
+2021-05-22 22:42:59,450 INFO 7177 [egg-security] use methodnoallow middleware
+2021-05-22 22:42:59,451 INFO 7177 [egg-security] use noopen middleware
+2021-05-22 22:42:59,452 INFO 7177 [egg-security] use nosniff middleware
+2021-05-22 22:42:59,453 INFO 7177 [egg-security] use xssProtection middleware
+2021-05-22 22:42:59,455 INFO 7177 [egg-security] use xframe middleware
+2021-05-22 22:42:59,455 INFO 7177 [egg-security] use dta middleware
+2021-05-22 22:42:59,455 INFO 7177 [egg-security] compose 6 middlewares into one security middleware
+2021-05-22 22:42:59,525 INFO 7177 [egg:core] dump config after load, 6ms
+2021-05-22 22:42:59,556 INFO 7177 [egg-watcher:application] watcher start success
+2021-05-22 22:43:00,660 INFO 7177 [egg:core] dump config after ready, 7ms
+2021-05-22 22:44:20,785 WARN 7177 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-22 22:47:06,889 INFO 7229 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-22 22:47:07,011 INFO 7229 [egg-multipart] stream mode enable
+2021-05-22 22:47:08,394 INFO 7229 [egg-static] starting static serve /public/ -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/public
+2021-05-22 22:47:08,397 INFO 7229 [egg-security] use methodnoallow middleware
+2021-05-22 22:47:08,398 INFO 7229 [egg-security] use noopen middleware
+2021-05-22 22:47:08,399 INFO 7229 [egg-security] use nosniff middleware
+2021-05-22 22:47:08,400 INFO 7229 [egg-security] use xssProtection middleware
+2021-05-22 22:47:08,401 INFO 7229 [egg-security] use xframe middleware
+2021-05-22 22:47:08,403 INFO 7229 [egg-security] use dta middleware
+2021-05-22 22:47:08,403 INFO 7229 [egg-security] compose 6 middlewares into one security middleware
+2021-05-22 22:47:08,492 INFO 7229 [egg:core] dump config after load, 6ms
+2021-05-22 22:47:08,523 INFO 7229 [egg-watcher:application] watcher start success
+2021-05-22 22:47:09,348 INFO 7229 [egg:core] dump config after ready, 5ms
+2021-05-22 22:47:53,031 INFO 7263 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-22 22:47:53,157 INFO 7263 [egg-multipart] stream mode enable
+2021-05-22 22:47:54,695 INFO 7263 [egg-static] starting static serve /public/ -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/public
+2021-05-22 22:47:54,697 INFO 7263 [egg-security] use methodnoallow middleware
+2021-05-22 22:47:54,698 INFO 7263 [egg-security] use noopen middleware
+2021-05-22 22:47:54,699 INFO 7263 [egg-security] use nosniff middleware
+2021-05-22 22:47:54,700 INFO 7263 [egg-security] use xssProtection middleware
+2021-05-22 22:47:54,701 INFO 7263 [egg-security] use xframe middleware
+2021-05-22 22:47:54,702 INFO 7263 [egg-security] use dta middleware
+2021-05-22 22:47:54,702 INFO 7263 [egg-security] compose 6 middlewares into one security middleware
+2021-05-22 22:47:54,763 INFO 7263 [egg:core] dump config after load, 6ms
+2021-05-22 22:47:54,805 INFO 7263 [egg-watcher:application] watcher start success
+2021-05-22 22:47:55,642 INFO 7263 [egg:core] dump config after ready, 7ms
+2021-05-22 22:49:34,215 WARN 7263 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 22:49:34,222 WARN 7263 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-22 23:08:58,091 WARN 7263 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 23:08:58,107 WARN 7263 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-22 23:12:27,251 INFO 7901 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-22 23:12:27,400 INFO 7901 [egg-multipart] stream mode enable
+2021-05-22 23:12:29,169 INFO 7901 [egg-static] starting static serve /public/ -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/public
+2021-05-22 23:12:29,172 INFO 7901 [egg-security] use methodnoallow middleware
+2021-05-22 23:12:29,173 INFO 7901 [egg-security] use noopen middleware
+2021-05-22 23:12:29,174 INFO 7901 [egg-security] use nosniff middleware
+2021-05-22 23:12:29,176 INFO 7901 [egg-security] use xssProtection middleware
+2021-05-22 23:12:29,177 INFO 7901 [egg-security] use xframe middleware
+2021-05-22 23:12:29,178 INFO 7901 [egg-security] use dta middleware
+2021-05-22 23:12:29,178 INFO 7901 [egg-security] compose 6 middlewares into one security middleware
+2021-05-22 23:12:29,226 INFO 7901 [egg:core] dump config after load, 6ms
+2021-05-22 23:12:29,275 INFO 7901 [egg-watcher:application] watcher start success
+2021-05-22 23:12:30,233 INFO 7901 [egg:core] dump config after ready, 8ms
+2021-05-22 23:21:51,370 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-22 23:21:51,374 WARN 7901 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-23 00:00:00,244 INFO 7901 [egg-logrotator] clean all log before 31 days
+2021-05-23 00:00:01,123 INFO 7901 [egg-logrotator] broadcast log-reload
+2021-05-23 00:00:01,123 INFO 7901 [egg-logrotator] rotate files success by DayRotator, files ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV/common-error.log -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV/common-error.log.2021-05-22","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV/XD_APP_DEV-web.log -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV/XD_APP_DEV-web.log.2021-05-22","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV/egg-web.log -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV/egg-web.log.2021-05-22","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV/egg-schedule.log -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV/egg-schedule.log.2021-05-22","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/egg-knex.log -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/egg-knex.log.2021-05-22","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV/egg-agent.log -> /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV/egg-agent.log.2021-05-22"]

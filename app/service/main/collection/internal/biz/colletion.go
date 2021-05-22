@@ -68,10 +68,10 @@ func (b *CollectionBiz) DoCollect(ctx context.Context, userId, itemId, collType,
 		}
 	} else {
 		if collection.Status == CollTypeDo {
-			err = errors.Newf("已经收藏过了")
+			//err = errors.Newf("已经收藏过了")
 			return
 		} else {
-			err = b.dao.TxUpdateCollectionStatus(tx, collection.CollId, CollTypeUndo)
+			err = b.dao.TxUpdateCollectionStatus(tx, collection.CollId, CollTypeDo)
 			if err != nil {
 				return
 			}

@@ -1,0 +1,306 @@
+2021-05-19 00:00:24,079 INFO 28714 [egg-logrotator] agent logger reload: got log-reload message
+2021-05-22 18:16:33,200 INFO 4435 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 18:16:33,793 INFO 4435 [egg:core] dump config after load, 6ms
+2021-05-22 18:16:33,863 INFO 4435 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 18:16:33,864 INFO 4435 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 18:16:33,864 INFO 4435 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 18:16:33,864 INFO 4435 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 18:16:33,864 INFO 4435 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 18:16:33,864 INFO 4435 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 18:16:33,864 INFO 4435 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 18:16:33,864 INFO 4435 [egg-watcher:agent] watcher start success
+2021-05-22 18:16:37,931 INFO 4435 [egg-sequelize](62ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 18:16:37,941 INFO 4435 [egg:core] dump config after ready, 7ms
+2021-05-22 21:16:28,138 ERROR 4435 nodejs.ClusterClientNoResponseError: client no response in 9389222ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4435
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 21:32:07,117 ERROR 4435 nodejs.ClusterClientNoResponseError: client no response in 916307ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4435
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 21:40:11,013 ERROR 4435 nodejs.ClusterClientNoResponseError: client no response in 463467ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4435
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 21:49:43,571 ERROR 4435 nodejs.ClusterClientNoResponseError: client no response in 571994ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4435
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 21:56:22,080 INFO 5959 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 21:56:23,150 INFO 5959 [egg:core] dump config after load, 44ms
+2021-05-22 21:56:23,372 INFO 5959 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 21:56:23,372 INFO 5959 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 21:56:23,373 INFO 5959 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 21:56:23,373 INFO 5959 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 21:56:23,373 INFO 5959 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 21:56:23,373 INFO 5959 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 21:56:23,373 INFO 5959 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 21:56:23,375 INFO 5959 [egg-watcher:agent] watcher start success
+2021-05-22 21:56:24,031 INFO 5959 [egg-sequelize](51ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 21:56:24,056 INFO 5959 [egg:core] dump config after ready, 17ms
+2021-05-22 22:02:35,497 INFO 6082 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 22:02:36,083 INFO 6082 [egg:core] dump config after load, 4ms
+2021-05-22 22:02:36,153 INFO 6082 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 22:02:36,153 INFO 6082 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 22:02:36,154 INFO 6082 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 22:02:36,154 INFO 6082 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 22:02:36,154 INFO 6082 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 22:02:36,154 INFO 6082 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 22:02:36,155 INFO 6082 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 22:02:36,155 INFO 6082 [egg-watcher:agent] watcher start success
+2021-05-22 22:02:36,976 INFO 6082 [egg-sequelize](67ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:02:36,993 INFO 6082 [egg:core] dump config after ready, 11ms
+2021-05-22 22:04:56,154 ERROR 6082 nodejs.ClusterClientNoResponseError: client no response in 74382ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 6082
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:08:16,122 ERROR 6082 nodejs.ClusterClientNoResponseError: client no response in 76475ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 6082
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:10:13,685 INFO 6167 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 22:10:14,427 INFO 6167 [egg:core] dump config after load, 8ms
+2021-05-22 22:10:14,523 INFO 6167 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 22:10:14,523 INFO 6167 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 22:10:14,523 INFO 6167 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 22:10:14,524 INFO 6167 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 22:10:14,524 INFO 6167 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 22:10:14,524 INFO 6167 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 22:10:14,524 INFO 6167 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 22:10:14,525 INFO 6167 [egg-watcher:agent] watcher start success
+2021-05-22 22:10:15,374 INFO 6167 [egg-sequelize](73ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:10:15,385 INFO 6167 [egg:core] dump config after ready, 6ms
+2021-05-22 22:12:57,820 WARN 6167 [agent:development] reload worker because /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js~ rename
+2021-05-22 22:12:57,614 INFO 6167 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12889795756,"size":694,"blocks":8,"atimeMs":1620059858276.0498,"mtimeMs":1621692777553.0005,"ctimeMs":1621692777553.0005,"birthtimeMs":1620059608062.0166,"atime":"2021-05-03T16:37:38.276Z","mtime":"2021-05-22T14:12:57.553Z","ctime":"2021-05-22T14:12:57.553Z","birthtime":"2021-05-03T16:33:28.062Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-22 22:12:57,616 INFO 6167 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js~","remove":true,"isDirectory":false,"isFile":false}
+2021-05-22 22:14:40,756 INFO 6216 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 22:14:41,329 INFO 6216 [egg:core] dump config after load, 4ms
+2021-05-22 22:14:41,388 INFO 6216 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 22:14:41,388 INFO 6216 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 22:14:41,388 INFO 6216 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 22:14:41,388 INFO 6216 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 22:14:41,389 INFO 6216 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 22:14:41,389 INFO 6216 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 22:14:41,389 INFO 6216 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 22:14:41,390 INFO 6216 [egg-watcher:agent] watcher start success
+2021-05-22 22:14:42,330 INFO 6216 [egg-sequelize](71ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:14:42,342 INFO 6216 [egg:core] dump config after ready, 7ms
+2021-05-22 22:15:44,727 INFO 6244 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 22:15:45,405 INFO 6244 [egg:core] dump config after load, 6ms
+2021-05-22 22:15:45,476 INFO 6244 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 22:15:45,476 INFO 6244 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 22:15:45,476 INFO 6244 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 22:15:45,476 INFO 6244 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 22:15:45,476 INFO 6244 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 22:15:45,477 INFO 6244 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 22:15:45,477 INFO 6244 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 22:15:45,478 INFO 6244 [egg-watcher:agent] watcher start success
+2021-05-22 22:15:46,265 INFO 6244 [egg-sequelize](60ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:15:46,276 INFO 6244 [egg:core] dump config after ready, 6ms
+2021-05-22 22:18:14,743 INFO 6283 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 22:18:15,340 INFO 6283 [egg:core] dump config after load, 4ms
+2021-05-22 22:18:15,402 INFO 6283 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 22:18:15,402 INFO 6283 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 22:18:15,402 INFO 6283 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 22:18:15,402 INFO 6283 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 22:18:15,402 INFO 6283 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 22:18:15,403 INFO 6283 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 22:18:15,403 INFO 6283 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 22:18:15,405 INFO 6283 [egg-watcher:agent] watcher start success
+2021-05-22 22:18:16,187 INFO 6283 [egg-sequelize](73ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:18:16,198 INFO 6283 [egg:core] dump config after ready, 7ms
+2021-05-22 22:19:02,899 INFO 6311 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 22:19:03,471 INFO 6311 [egg:core] dump config after load, 4ms
+2021-05-22 22:19:03,537 INFO 6311 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 22:19:03,537 INFO 6311 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 22:19:03,537 INFO 6311 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 22:19:03,537 INFO 6311 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 22:19:03,537 INFO 6311 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 22:19:03,537 INFO 6311 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 22:19:03,538 INFO 6311 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 22:19:03,539 INFO 6311 [egg-watcher:agent] watcher start success
+2021-05-22 22:19:04,324 INFO 6311 [egg-sequelize](53ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:19:04,335 INFO 6311 [egg:core] dump config after ready, 6ms
+2021-05-22 22:19:42,489 INFO 6338 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 22:19:42,847 INFO 6338 [egg:core] dump config after load, 5ms
+2021-05-22 22:19:42,900 INFO 6338 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 22:19:42,900 INFO 6338 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 22:19:42,900 INFO 6338 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 22:19:42,900 INFO 6338 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 22:19:42,900 INFO 6338 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 22:19:42,901 INFO 6338 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 22:19:42,901 INFO 6338 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 22:19:42,902 INFO 6338 [egg-watcher:agent] watcher start success
+2021-05-22 22:19:43,805 INFO 6338 [egg-sequelize](65ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:19:43,815 INFO 6338 [egg:core] dump config after ready, 6ms
+2021-05-22 22:20:32,777 INFO 6375 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 22:20:33,255 INFO 6375 [egg:core] dump config after load, 4ms
+2021-05-22 22:20:33,313 INFO 6375 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 22:20:33,313 INFO 6375 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 22:20:33,314 INFO 6375 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 22:20:33,314 INFO 6375 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 22:20:33,314 INFO 6375 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 22:20:33,314 INFO 6375 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 22:20:33,314 INFO 6375 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 22:20:33,315 INFO 6375 [egg-watcher:agent] watcher start success
+2021-05-22 22:20:34,219 INFO 6375 [egg-sequelize](73ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:20:34,229 INFO 6375 [egg:core] dump config after ready, 6ms
+2021-05-22 22:22:42,864 INFO 6407 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 22:22:43,395 INFO 6407 [egg:core] dump config after load, 4ms
+2021-05-22 22:22:43,452 INFO 6407 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 22:22:43,452 INFO 6407 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 22:22:43,453 INFO 6407 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 22:22:43,453 INFO 6407 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 22:22:43,453 INFO 6407 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 22:22:43,453 INFO 6407 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 22:22:43,453 INFO 6407 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 22:22:43,454 INFO 6407 [egg-watcher:agent] watcher start success
+2021-05-22 22:22:44,478 INFO 6407 [egg-sequelize](77ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:22:44,489 INFO 6407 [egg:core] dump config after ready, 6ms
+2021-05-22 22:23:29,725 INFO 6434 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 22:23:30,290 INFO 6434 [egg:core] dump config after load, 4ms
+2021-05-22 22:23:30,352 INFO 6434 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 22:23:30,352 INFO 6434 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 22:23:30,352 INFO 6434 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 22:23:30,352 INFO 6434 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 22:23:30,352 INFO 6434 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 22:23:30,352 INFO 6434 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 22:23:30,353 INFO 6434 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 22:23:30,358 INFO 6434 [egg-watcher:agent] watcher start success
+2021-05-22 22:23:31,219 INFO 6434 [egg-sequelize](62ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:23:31,229 INFO 6434 [egg:core] dump config after ready, 5ms
+2021-05-22 22:24:45,699 INFO 6463 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 22:24:46,273 INFO 6463 [egg:core] dump config after load, 4ms
+2021-05-22 22:24:46,329 INFO 6463 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 22:24:46,329 INFO 6463 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 22:24:46,330 INFO 6463 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 22:24:46,330 INFO 6463 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 22:24:46,330 INFO 6463 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 22:24:46,331 INFO 6463 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 22:24:46,331 INFO 6463 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 22:24:46,332 INFO 6463 [egg-watcher:agent] watcher start success
+2021-05-22 22:24:47,220 INFO 6463 [egg-sequelize](61ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:24:47,366 INFO 6463 [egg:core] dump config after ready, 140ms
+2021-05-22 22:26:01,773 INFO 6494 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 22:26:02,079 INFO 6494 [egg:core] dump config after load, 4ms
+2021-05-22 22:26:02,126 INFO 6494 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 22:26:02,126 INFO 6494 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 22:26:02,127 INFO 6494 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 22:26:02,127 INFO 6494 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 22:26:02,127 INFO 6494 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 22:26:02,127 INFO 6494 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 22:26:02,127 INFO 6494 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 22:26:02,128 INFO 6494 [egg-watcher:agent] watcher start success
+2021-05-22 22:26:03,117 INFO 6494 [egg-sequelize](58ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:26:03,127 INFO 6494 [egg:core] dump config after ready, 6ms
+2021-05-22 22:37:43,120 INFO 7047 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 22:37:44,102 INFO 7047 [egg:core] dump config after load, 8ms
+2021-05-22 22:37:44,405 INFO 7047 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 22:37:44,405 INFO 7047 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 22:37:44,406 INFO 7047 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 22:37:44,406 INFO 7047 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 22:37:44,406 INFO 7047 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 22:37:44,406 INFO 7047 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 22:37:44,407 INFO 7047 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 22:37:44,606 INFO 7047 [egg-watcher:agent] watcher start success
+2021-05-22 22:37:45,387 INFO 7047 [egg-sequelize](125ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:37:45,408 INFO 7047 [egg:core] dump config after ready, 14ms
+2021-05-22 22:42:55,359 INFO 7173 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 22:42:55,837 INFO 7173 [egg:core] dump config after load, 4ms
+2021-05-22 22:42:55,893 INFO 7173 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 22:42:55,893 INFO 7173 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 22:42:55,893 INFO 7173 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 22:42:55,893 INFO 7173 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 22:42:55,893 INFO 7173 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 22:42:55,894 INFO 7173 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 22:42:55,894 INFO 7173 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 22:42:55,894 INFO 7173 [egg-watcher:agent] watcher start success
+2021-05-22 22:42:56,841 INFO 7173 [egg-sequelize](63ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:42:56,852 INFO 7173 [egg:core] dump config after ready, 6ms
+2021-05-22 22:44:15,894 ERROR 7173 nodejs.ClusterClientNoResponseError: client no response in 76338ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 7173
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:47:03,349 INFO 7225 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 22:47:03,938 INFO 7225 [egg:core] dump config after load, 5ms
+2021-05-22 22:47:04,014 INFO 7225 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 22:47:04,014 INFO 7225 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 22:47:04,015 INFO 7225 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 22:47:04,015 INFO 7225 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 22:47:04,015 INFO 7225 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 22:47:04,015 INFO 7225 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 22:47:04,015 INFO 7225 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 22:47:04,016 INFO 7225 [egg-watcher:agent] watcher start success
+2021-05-22 22:47:04,807 INFO 7225 [egg-sequelize](56ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:47:04,827 INFO 7225 [egg:core] dump config after ready, 13ms
+2021-05-22 22:47:49,071 INFO 7259 [egg:logger] init all loggers with options: {"dir":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs/XD_APP_DEV","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"XD_APP_DEV-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-22 22:47:49,628 INFO 7259 [egg:core] dump config after load, 3ms
+2021-05-22 22:47:49,684 INFO 7259 [egg-watcher] Start watching: ["/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router","/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"]
+2021-05-22 22:47:49,684 INFO 7259 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller"
+2021-05-22 22:47:49,685 INFO 7259 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service"
+2021-05-22 22:47:49,685 INFO 7259 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware"
+2021-05-22 22:47:49,685 INFO 7259 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/model"
+2021-05-22 22:47:49,685 INFO 7259 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/router"
+2021-05-22 22:47:49,686 INFO 7259 [egg-watcher] Start watching: "/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/view"
+2021-05-22 22:47:49,686 INFO 7259 [egg-watcher:agent] watcher start success
+2021-05-22 22:47:50,685 INFO 7259 [egg-sequelize](62ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:47:50,696 INFO 7259 [egg:core] dump config after ready, 5ms
+2021-05-22 22:49:29,693 ERROR 7259 nodejs.ClusterClientNoResponseError: client no response in 74883ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 7259
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:08:49,845 ERROR 7259 nodejs.ClusterClientNoResponseError: client no response in 66468ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 7259
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:11:38,498 WARN 7259 [agent:development] reload worker because /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/backAuthenticate.js change
+2021-05-22 23:11:38,276 INFO 7259 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/backAuthenticate.js~","remove":true,"isDirectory":false,"isFile":false}
+2021-05-22 23:11:38,293 INFO 7259 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/backAuthenticate.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12889795759,"size":729,"blocks":8,"atimeMs":1620059858276.0046,"mtimeMs":1621696298178.1106,"ctimeMs":1621696298178.1106,"birthtimeMs":1620059608061.9062,"atime":"2021-05-03T16:37:38.276Z","mtime":"2021-05-22T15:11:38.178Z","ctime":"2021-05-22T15:11:38.178Z","birthtime":"2021-05-03T16:33:28.062Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-22 23:12:24,921 WARN 7259 [agent:development] reload worker because /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/backAuthenticate.js change
+2021-05-22 23:12:24,695 INFO 7259 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/backAuthenticate.js~","remove":true,"isDirectory":false,"isFile":false}
+2021-05-22 23:12:24,704 INFO 7259 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/backAuthenticate.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12889795759,"size":771,"blocks":8,"atimeMs":1621696300147.0925,"mtimeMs":1621696344624.122,"ctimeMs":1621696344624.122,"birthtimeMs":1620059608061.9062,"atime":"2021-05-22T15:11:40.147Z","mtime":"2021-05-22T15:12:24.624Z","ctime":"2021-05-22T15:12:24.624Z","birthtime":"2021-05-03T16:33:28.062Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-22 23:21:49,872 ERROR 7259 nodejs.ClusterClientNoResponseError: client no response in 60502ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 7259
+hostname: bakatoradeMacBook-Pro.local
+

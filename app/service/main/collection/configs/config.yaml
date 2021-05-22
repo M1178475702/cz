@@ -1,18 +1,18 @@
 name: cz-collection
 version: 0.1.0
 logger:
-  fluent_addr: tcp://localhost:24224
+  fluent_addr: tcp://fluentd:24224
   file: _
-  stdout: false
-  enable_fluent: true
+  stdout: true
+  enable_fluent: false
   enable_file: false
 server:
   http:
-    addr: 0.0.0.0:8000
-    timeout: 100000000000
+    addr: 0.0.0.0:8010
+    timeout: 1000000000000000000
   grpc:
     addr: 0.0.0.0:9000
-    timeout: 1000000000000000  # nano
+    timeout: 9000000000000000000  # nano
 data:
   mysql:
     user: xd
@@ -26,7 +26,7 @@ data:
     write_timeout: 2000
 registry:
   name: cz-collection
-  enable: true
+  enable: false
   consul:
     address: "localhost:8500"
     schema: "http"

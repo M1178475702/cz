@@ -1,0 +1,709 @@
+2021-05-22 21:16:28,134 ERROR 4435 nodejs.ClusterClientNoResponseError: client no response in 9389222ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4435
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 21:32:07,102 ERROR 4435 nodejs.ClusterClientNoResponseError: client no response in 916307ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4435
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 21:40:11,012 ERROR 4435 nodejs.ClusterClientNoResponseError: client no response in 463467ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4435
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 21:49:43,567 ERROR 4435 nodejs.ClusterClientNoResponseError: client no response in 571994ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 4435
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:04:56,154 ERROR 6082 nodejs.ClusterClientNoResponseError: client no response in 74382ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 6082
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:08:16,121 ERROR 6082 nodejs.ClusterClientNoResponseError: client no response in 76475ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 6082
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:16:46,155 ERROR 6248 [-/::1/-/235ms GET /web/article/10345] nodejs.TypeError: Cannot read property 'Collection' of undefined
+    at new CollectionService (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/collection/rpc.js:12:51)
+    at getInstance (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/context_loader.js:92:18)
+    at ClassLoader.get (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/context_loader.js:27:22)
+    at ArticleService.getClientArticleDetail (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/article/web/view.js:135:41)
+    at async WebArticleController.getWebArticleDetail (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/article.js:42:32)
+    at async clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:9)
+
+pid: 6248
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:26:09,445 ERROR 6498 [-/::1/-/727ms GET /web/article/10345] nodejs.Error: 14 UNAVAILABLE: DNS resolution failed
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 14
+metadata: {"_internal_repr":{},"flags":0}
+details: "DNS resolution failed"
+pid: 6498
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:26:50,378 ERROR 6498 [-/::1/-/21198ms GET /web/article/10345] nodejs.Error: 14 UNAVAILABLE: DNS resolution failed
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 14
+metadata: {"_internal_repr":{},"flags":0}
+details: "DNS resolution failed"
+pid: 6498
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:37:53,537 ERROR 7057 [-/::1/-/482ms GET /web/article/10345] nodejs.Error: 14 UNAVAILABLE: DNS resolution failed
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 14
+metadata: {"_internal_repr":{},"flags":0}
+details: "DNS resolution failed"
+pid: 7057
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:38:30,649 ERROR 7057 [-/::1/-/26961ms GET /web/article/10345] nodejs.Error: 14 UNAVAILABLE: DNS resolution failed
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 14
+metadata: {"_internal_repr":{},"flags":0}
+details: "DNS resolution failed"
+pid: 7057
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:44:15,894 ERROR 7173 nodejs.ClusterClientNoResponseError: client no response in 76338ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 7173
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:44:20,754 ERROR 7177 [-/::1/-/76851ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7177
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:45:10,883 ERROR 7177 [-/::1/-/47987ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7177
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:45:35,563 ERROR 7177 [-/::1/-/6821ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7177
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:46:03,320 ERROR 7177 [-/::1/-/3468ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7177
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:46:42,220 ERROR 7177 [-/::1/-/2902ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7177
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:47:34,415 ERROR 7229 [-/::1/-/17396ms GET /web/article/10345] nodejs.Error: 14 UNAVAILABLE: failed to connect to all addresses
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 14
+metadata: {"_internal_repr":{},"flags":0}
+details: "failed to connect to all addresses"
+pid: 7229
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:49:29,693 ERROR 7259 nodejs.ClusterClientNoResponseError: client no response in 74883ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 7259
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:49:36,355 ERROR 7263 [-/::1/-/64540ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7263
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:49:41,133 ERROR 7263 [-/::1/-/3010ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7263
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:05:23,275 ERROR 7263 [-/::1/-/14699ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7263
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:08:49,823 ERROR 7259 nodejs.ClusterClientNoResponseError: client no response in 66468ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 7259
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:08:58,118 ERROR 7263 [-/::1/-/74985ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7263
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:18:17,667 ERROR 7901 [-/::1/-/19ms GET /web/index/newest] nodejs.PropertyRequiredError: 缺少参数 : ps
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserRankController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserRankController.getIndexNewestArticleList (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/index.js:30:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:18:33,226 ERROR 7901 [-/::1/-/9ms GET /web/index/newest] nodejs.PropertyRequiredError: 缺少参数 : ps
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserRankController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserRankController.getIndexNewestArticleList (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/index.js:30:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:19:06,037 ERROR 7901 [-/::1/-/2ms GET /web/index/newest] nodejs.PropertyRequiredError: 缺少参数 : ps
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserRankController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserRankController.getIndexNewestArticleList (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/index.js:30:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:19:28,157 ERROR 7901 [-/::1/-/2ms GET /web/index/newest] nodejs.PropertyRequiredError: 缺少参数 : ps
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserRankController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserRankController.getIndexNewestArticleList (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/index.js:30:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:20:51,448 ERROR 7901 [-/::1/-/6ms GET /web/index/newest] nodejs.PropertyRequiredError: 缺少参数 : ps
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserRankController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserRankController.getIndexNewestArticleList (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/index.js:30:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:21:49,869 ERROR 7259 nodejs.ClusterClientNoResponseError: client no response in 60502ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 7259
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:21:51,352 ERROR 7901 [-/::1/-/54410ms GET /web/index/newest] nodejs.PropertyRequiredError: 缺少参数 : ps
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserRankController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserRankController.getIndexNewestArticleList (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/index.js:30:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:22:54,826 ERROR 7901 [-/::1/-/5861ms GET /web/index/newest] nodejs.PropertyRequiredError: 缺少参数 : ps
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserRankController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserRankController.getIndexNewestArticleList (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/index.js:30:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:23:32,385 ERROR 7901 [-/::1/-/10ms GET /web/index/newest] nodejs.PropertyRequiredError: 缺少参数 : ps
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserRankController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserRankController.getIndexNewestArticleList (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/index.js:30:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:38:07,161 ERROR 7901 [-/::1/-/14576ms PUT /web/comment/4/like] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19
+From previous event:
+    at ConnectionManager.connect (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50
+From previous event:
+    at ConnectionManager._connect (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+    at Object.create (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:101:28)
+    at Pool._createResource (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/generic-pool/lib/Pool.js:308:42)
+    at Pool._dispense (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/generic-pool/lib/Pool.js:226:12)
+    at Pool.acquire (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/generic-pool/lib/Pool.js:455:10)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:292:24
+    at processImmediate (internal/timers.js:461:21)
+    at process.callbackTrampoline (internal/async_hooks.js:131:14)
+From previous event:
+    at ConnectionManager.getConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:291:20)
+    at Transaction.prepareEnvironment (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/transaction.js:125:60)
+    at Sequelize.transaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/sequelize.js:996:43)
+    at Object.getTransaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:17:37)
+    at CommentService.getTransaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/service/ApiService.js:12:24)
+    at CommentService.doLike (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/comment/web/op.js:53:30)
+    at CommentController.doLike (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/comment.js:41:68)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:38:26,473 ERROR 7901 [-/::1/-/10033ms PUT /web/comment/4/like] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19
+From previous event:
+    at ConnectionManager.connect (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50
+From previous event:
+    at ConnectionManager._connect (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+    at Object.create (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:101:28)
+    at Pool._createResource (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/generic-pool/lib/Pool.js:308:42)
+    at Pool._dispense (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/generic-pool/lib/Pool.js:226:12)
+    at Pool.acquire (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/generic-pool/lib/Pool.js:455:10)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:292:24
+    at processImmediate (internal/timers.js:461:21)
+    at process.callbackTrampoline (internal/async_hooks.js:131:14)
+From previous event:
+    at ConnectionManager.getConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:291:20)
+    at Transaction.prepareEnvironment (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/transaction.js:125:60)
+    at Sequelize.transaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/sequelize.js:996:43)
+    at Object.getTransaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:17:37)
+    at CommentService.getTransaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/service/ApiService.js:12:24)
+    at CommentService.doLike (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/comment/web/op.js:53:30)
+    at CommentController.doLike (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/comment.js:41:68)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+

@@ -1,18 +1,21 @@
 module.exports = () => {
     return async function backAuthorize(ctx, next) {
         const ignorePath = ['/back/admin/login'];
-        if(isIgnore(ctx.path,ignorePath) || ctx.session && ctx.session.adminId)
-          return next();
-        else{
-            ctx.body = {
-                data: {},
-                msg: {
-                    error: '',
-                    prompt: '未登录或凭证已过期',
-                },
-                retcode: -1,
-            };
-        }
+        ctx.session.adminId = 10000;
+        await next();
+        ctx.session.adminId = 10000;
+        // if(isIgnore(ctx.path,ignorePath) || ctx.session && ctx.session.adminId)
+        //   return next();
+        // else{
+        //     ctx.body = {
+        //         data: {},
+        //         msg: {
+        //             error: '',
+        //             prompt: '未登录或凭证已过期',
+        //         },
+        //         retcode: -1,
+        //     };
+        // }
     };
 };
 

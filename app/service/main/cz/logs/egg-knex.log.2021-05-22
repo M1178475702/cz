@@ -1,0 +1,45 @@
+2021-05-22 18:16:39,273 INFO 4439 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-22 18:16:40,639 INFO 4439 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-22 18:16:40,639 INFO 4439 [egg-knex] instance[0] status OK
+2021-05-22 21:56:25,803 INFO 5962 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-22 21:56:26,973 INFO 5962 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-22 21:56:26,974 INFO 5962 [egg-knex] instance[0] status OK
+2021-05-22 22:02:40,658 INFO 6087 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-22 22:02:42,210 INFO 6087 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-22 22:02:42,211 INFO 6087 [egg-knex] instance[0] status OK
+2021-05-22 22:10:20,695 INFO 6174 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-22 22:10:22,559 INFO 6174 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-22 22:10:22,561 INFO 6174 [egg-knex] instance[0] status OK
+2021-05-22 22:14:44,634 INFO 6221 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-22 22:14:45,900 INFO 6221 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-22 22:14:45,900 INFO 6221 [egg-knex] instance[0] status OK
+2021-05-22 22:15:48,104 INFO 6248 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-22 22:15:49,484 INFO 6248 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-22 22:15:49,484 INFO 6248 [egg-knex] instance[0] status OK
+2021-05-22 22:18:18,408 INFO 6287 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-22 22:18:19,952 INFO 6287 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-22 22:18:19,953 INFO 6287 [egg-knex] instance[0] status OK
+2021-05-22 22:19:45,566 INFO 6342 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-22 22:19:54,468 INFO 6342 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-22 22:19:54,469 INFO 6342 [egg-knex] instance[0] status OK
+2021-05-22 22:24:50,189 INFO 6467 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-22 22:24:51,999 INFO 6467 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-22 22:24:52,000 INFO 6467 [egg-knex] instance[0] status OK
+2021-05-22 22:26:04,690 INFO 6498 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-22 22:26:05,879 INFO 6498 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-22 22:26:05,880 INFO 6498 [egg-knex] instance[0] status OK
+2021-05-22 22:37:48,648 INFO 7057 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-22 22:37:49,940 INFO 7057 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-22 22:37:49,940 INFO 7057 [egg-knex] instance[0] status OK
+2021-05-22 22:42:58,558 INFO 7177 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-22 22:42:59,889 INFO 7177 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-22 22:42:59,890 INFO 7177 [egg-knex] instance[0] status OK
+2021-05-22 22:47:07,357 INFO 7229 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-22 22:47:08,830 INFO 7229 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-22 22:47:08,831 INFO 7229 [egg-knex] instance[0] status OK
+2021-05-22 22:47:53,567 INFO 7263 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-22 22:47:55,077 INFO 7263 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-22 22:47:55,077 INFO 7263 [egg-knex] instance[0] status OK
+2021-05-22 23:12:27,917 INFO 7901 [egg-knex] mysql connecting {"host":"47.98.146.46","port":"33061","user":"xd","password":"xd#123456","database":"xd_test","requestTimeout":600000}
+2021-05-22 23:12:29,535 INFO 7901 [egg-knex] mysql 47.98.146.46#33061#xd_test#xd status OK, got 69 tables
+2021-05-22 23:12:29,536 INFO 7901 [egg-knex] instance[0] status OK

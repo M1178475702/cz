@@ -8,8 +8,8 @@ import (
 )
 
 const (
-	sqlSelectCollectionList = "select coll_id, item_id, coll_name, modify_time from xd_xd_collection where user_id = ? and folder = ? and status = ? and modify_time < ? limit 0, ?"
-	sqlCreateCollection = "insert into xd_xd_collection (user_id, item_id, coll_name, coll_type, folder) values(?,?,?,?,?)"
+	sqlSelectCollectionList = "select coll_id, item_id, coll_name, modify_time, coll_type from xd_xd_collection where user_id = ? and folder = ? and status = ? and modify_time < ? limit 0, ?"
+	sqlCreateCollection = "insert into xd_xd_collection (user_id, item_id, coll_name, coll_type, folder, status) values(?,?,?,?,?,?)"
 	sqlIncreaseCollectionCount = "update xd_xd_collect_count set count = count - ? where id = ?"
 	sqlDecreaseCollectionCount = "update xd_xd_collect_count set count = count - ? where id = ?"
 	sqlUpdateCollectionStatus = "update xd_xd_collection set status = ? where coll_id = ?"
@@ -25,7 +25,7 @@ func (d *Data) GetCollectionList(ctx context.Context, userId, folder, status, ps
 	}
 	for rows.Next() {
 		item := &model.CollectionListItem{}
-		err = rows.Scan(item)
+		err = rows.Scan(&item.ItemId,  &item.CollId, &item.CollName,&item.ModifyTime, &item.CollType)
 		if err != nil {
 			err = errors.Wrapf(err, "data.GetCollectionList scan error")
 			return
@@ -69,7 +69,7 @@ func (d *Data) GetCollectionById(ctx context.Context, collId int) (collection *m
 
 func (d *Data) TxCreateCollection(tx *gorm.DB, userId, itemId, collType, folder int, collName string) (collection *model.Collection, err error){
 	collection = new(model.Collection)
-	err = tx.Exec(sqlCreateCollection, userId, itemId, collType, folder, collName).Scan(&collection).Error
+	err = tx.Exec(sqlCreateCollection, userId, itemId, collName, collType, folder, 1).Scan(&collection).Error
 	if err != nil {
 		err = errors.Wrapf(err, "data.TxCreateCollection error")
 		return

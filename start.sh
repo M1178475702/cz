@@ -1,8 +1,8 @@
-./build.sh build i main cz-api 1.0
+./build.sh build i main cz-api 1.0 /cz/config/api
 if [ $? != 0 ];then
 	exit 1
 fi
-./build.sh build s collection cz-collection 1.0
+./build.sh build s collection cz-collection 1.0 /cz/config/collection
 if [ $? != 0 ];then
 	exit 1
 fi

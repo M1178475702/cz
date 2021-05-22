@@ -5,7 +5,7 @@ import (
 	"github.com/go-kratos/kratos/v2/config"
 	"github.com/go-kratos/kratos/v2/config/file"
 	consulApi "github.com/hashicorp/consul/api"
-	"gopkg.in/yaml.v3"
+	"gopkg.in/yaml.v2"
 	"io/fs"
 	"io/ioutil"
 	"os"
@@ -47,7 +47,7 @@ func Remote(dest string) error {
 
 func resolverRemoteConfig() *consulApi.Config {
 	return &consulApi.Config{
-		Address: fmt.Sprintf("%v%v", src.Host, src.Port),
+		Address: fmt.Sprintf("%v:%v", src.Host, src.Port),
 	}
 
 }
@@ -58,7 +58,7 @@ func getValueFromConsul() ([]byte, error) {
 		return nil, err
 	}
 
-	kv, _, err := client.KV().Get(fmt.Sprintf("%v/%v", src.ConfigPath, src.Version), nil)
+	kv, _, err := client.KV().Get(fmt.Sprintf("%v", src.ConfigPath), nil)
 	if err != nil {
 		return nil, err
 	}
@@ -68,7 +68,7 @@ func getValueFromConsul() ([]byte, error) {
 func Init(confPath string, bc interface{}) (err error) {
 	var c config.Config
 	if confPath == "" {
-		confPath = "/etc/cz/config.yml"
+		confPath = "/etc/config.yml"
 		err = Remote(confPath)
 		if err != nil {
 			return

@@ -32,7 +32,7 @@ module.exports = appInfo => {
     config.session = {
         key: 'xd_sid',
         maxAge: 1000 * 3600 * 24, // 1 天
-        encrypt: false,
+        encrypt: true,
         // encode: (body) => {return JSON.stringify(body)},
         // decode: (string) => {return JSON.parse(string)},
         renew: true

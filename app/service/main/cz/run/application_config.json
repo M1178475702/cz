@@ -4,7 +4,7 @@
       "maxAge": 86400000,
       "key": "xd_sid",
       "httpOnly": true,
-      "encrypt": false,
+      "encrypt": true,
       "logValue": true,
       "renew": true,
       "overwrite": true,
@@ -308,7 +308,7 @@
         "node": ">=8.9.0"
       },
       "scripts": {
-        "dev": "egg-bin dev --workers 1 --port 6002",
+        "dev": "egg-bin dev --workers 1 --port 8000",
         "debug": "egg-bin debug",
         "test": "npm run lint -- --fix && npm run test-local",
         "test-local": "egg-bin test",
@@ -418,7 +418,7 @@
     "cluster": {
       "listen": {
         "path": "",
-        "port": 6002,
+        "port": 8000,
         "hostname": ""
       }
     },
@@ -429,8 +429,8 @@
     "onClientError": null,
     "rpc": {
       "collectionClient": {
-        "name": "cz_collection",
-        "addr": "localhost:9000"
+        "name": "cz-collection",
+        "addr": "cz-collection:9000"
       }
     },
     "middleware": [
@@ -439,7 +439,7 @@
       "backAuthenticate"
     ],
     "upload": {
-      "host": "http://www.dmt2017.xyz:6001",
+      "host": "http://www.dmt2017.xyz:8000",
       "static_prefix": "/public",
       "upload_dir": "/upload"
     },

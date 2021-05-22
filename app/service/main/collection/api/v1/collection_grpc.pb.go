@@ -36,7 +36,7 @@ func NewCollectionClient(cc grpc.ClientConnInterface) CollectionClient {
 
 func (c *collectionClient) GetCollectionList(ctx context.Context, in *GetCollectionListReq, opts ...grpc.CallOption) (*GetCollectionListRes, error) {
 	out := new(GetCollectionListRes)
-	err := c.cc.Invoke(ctx, "/cz.api.v1.Collection/GetCollectionList", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/cz.collection.v1.Collection/GetCollectionList", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -45,7 +45,7 @@ func (c *collectionClient) GetCollectionList(ctx context.Context, in *GetCollect
 
 func (c *collectionClient) GetCollection(ctx context.Context, in *GetCollectionReq, opts ...grpc.CallOption) (*GetCollectionRes, error) {
 	out := new(GetCollectionRes)
-	err := c.cc.Invoke(ctx, "/cz.api.v1.Collection/GetCollection", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/cz.collection.v1.Collection/GetCollection", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -54,7 +54,7 @@ func (c *collectionClient) GetCollection(ctx context.Context, in *GetCollectionR
 
 func (c *collectionClient) DoCollect(ctx context.Context, in *DoCollectReq, opts ...grpc.CallOption) (*DoCollectRes, error) {
 	out := new(DoCollectRes)
-	err := c.cc.Invoke(ctx, "/cz.api.v1.Collection/DoCollect", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/cz.collection.v1.Collection/DoCollect", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -63,7 +63,7 @@ func (c *collectionClient) DoCollect(ctx context.Context, in *DoCollectReq, opts
 
 func (c *collectionClient) UndoCollect(ctx context.Context, in *UndoCollectReq, opts ...grpc.CallOption) (*UndoCollectRes, error) {
 	out := new(UndoCollectRes)
-	err := c.cc.Invoke(ctx, "/cz.api.v1.Collection/undoCollect", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/cz.collection.v1.Collection/undoCollect", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -72,7 +72,7 @@ func (c *collectionClient) UndoCollect(ctx context.Context, in *UndoCollectReq, 
 
 func (c *collectionClient) IsCollected(ctx context.Context, in *IsCollectedReq, opts ...grpc.CallOption) (*IsCollectedRes, error) {
 	out := new(IsCollectedRes)
-	err := c.cc.Invoke(ctx, "/cz.api.v1.Collection/isCollected", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/cz.collection.v1.Collection/isCollected", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -134,7 +134,7 @@ func _Collection_GetCollectionList_Handler(srv interface{}, ctx context.Context,
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/cz.api.v1.Collection/GetCollectionList",
+		FullMethod: "/cz.collection.v1.Collection/GetCollectionList",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(CollectionServer).GetCollectionList(ctx, req.(*GetCollectionListReq))
@@ -152,7 +152,7 @@ func _Collection_GetCollection_Handler(srv interface{}, ctx context.Context, dec
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/cz.api.v1.Collection/GetCollection",
+		FullMethod: "/cz.collection.v1.Collection/GetCollection",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(CollectionServer).GetCollection(ctx, req.(*GetCollectionReq))
@@ -170,7 +170,7 @@ func _Collection_DoCollect_Handler(srv interface{}, ctx context.Context, dec fun
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/cz.api.v1.Collection/DoCollect",
+		FullMethod: "/cz.collection.v1.Collection/DoCollect",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(CollectionServer).DoCollect(ctx, req.(*DoCollectReq))
@@ -188,7 +188,7 @@ func _Collection_UndoCollect_Handler(srv interface{}, ctx context.Context, dec f
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/cz.api.v1.Collection/undoCollect",
+		FullMethod: "/cz.collection.v1.Collection/undoCollect",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(CollectionServer).UndoCollect(ctx, req.(*UndoCollectReq))
@@ -206,7 +206,7 @@ func _Collection_IsCollected_Handler(srv interface{}, ctx context.Context, dec f
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/cz.api.v1.Collection/isCollected",
+		FullMethod: "/cz.collection.v1.Collection/isCollected",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(CollectionServer).IsCollected(ctx, req.(*IsCollectedReq))
@@ -218,7 +218,7 @@ func _Collection_IsCollected_Handler(srv interface{}, ctx context.Context, dec f
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var Collection_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "cz.api.v1.Collection",
+	ServiceName: "cz.collection.v1.Collection",
 	HandlerType: (*CollectionServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -243,5 +243,5 @@ var Collection_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "api.proto",
+	Metadata: "collection.proto",
 }

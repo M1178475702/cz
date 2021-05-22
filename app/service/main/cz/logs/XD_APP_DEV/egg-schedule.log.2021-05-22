@@ -1,0 +1,164 @@
+2021-05-22 18:16:39,046 INFO 4439 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-22 18:16:39,046 INFO 4439 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-22 18:16:39,046 INFO 4439 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-22 18:16:39,046 INFO 4439 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js
+2021-05-22 18:16:41,263 INFO 4439 [Job#1621678601261104671590488541] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js executing by app
+2021-05-22 18:16:41,571 INFO 4439 [Job#1621678601261104671590488541] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js execute succeed, used 306ms. 
+2021-05-22 18:16:41,261 INFO 4435 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 36798745ms at 2021-05-23 04:30:00.006
+2021-05-22 18:16:41,261 INFO 4435 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 20598739ms at 2021-05-23 00:00:00.000
+2021-05-22 18:16:41,261 INFO 4435 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 20599739ms at 2021-05-23 00:00:01.000
+2021-05-22 18:16:41,261 INFO 4435 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js next time will execute immediate
+2021-05-22 18:16:41,262 INFO 4435 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js reach endDate, will stop
+2021-05-22 21:56:25,577 INFO 5962 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-22 21:56:25,577 INFO 5962 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-22 21:56:25,577 INFO 5962 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-22 21:56:25,577 INFO 5962 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js
+2021-05-22 21:56:27,432 INFO 5962 [Job#162169178743123652959400741] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js executing by app
+2021-05-22 21:56:27,497 INFO 5962 [Job#162169178743123652959400741] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js execute succeed, used 64ms. 
+2021-05-22 21:56:27,430 INFO 5959 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23612572ms at 2021-05-23 04:30:00.002
+2021-05-22 21:56:27,431 INFO 5959 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 7412569ms at 2021-05-23 00:00:00.000
+2021-05-22 21:56:27,431 INFO 5959 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7413569ms at 2021-05-23 00:00:01.000
+2021-05-22 21:56:27,431 INFO 5959 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js next time will execute immediate
+2021-05-22 21:56:27,431 INFO 5959 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js reach endDate, will stop
+2021-05-22 22:02:40,267 INFO 6087 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-22 22:02:40,267 INFO 6087 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-22 22:02:40,267 INFO 6087 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-22 22:02:40,267 INFO 6087 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js
+2021-05-22 22:02:43,063 INFO 6082 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23236939ms at 2021-05-23 04:30:00.002
+2021-05-22 22:02:43,064 INFO 6082 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 7036936ms at 2021-05-23 00:00:00.000
+2021-05-22 22:02:43,064 INFO 6082 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7037936ms at 2021-05-23 00:00:01.000
+2021-05-22 22:02:43,064 INFO 6082 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js next time will execute immediate
+2021-05-22 22:02:43,065 INFO 6082 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js reach endDate, will stop
+2021-05-22 22:02:43,067 INFO 6087 [Job#1621692163065240277311173971] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js executing by app
+2021-05-22 22:02:43,146 INFO 6087 [Job#1621692163065240277311173971] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js execute succeed, used 78ms. 
+2021-05-22 22:10:20,026 INFO 6174 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-22 22:10:20,026 INFO 6174 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-22 22:10:20,026 INFO 6174 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-22 22:10:20,026 INFO 6174 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js
+2021-05-22 22:10:23,062 INFO 6174 [Job#1621692623057244877678917541] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js executing by app
+2021-05-22 22:10:23,128 INFO 6174 [Job#1621692623057244877678917541] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js execute succeed, used 65ms. 
+2021-05-22 22:10:23,056 INFO 6167 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 22776947ms at 2021-05-23 04:30:00.002
+2021-05-22 22:10:23,056 INFO 6167 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 6576944ms at 2021-05-23 00:00:00.000
+2021-05-22 22:10:23,056 INFO 6167 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 6577944ms at 2021-05-23 00:00:01.000
+2021-05-22 22:10:23,056 INFO 6167 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js next time will execute immediate
+2021-05-22 22:10:23,057 INFO 6167 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js reach endDate, will stop
+2021-05-22 22:14:44,310 INFO 6221 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-22 22:14:44,310 INFO 6221 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-22 22:14:44,310 INFO 6221 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-22 22:14:44,310 INFO 6221 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js
+2021-05-22 22:14:46,466 INFO 6221 [Job#1621692886464247511776121961] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js executing by app
+2021-05-22 22:14:46,550 INFO 6221 [Job#1621692886464247511776121961] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js execute succeed, used 84ms. 
+2021-05-22 22:14:46,463 INFO 6216 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 22513540ms at 2021-05-23 04:30:00.002
+2021-05-22 22:14:46,463 INFO 6216 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 6313537ms at 2021-05-23 00:00:00.000
+2021-05-22 22:14:46,464 INFO 6216 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 6314536ms at 2021-05-23 00:00:01.000
+2021-05-22 22:14:46,464 INFO 6216 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js next time will execute immediate
+2021-05-22 22:14:46,465 INFO 6216 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js reach endDate, will stop
+2021-05-22 22:15:47,819 INFO 6248 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-22 22:15:47,819 INFO 6248 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-22 22:15:47,819 INFO 6248 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-22 22:15:47,819 INFO 6248 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js
+2021-05-22 22:15:50,162 INFO 6248 [Job#1621692950160248148737596361] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js executing by app
+2021-05-22 22:15:50,159 INFO 6244 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 22449843ms at 2021-05-23 04:30:00.002
+2021-05-22 22:15:50,159 INFO 6244 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 6249841ms at 2021-05-23 00:00:00.000
+2021-05-22 22:15:50,159 INFO 6244 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 6250841ms at 2021-05-23 00:00:01.000
+2021-05-22 22:15:50,160 INFO 6244 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js next time will execute immediate
+2021-05-22 22:15:50,160 INFO 6244 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js reach endDate, will stop
+2021-05-22 22:15:50,264 INFO 6248 [Job#1621692950160248148737596361] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js execute succeed, used 100ms. 
+2021-05-22 22:18:17,966 INFO 6287 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-22 22:18:17,966 INFO 6287 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-22 22:18:17,966 INFO 6287 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-22 22:18:17,966 INFO 6287 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js
+2021-05-22 22:18:20,670 INFO 6283 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 22299336ms at 2021-05-23 04:30:00.006
+2021-05-22 22:18:20,671 INFO 6283 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 6099329ms at 2021-05-23 00:00:00.000
+2021-05-22 22:18:20,672 INFO 6283 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 6100329ms at 2021-05-23 00:00:01.001
+2021-05-22 22:18:20,673 INFO 6283 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js next time will execute immediate
+2021-05-22 22:18:20,674 INFO 6283 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js reach endDate, will stop
+2021-05-22 22:18:20,674 INFO 6287 [Job#1621693100673249653882520031] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js executing by app
+2021-05-22 22:18:20,759 INFO 6287 [Job#1621693100673249653882520031] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js execute succeed, used 83ms. 
+2021-05-22 22:19:45,293 INFO 6342 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-22 22:19:45,293 INFO 6342 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-22 22:19:45,293 INFO 6342 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-22 22:19:45,293 INFO 6342 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js
+2021-05-22 22:19:55,025 INFO 6342 [Job#1621693195024250597398129161] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js executing by app
+2021-05-22 22:19:55,100 INFO 6342 [Job#1621693195024250597398129161] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js execute succeed, used 74ms. 
+2021-05-22 22:19:55,023 INFO 6338 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 22204979ms at 2021-05-23 04:30:00.002
+2021-05-22 22:19:55,024 INFO 6338 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 6004977ms at 2021-05-23 00:00:00.001
+2021-05-22 22:19:55,024 INFO 6338 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 6005976ms at 2021-05-23 00:00:01.000
+2021-05-22 22:19:55,024 INFO 6338 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js next time will execute immediate
+2021-05-22 22:19:55,024 INFO 6338 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js reach endDate, will stop
+2021-05-22 22:24:49,153 INFO 6467 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-22 22:24:49,153 INFO 6467 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-22 22:24:49,153 INFO 6467 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-22 22:24:49,153 INFO 6467 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js
+2021-05-22 22:24:52,582 INFO 6463 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 21907420ms at 2021-05-23 04:30:00.002
+2021-05-22 22:24:52,583 INFO 6463 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 5707418ms at 2021-05-23 00:00:00.001
+2021-05-22 22:24:52,583 INFO 6463 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 5708417ms at 2021-05-23 00:00:01.000
+2021-05-22 22:24:52,583 INFO 6463 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js next time will execute immediate
+2021-05-22 22:24:52,584 INFO 6463 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js reach endDate, will stop
+2021-05-22 22:24:52,585 INFO 6467 [Job#1621693492583253573101212241] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js executing by app
+2021-05-22 22:24:52,678 INFO 6467 [Job#1621693492583253573101212241] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js execute succeed, used 92ms. 
+2021-05-22 22:26:04,469 INFO 6498 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-22 22:26:04,469 INFO 6498 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-22 22:26:04,469 INFO 6498 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-22 22:26:04,469 INFO 6498 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js
+2021-05-22 22:26:06,434 INFO 6498 [Job#1621693566433254311601188931] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js executing by app
+2021-05-22 22:26:06,500 INFO 6498 [Job#1621693566433254311601188931] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js execute succeed, used 65ms. 
+2021-05-22 22:26:06,432 INFO 6494 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 21833571ms at 2021-05-23 04:30:00.002
+2021-05-22 22:26:06,432 INFO 6494 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 5633568ms at 2021-05-23 00:00:00.000
+2021-05-22 22:26:06,432 INFO 6494 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 5634568ms at 2021-05-23 00:00:01.000
+2021-05-22 22:26:06,432 INFO 6494 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js next time will execute immediate
+2021-05-22 22:26:06,433 INFO 6494 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js reach endDate, will stop
+2021-05-22 22:37:48,245 INFO 7057 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-22 22:37:48,245 INFO 7057 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-22 22:37:48,245 INFO 7057 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-22 22:37:48,245 INFO 7057 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js
+2021-05-22 22:37:50,380 INFO 7047 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 21129622ms at 2021-05-23 04:30:00.002
+2021-05-22 22:37:50,381 INFO 7047 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 4929619ms at 2021-05-23 00:00:00.000
+2021-05-22 22:37:50,381 INFO 7047 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 4930619ms at 2021-05-23 00:00:01.000
+2021-05-22 22:37:50,382 INFO 7047 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js next time will execute immediate
+2021-05-22 22:37:50,382 INFO 7047 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js reach endDate, will stop
+2021-05-22 22:37:50,383 INFO 7057 [Job#1621694270382261351154940121] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js executing by app
+2021-05-22 22:37:50,437 INFO 7057 [Job#1621694270382261351154940121] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js execute succeed, used 51ms. 
+2021-05-22 22:42:58,310 INFO 7177 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-22 22:42:58,310 INFO 7177 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-22 22:42:58,310 INFO 7177 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-22 22:42:58,310 INFO 7177 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js
+2021-05-22 22:43:00,667 INFO 7173 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 20819336ms at 2021-05-23 04:30:00.002
+2021-05-22 22:43:00,667 INFO 7173 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 4619333ms at 2021-05-23 00:00:00.000
+2021-05-22 22:43:00,667 INFO 7173 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 4620333ms at 2021-05-23 00:00:01.000
+2021-05-22 22:43:00,668 INFO 7173 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js next time will execute immediate
+2021-05-22 22:43:00,668 INFO 7173 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js reach endDate, will stop
+2021-05-22 22:43:00,671 INFO 7177 [Job#1621694580668264454040465081] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js executing by app
+2021-05-22 22:43:00,770 INFO 7177 [Job#1621694580668264454040465081] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js execute succeed, used 98ms. 
+2021-05-22 22:47:07,010 INFO 7229 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-22 22:47:07,010 INFO 7229 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-22 22:47:07,010 INFO 7229 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-22 22:47:07,010 INFO 7229 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js
+2021-05-22 22:47:09,360 INFO 7225 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 20570643ms at 2021-05-23 04:30:00.003
+2021-05-22 22:47:09,360 INFO 7225 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 4370640ms at 2021-05-23 00:00:00.000
+2021-05-22 22:47:09,361 INFO 7225 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 4371640ms at 2021-05-23 00:00:01.001
+2021-05-22 22:47:09,361 INFO 7225 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js next time will execute immediate
+2021-05-22 22:47:09,361 INFO 7225 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js reach endDate, will stop
+2021-05-22 22:47:09,363 INFO 7229 [Job#162169482936126694994873851] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js executing by app
+2021-05-22 22:47:09,436 INFO 7229 [Job#162169482936126694994873851] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js execute succeed, used 72ms. 
+2021-05-22 22:47:53,157 INFO 7263 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-22 22:47:53,157 INFO 7263 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-22 22:47:53,157 INFO 7263 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-22 22:47:53,157 INFO 7263 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js
+2021-05-22 22:47:55,663 INFO 7263 [Job#1621694875659267403976441171] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js executing by app
+2021-05-22 22:47:55,760 INFO 7263 [Job#1621694875659267403976441171] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js execute succeed, used 95ms. 
+2021-05-22 22:47:55,655 INFO 7259 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 20524352ms at 2021-05-23 04:30:00.007
+2021-05-22 22:47:55,656 INFO 7259 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 4324344ms at 2021-05-23 00:00:00.000
+2021-05-22 22:47:55,657 INFO 7259 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 4325344ms at 2021-05-23 00:00:01.001
+2021-05-22 22:47:55,657 INFO 7259 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js next time will execute immediate
+2021-05-22 22:47:55,659 INFO 7259 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js reach endDate, will stop
+2021-05-22 23:12:27,396 INFO 7901 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-22 23:12:27,396 INFO 7901 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-22 23:12:27,397 INFO 7901 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-22 23:12:27,397 INFO 7901 [egg-schedule]: register schedule /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/schedule/article_delayed_publish.js
+2021-05-23 00:00:00,192 INFO 7901 [Job#1621699200129310647682737471] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2021-05-23 00:00:00,166 INFO 7259 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86399865ms at 2021-05-24 00:00:00.031
+2021-05-23 00:00:00,245 INFO 7901 [Job#1621699200129310647682737471] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 44ms. 
+2021-05-23 00:00:01,105 INFO 7901 [Job#1621699201101310657408388701] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2021-05-23 00:00:01,123 INFO 7901 [Job#1621699201101310657408388701] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 18ms. 
+2021-05-23 00:00:01,110 INFO 7259 [Timer] /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86399898ms at 2021-05-24 00:00:01.004

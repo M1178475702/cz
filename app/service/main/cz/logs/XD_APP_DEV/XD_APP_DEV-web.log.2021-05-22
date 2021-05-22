@@ -1,0 +1,877 @@
+2021-05-22 18:16:40,094 INFO 4439 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-22 18:16:41,132 INFO 4439 [egg-sequelize](60ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 18:16:41,237 INFO 4439 [egg-sequelize](90ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-22 18:16:41,570 INFO 4439 [egg-sequelize](303ms) Executed (default): SELECT `article_id`, `publish_time` FROM `xd_xd_article` AS `xd_xd_article` WHERE `xd_xd_article`.`status` = 4;
+2021-05-22 18:18:14,400 INFO 4439 [egg-sequelize](107ms) Executed (default): SELECT `admin_id`, `account`, `pwd`, `name`, `create_by`, `create_time`, `modify_time` FROM `xd_xd_admin` AS `xd_xd_admin` WHERE `xd_xd_admin`.`account` = 'bakatora' AND `xd_xd_admin`.`pwd` = '123456' LIMIT 1;
+2021-05-22 18:24:09,970 INFO 4439 [egg-sequelize](73ms) Executed (default): SELECT `admin_id`, `account`, `pwd`, `name`, `create_by`, `create_time`, `modify_time` FROM `xd_xd_admin` AS `xd_xd_admin` WHERE `xd_xd_admin`.`account` = 'bakatora' AND `xd_xd_admin`.`pwd` = '123456' LIMIT 1;
+2021-05-22 18:34:37,945 INFO 4439 [egg-sequelize](85ms) Executed (default): SELECT `admin_id`, `account`, `pwd`, `name`, `create_by`, `create_time`, `modify_time` FROM `xd_xd_admin` AS `xd_xd_admin` WHERE `xd_xd_admin`.`account` = 'bakatora' AND `xd_xd_admin`.`pwd` = '123456' LIMIT 1;
+2021-05-22 18:35:18,198 INFO 4439 [egg-sequelize](76ms) Executed (default): SELECT `admin_id`, `account`, `pwd`, `name`, `create_by`, `create_time`, `modify_time` FROM `xd_xd_admin` AS `xd_xd_admin` WHERE `xd_xd_admin`.`account` = 'bakatora' AND `xd_xd_admin`.`pwd` = '123456' LIMIT 1;
+2021-05-22 18:35:33,690 INFO 4439 [egg-sequelize](209ms) Executed (default): SELECT `admin_id`, `account`, `pwd`, `name`, `create_by`, `create_time`, `modify_time` FROM `xd_xd_admin` AS `xd_xd_admin` WHERE `xd_xd_admin`.`account` = 'bakatora' AND `xd_xd_admin`.`pwd` = '123456' LIMIT 1;
+2021-05-22 18:35:40,579 INFO 4439 [egg-sequelize](94ms) Executed (default): SELECT `admin_id`, `account`, `pwd`, `name`, `create_by`, `create_time`, `modify_time` FROM `xd_xd_admin` AS `xd_xd_admin` WHERE `xd_xd_admin`.`account` = 'bakatora' AND `xd_xd_admin`.`pwd` = '123456' LIMIT 1;
+2021-05-22 18:35:48,176 INFO 4439 [egg-sequelize](75ms) Executed (default): SELECT `admin_id`, `account`, `pwd`, `name`, `create_by`, `create_time`, `modify_time` FROM `xd_xd_admin` AS `xd_xd_admin` WHERE `xd_xd_admin`.`account` = 'bakatora' AND `xd_xd_admin`.`pwd` = '123456' LIMIT 1;
+2021-05-22 21:56:26,663 INFO 5962 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-22 21:56:27,326 INFO 5962 [egg-sequelize](48ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 21:56:27,407 INFO 5962 [egg-sequelize](62ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-22 21:56:27,495 INFO 5962 [egg-sequelize](57ms) Executed (default): SELECT `article_id`, `publish_time` FROM `xd_xd_article` AS `xd_xd_article` WHERE `xd_xd_article`.`status` = 4;
+2021-05-22 21:58:24,233 INFO 5962 [egg-sequelize](63ms) Executed (2f0a7fbb-edbf-4a52-b563-8378439a0cbd): START TRANSACTION;
+2021-05-22 21:58:24,590 INFO 5962 [egg-sequelize](83ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'oRD4v1HPjOwnhbVkkeSibewG73lM';
+2021-05-22 21:58:24,668 INFO 5962 [egg-sequelize](64ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10006,'::1',11,CURRENT_TIMESTAMP);
+2021-05-22 21:58:24,722 INFO 5962 [egg-sequelize](51ms) Executed (2f0a7fbb-edbf-4a52-b563-8378439a0cbd): COMMIT;
+2021-05-22 22:02:41,670 INFO 6087 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-22 22:02:42,828 INFO 6087 [egg-sequelize](75ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:02:43,046 INFO 6087 [egg-sequelize](185ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-22 22:02:43,142 INFO 6087 [egg-sequelize](71ms) Executed (default): SELECT `article_id`, `publish_time` FROM `xd_xd_article` AS `xd_xd_article` WHERE `xd_xd_article`.`status` = 4;
+2021-05-22 22:10:22,188 INFO 6174 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-22 22:10:22,939 INFO 6174 [egg-sequelize](62ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:10:23,036 INFO 6174 [egg-sequelize](69ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-22 22:10:23,126 INFO 6174 [egg-sequelize](61ms) Executed (default): SELECT `article_id`, `publish_time` FROM `xd_xd_article` AS `xd_xd_article` WHERE `xd_xd_article`.`status` = 4;
+2021-05-22 22:12:15,375 INFO 6174 [egg-sequelize](68ms) Executed (ec19fbd6-7dc5-49c5-a578-64cb7ae26d8c): START TRANSACTION;
+2021-05-22 22:12:15,727 INFO 6174 [egg-sequelize](76ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'oRD4v1HPjOwnhbVkkeSibewG73lM';
+2021-05-22 22:12:15,834 INFO 6174 [egg-sequelize](93ms) Executed (default): INSERT INTO `xd_xd_record_user_login` (`id`,`user_id`,`ip`,`login_src`,`create_time`) VALUES (DEFAULT,10006,'::1',11,CURRENT_TIMESTAMP);
+2021-05-22 22:12:15,924 INFO 6174 [egg-sequelize](69ms) Executed (ec19fbd6-7dc5-49c5-a578-64cb7ae26d8c): COMMIT;
+2021-05-22 22:12:23,094 INFO 6174 [egg-sequelize](108ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `isChoiceness`, `publishTime`, `status`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_list` AS `xd_xd_vi_client_article_list` WHERE `xd_xd_vi_client_article_list`.`publishTime` < '2019-06-08 23:59:59' ORDER BY `xd_xd_vi_client_article_list`.`publishTime` DESC, `xd_xd_vi_client_article_list`.`id` DESC LIMIT 5;
+2021-05-22 22:12:23,167 INFO 6174 [egg-sequelize](61ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10276 LIMIT 1;
+2021-05-22 22:12:23,248 INFO 6174 [egg-sequelize](76ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10278 LIMIT 1;
+2021-05-22 22:12:23,438 INFO 6174 [egg-sequelize](162ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10274 LIMIT 1;
+2021-05-22 22:12:23,522 INFO 6174 [egg-sequelize](74ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10272 LIMIT 1;
+2021-05-22 22:12:23,606 INFO 6174 [egg-sequelize](78ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10270 LIMIT 1;
+2021-05-22 22:13:02,099 INFO 6174 [egg-knex] knex singleton has been destroyed
+2021-05-22 22:14:45,574 INFO 6221 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-22 22:14:46,327 INFO 6221 [egg-sequelize](69ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:14:46,440 INFO 6221 [egg-sequelize](77ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-22 22:14:46,548 INFO 6221 [egg-sequelize](78ms) Executed (default): SELECT `article_id`, `publish_time` FROM `xd_xd_article` AS `xd_xd_article` WHERE `xd_xd_article`.`status` = 4;
+2021-05-22 22:14:58,709 INFO 6221 [egg-sequelize](65ms) Executed (342afdd0-791f-4f10-8192-804eb9eda6a3): START TRANSACTION;
+2021-05-22 22:14:59,114 INFO 6221 [egg-sequelize](107ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'oRD4v1HPjOwnhbVkkeSibewG73lM';
+2021-05-22 22:14:59,216 INFO 6221 [egg-sequelize](99ms) Executed (342afdd0-791f-4f10-8192-804eb9eda6a3): COMMIT;
+2021-05-22 22:15:49,122 INFO 6248 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-22 22:15:50,021 INFO 6248 [egg-sequelize](80ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:15:50,138 INFO 6248 [egg-sequelize](74ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-22 22:15:50,262 INFO 6248 [egg-sequelize](94ms) Executed (default): SELECT `article_id`, `publish_time` FROM `xd_xd_article` AS `xd_xd_article` WHERE `xd_xd_article`.`status` = 4;
+2021-05-22 22:16:05,640 INFO 6248 [egg-sequelize](721ms) Executed (1ccdda52-9980-41f1-aa29-f2480a0f0b5b): START TRANSACTION;
+2021-05-22 22:16:06,244 INFO 6248 [egg-sequelize](252ms) Executed (9c87aaf7-5901-4b25-a608-2b6f2b44b7ef): START TRANSACTION;
+2021-05-22 22:16:06,248 INFO 6248 [egg-sequelize](212ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'oRD4v1HPjOwnhbVkkeSibewG73lM';
+2021-05-22 22:16:06,328 INFO 6248 [egg-sequelize](70ms) Executed (default): SELECT `user_id`, `openid`, `user_number`, `mobile`, `name`, `avatar`, `gender`, `user_role`, `city`, `province`, `country`, `language_id`, `level_id`, `exp`, `bonus_points`, `coll_count`, `comment_count`, `view_count`, `status`, `register_time` FROM `xd_xd_user` AS `xd_xd_user` WHERE `xd_xd_user`.`openid` = 'oRD4v1HPjOwnhbVkkeSibewG73lM';
+2021-05-22 22:16:06,329 INFO 6248 [egg-sequelize](66ms) Executed (1ccdda52-9980-41f1-aa29-f2480a0f0b5b): COMMIT;
+2021-05-22 22:16:06,402 INFO 6248 [egg-sequelize](71ms) Executed (9c87aaf7-5901-4b25-a608-2b6f2b44b7ef): COMMIT;
+2021-05-22 22:16:26,096 INFO 6248 [egg-sequelize](96ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `isChoiceness`, `publishTime`, `status`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_list` AS `xd_xd_vi_client_article_list` WHERE `xd_xd_vi_client_article_list`.`publishTime` < '2021-05-22 23:59:59' ORDER BY `xd_xd_vi_client_article_list`.`publishTime` DESC, `xd_xd_vi_client_article_list`.`id` DESC LIMIT 10;
+2021-05-22 22:16:26,188 INFO 6248 [egg-sequelize](85ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10373 LIMIT 1;
+2021-05-22 22:16:26,254 INFO 6248 [egg-sequelize](59ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10372 LIMIT 1;
+2021-05-22 22:16:26,319 INFO 6248 [egg-sequelize](62ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10367 LIMIT 1;
+2021-05-22 22:16:26,387 INFO 6248 [egg-sequelize](61ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10366 LIMIT 1;
+2021-05-22 22:16:26,453 INFO 6248 [egg-sequelize](60ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10364 LIMIT 1;
+2021-05-22 22:16:26,509 INFO 6248 [egg-sequelize](52ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10362 LIMIT 1;
+2021-05-22 22:16:26,573 INFO 6248 [egg-sequelize](59ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10361 LIMIT 1;
+2021-05-22 22:16:26,635 INFO 6248 [egg-sequelize](56ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10360 LIMIT 1;
+2021-05-22 22:16:26,703 INFO 6248 [egg-sequelize](62ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10359 LIMIT 1;
+2021-05-22 22:16:26,773 INFO 6248 [egg-sequelize](63ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10358 LIMIT 1;
+2021-05-22 22:16:42,473 INFO 6248 [egg-sequelize](111ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `isChoiceness`, `publishTime`, `status`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_list` AS `xd_xd_vi_client_article_list` WHERE `xd_xd_vi_client_article_list`.`publishTime` < '2021-05-22 23:59:59' ORDER BY `xd_xd_vi_client_article_list`.`publishTime` DESC, `xd_xd_vi_client_article_list`.`id` DESC LIMIT 10;
+2021-05-22 22:16:42,548 INFO 6248 [egg-sequelize](70ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10373 LIMIT 1;
+2021-05-22 22:16:42,619 INFO 6248 [egg-sequelize](67ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10372 LIMIT 1;
+2021-05-22 22:16:42,682 INFO 6248 [egg-sequelize](59ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10367 LIMIT 1;
+2021-05-22 22:16:42,774 INFO 6248 [egg-sequelize](87ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10366 LIMIT 1;
+2021-05-22 22:16:42,849 INFO 6248 [egg-sequelize](71ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10364 LIMIT 1;
+2021-05-22 22:16:42,915 INFO 6248 [egg-sequelize](61ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10362 LIMIT 1;
+2021-05-22 22:16:42,968 INFO 6248 [egg-sequelize](50ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10361 LIMIT 1;
+2021-05-22 22:16:43,036 INFO 6248 [egg-sequelize](63ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10360 LIMIT 1;
+2021-05-22 22:16:43,109 INFO 6248 [egg-sequelize](69ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10359 LIMIT 1;
+2021-05-22 22:16:43,171 INFO 6248 [egg-sequelize](54ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10358 LIMIT 1;
+2021-05-22 22:16:45,991 INFO 6248 [egg-sequelize](67ms) Executed (578b93ce-0732-4365-98ad-baac4c6f41fc): START TRANSACTION;
+2021-05-22 22:16:46,067 INFO 6248 [egg-sequelize](72ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `content`, `isChoiceness`, `publishTime`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_detail` AS `xd_xd_vi_client_article_detail` WHERE `xd_xd_vi_client_article_detail`.`id` = 10345;
+2021-05-22 22:16:46,151 INFO 6248 [egg-sequelize](78ms) Executed (default): SELECT `id`, `article_id`, `user_id`, `degree`, `create_time`, `modify_time` FROM `xd_xd_record_article_attitude` AS `xd_xd_record_article_attitude` WHERE `xd_xd_record_article_attitude`.`user_id` = 10006 AND `xd_xd_record_article_attitude`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:16:46,153 INFO 6248 [egg-sequelize](82ms) Executed (578b93ce-0732-4365-98ad-baac4c6f41fc): ROLLBACK;
+2021-05-22 22:16:46,155 ERROR 6248 [-/::1/-/235ms GET /web/article/10345] nodejs.TypeError: Cannot read property 'Collection' of undefined
+    at new CollectionService (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/collection/rpc.js:12:51)
+    at getInstance (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/context_loader.js:92:18)
+    at ClassLoader.get (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/context_loader.js:27:22)
+    at ArticleService.getClientArticleDetail (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/article/web/view.js:135:41)
+    at async WebArticleController.getWebArticleDetail (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/article.js:42:32)
+    at async clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:9)
+
+pid: 6248
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:16:49,135 WARN 6248 A client (::1:63281) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-05-22 22:16:49,136 WARN 6248 A client (::1:63281) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-05-22 22:18:19,489 INFO 6287 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-22 22:18:20,505 INFO 6287 [egg-sequelize](129ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:18:20,643 INFO 6287 [egg-sequelize](78ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-22 22:18:20,758 INFO 6287 [egg-sequelize](78ms) Executed (default): SELECT `article_id`, `publish_time` FROM `xd_xd_article` AS `xd_xd_article` WHERE `xd_xd_article`.`status` = 4;
+2021-05-22 22:19:54,111 INFO 6342 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-22 22:19:54,915 INFO 6342 [egg-sequelize](67ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:19:55,006 INFO 6342 [egg-sequelize](69ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-22 22:19:55,098 INFO 6342 [egg-sequelize](69ms) Executed (default): SELECT `article_id`, `publish_time` FROM `xd_xd_article` AS `xd_xd_article` WHERE `xd_xd_article`.`status` = 4;
+2021-05-22 22:24:51,621 INFO 6467 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-22 22:24:52,442 INFO 6467 [egg-sequelize](71ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:24:52,562 INFO 6467 [egg-sequelize](87ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-22 22:24:52,676 INFO 6467 [egg-sequelize](87ms) Executed (default): SELECT `article_id`, `publish_time` FROM `xd_xd_article` AS `xd_xd_article` WHERE `xd_xd_article`.`status` = 4;
+2021-05-22 22:24:54,331 INFO 6467 [egg-sequelize](91ms) Executed (ede4ebc2-375f-4036-ae2f-ee90f4dc225d): START TRANSACTION;
+2021-05-22 22:26:05,544 INFO 6498 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-22 22:26:06,314 INFO 6498 [egg-sequelize](59ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:26:06,412 INFO 6498 [egg-sequelize](76ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-22 22:26:06,497 INFO 6498 [egg-sequelize](58ms) Executed (default): SELECT `article_id`, `publish_time` FROM `xd_xd_article` AS `xd_xd_article` WHERE `xd_xd_article`.`status` = 4;
+2021-05-22 22:26:08,831 INFO 6498 [egg-sequelize](99ms) Executed (b17eaf66-c992-43db-a097-1a1785f2e2f3): START TRANSACTION;
+2021-05-22 22:26:09,213 INFO 6498 [egg-sequelize](85ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `content`, `isChoiceness`, `publishTime`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_detail` AS `xd_xd_vi_client_article_detail` WHERE `xd_xd_vi_client_article_detail`.`id` = 10345;
+2021-05-22 22:26:09,312 INFO 6498 [egg-sequelize](84ms) Executed (default): SELECT `id`, `article_id`, `user_id`, `degree`, `create_time`, `modify_time` FROM `xd_xd_record_article_attitude` AS `xd_xd_record_article_attitude` WHERE `xd_xd_record_article_attitude`.`user_id` = 10006 AND `xd_xd_record_article_attitude`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:26:09,377 INFO 6498 [egg-sequelize](64ms) Executed (default): SELECT `id`, `user_id`, `article_id`, `duration_time`, `src`, `create_time` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:26:09,445 ERROR 6498 [-/::1/-/727ms GET /web/article/10345] nodejs.Error: 14 UNAVAILABLE: DNS resolution failed
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 14
+metadata: {"_internal_repr":{},"flags":0}
+details: "DNS resolution failed"
+pid: 6498
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:26:09,477 INFO 6498 [egg-sequelize](89ms) Executed (default): INSERT INTO `xd_xd_record_article_view` (`id`,`user_id`,`article_id`,`duration_time`,`src`,`create_time`) VALUES (DEFAULT,10006,10345,0,11,CURRENT_TIMESTAMP);
+2021-05-22 22:26:09,548 INFO 6498 [egg-sequelize](69ms) Executed (default): UPDATE `xd_xd_article_dynamic_prop` SET `views_count`=views_count + 1 WHERE `article_id` = 10345
+2021-05-22 22:26:09,656 INFO 6498 [egg-sequelize](104ms) Executed (b17eaf66-c992-43db-a097-1a1785f2e2f3): COMMIT;
+2021-05-22 22:26:29,275 INFO 6498 [egg-sequelize](89ms) Executed (c7f8ee46-7c52-431a-a050-526c707999a8): START TRANSACTION;
+2021-05-22 22:26:29,401 INFO 6498 [egg-sequelize](120ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `content`, `isChoiceness`, `publishTime`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_detail` AS `xd_xd_vi_client_article_detail` WHERE `xd_xd_vi_client_article_detail`.`id` = 10345;
+2021-05-22 22:26:50,378 ERROR 6498 [-/::1/-/21198ms GET /web/article/10345] nodejs.Error: 14 UNAVAILABLE: DNS resolution failed
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 14
+metadata: {"_internal_repr":{},"flags":0}
+details: "DNS resolution failed"
+pid: 6498
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:26:50,382 INFO 6498 [egg-sequelize](20972ms) Executed (default): SELECT `id`, `article_id`, `user_id`, `degree`, `create_time`, `modify_time` FROM `xd_xd_record_article_attitude` AS `xd_xd_record_article_attitude` WHERE `xd_xd_record_article_attitude`.`user_id` = 10006 AND `xd_xd_record_article_attitude`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:26:50,388 INFO 6498 [egg-sequelize](20978ms) Executed (default): SELECT `id`, `user_id`, `article_id`, `duration_time`, `src`, `create_time` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:26:50,483 INFO 6498 [egg-sequelize](76ms) Executed (default): UPDATE `xd_xd_article_dynamic_prop` SET `views_count`=views_count + 1 WHERE `article_id` = 10345
+2021-05-22 22:26:50,484 INFO 6498 [egg-sequelize](77ms) Executed (default): INSERT INTO `xd_xd_record_article_view` (`id`,`user_id`,`article_id`,`duration_time`,`src`,`create_time`) VALUES (DEFAULT,10006,10345,0,11,CURRENT_TIMESTAMP);
+2021-05-22 22:26:50,629 INFO 6498 [egg-sequelize](142ms) Executed (c7f8ee46-7c52-431a-a050-526c707999a8): COMMIT;
+2021-05-22 22:37:49,660 INFO 7057 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-22 22:37:50,288 INFO 7057 [egg-sequelize](45ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:37:50,361 INFO 7057 [egg-sequelize](43ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-22 22:37:50,435 INFO 7057 [egg-sequelize](44ms) Executed (default): SELECT `article_id`, `publish_time` FROM `xd_xd_article` AS `xd_xd_article` WHERE `xd_xd_article`.`status` = 4;
+2021-05-22 22:37:53,136 INFO 7057 [egg-sequelize](66ms) Executed (01ee2ada-658f-4539-9b01-68c19cc0a9ca): START TRANSACTION;
+2021-05-22 22:37:53,520 INFO 7057 [egg-sequelize](63ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `content`, `isChoiceness`, `publishTime`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_detail` AS `xd_xd_vi_client_article_detail` WHERE `xd_xd_vi_client_article_detail`.`id` = 10345;
+2021-05-22 22:37:53,538 ERROR 7057 [-/::1/-/482ms GET /web/article/10345] nodejs.Error: 14 UNAVAILABLE: DNS resolution failed
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 14
+metadata: {"_internal_repr":{},"flags":0}
+details: "DNS resolution failed"
+pid: 7057
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:37:53,596 INFO 7057 [egg-sequelize](63ms) Executed (default): SELECT `id`, `article_id`, `user_id`, `degree`, `create_time`, `modify_time` FROM `xd_xd_record_article_attitude` AS `xd_xd_record_article_attitude` WHERE `xd_xd_record_article_attitude`.`user_id` = 10006 AND `xd_xd_record_article_attitude`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:37:53,656 INFO 7057 [egg-sequelize](59ms) Executed (default): SELECT `id`, `user_id`, `article_id`, `duration_time`, `src`, `create_time` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:37:53,726 INFO 7057 [egg-sequelize](52ms) Executed (default): INSERT INTO `xd_xd_record_article_view` (`id`,`user_id`,`article_id`,`duration_time`,`src`,`create_time`) VALUES (DEFAULT,10006,10345,0,11,CURRENT_TIMESTAMP);
+2021-05-22 22:37:53,772 INFO 7057 [egg-sequelize](44ms) Executed (default): UPDATE `xd_xd_article_dynamic_prop` SET `views_count`=views_count + 1 WHERE `article_id` = 10345
+2021-05-22 22:37:53,821 INFO 7057 [egg-sequelize](44ms) Executed (01ee2ada-658f-4539-9b01-68c19cc0a9ca): COMMIT;
+2021-05-22 22:38:03,809 INFO 7057 [egg-sequelize](117ms) Executed (6a7c86f4-6b44-461d-bb23-4fe8b54c3137): START TRANSACTION;
+2021-05-22 22:38:03,867 INFO 7057 [egg-sequelize](50ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `content`, `isChoiceness`, `publishTime`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_detail` AS `xd_xd_vi_client_article_detail` WHERE `xd_xd_vi_client_article_detail`.`id` = 10345;
+2021-05-22 22:38:30,651 ERROR 7057 [-/::1/-/26961ms GET /web/article/10345] nodejs.Error: 14 UNAVAILABLE: DNS resolution failed
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 14
+metadata: {"_internal_repr":{},"flags":0}
+details: "DNS resolution failed"
+pid: 7057
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:38:30,703 INFO 7057 [egg-sequelize](6728ms) Executed (default): SELECT `id`, `article_id`, `user_id`, `degree`, `create_time`, `modify_time` FROM `xd_xd_record_article_attitude` AS `xd_xd_record_article_attitude` WHERE `xd_xd_record_article_attitude`.`user_id` = 10006 AND `xd_xd_record_article_attitude`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:38:30,707 INFO 7057 [egg-sequelize](6733ms) Executed (default): SELECT `id`, `user_id`, `article_id`, `duration_time`, `src`, `create_time` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:38:30,766 INFO 7057 [egg-sequelize](48ms) Executed (default): INSERT INTO `xd_xd_record_article_view` (`id`,`user_id`,`article_id`,`duration_time`,`src`,`create_time`) VALUES (DEFAULT,10006,10345,0,11,CURRENT_TIMESTAMP);
+2021-05-22 22:38:30,769 INFO 7057 [egg-sequelize](50ms) Executed (default): UPDATE `xd_xd_article_dynamic_prop` SET `views_count`=views_count + 1 WHERE `article_id` = 10345
+2021-05-22 22:38:30,815 INFO 7057 [egg-sequelize](44ms) Executed (6a7c86f4-6b44-461d-bb23-4fe8b54c3137): COMMIT;
+2021-05-22 22:42:20,885 INFO 7057 [egg-sequelize](61ms) Executed (80f7aeda-d292-43db-9a87-43d2a0947d0e): START TRANSACTION;
+2021-05-22 22:42:20,980 INFO 7057 [egg-sequelize](85ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `content`, `isChoiceness`, `publishTime`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_detail` AS `xd_xd_vi_client_article_detail` WHERE `xd_xd_vi_client_article_detail`.`id` = 10345;
+2021-05-22 22:42:59,456 INFO 7177 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-22 22:43:00,494 INFO 7177 [egg-sequelize](160ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:43:00,640 INFO 7177 [egg-sequelize](102ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-22 22:43:00,766 INFO 7177 [egg-sequelize](82ms) Executed (default): SELECT `article_id`, `publish_time` FROM `xd_xd_article` AS `xd_xd_article` WHERE `xd_xd_article`.`status` = 4;
+2021-05-22 22:43:03,979 INFO 7177 [egg-sequelize](57ms) Executed (58a32e2a-bec1-4b96-bf48-4b6dd53c1813): START TRANSACTION;
+2021-05-22 22:43:04,386 INFO 7177 [egg-sequelize](74ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `content`, `isChoiceness`, `publishTime`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_detail` AS `xd_xd_vi_client_article_detail` WHERE `xd_xd_vi_client_article_detail`.`id` = 10345;
+2021-05-22 22:44:20,756 ERROR 7177 [-/::1/-/76851ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7177
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:44:20,766 INFO 7177 [egg-sequelize](71018ms) Executed (default): SELECT `id`, `article_id`, `user_id`, `degree`, `create_time`, `modify_time` FROM `xd_xd_record_article_attitude` AS `xd_xd_record_article_attitude` WHERE `xd_xd_record_article_attitude`.`user_id` = 10006 AND `xd_xd_record_article_attitude`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:44:20,912 INFO 7177 [egg-sequelize](141ms) Executed (default): SELECT `id`, `user_id`, `article_id`, `duration_time`, `src`, `create_time` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:44:21,021 INFO 7177 [egg-sequelize](79ms) Executed (default): INSERT INTO `xd_xd_record_article_view` (`id`,`user_id`,`article_id`,`duration_time`,`src`,`create_time`) VALUES (DEFAULT,10006,10345,0,11,CURRENT_TIMESTAMP);
+2021-05-22 22:44:21,116 INFO 7177 [egg-sequelize](85ms) Executed (default): UPDATE `xd_xd_article_dynamic_prop` SET `views_count`=views_count + 1 WHERE `article_id` = 10345
+2021-05-22 22:44:21,193 INFO 7177 [egg-sequelize](72ms) Executed (58a32e2a-bec1-4b96-bf48-4b6dd53c1813): COMMIT;
+2021-05-22 22:44:22,975 INFO 7177 [egg-sequelize](72ms) Executed (20b09d00-fe31-4551-80d3-5c994da41b72): START TRANSACTION;
+2021-05-22 22:44:23,084 INFO 7177 [egg-sequelize](105ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `content`, `isChoiceness`, `publishTime`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_detail` AS `xd_xd_vi_client_article_detail` WHERE `xd_xd_vi_client_article_detail`.`id` = 10345;
+2021-05-22 22:45:10,886 ERROR 7177 [-/::1/-/47987ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7177
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:45:10,894 INFO 7177 [egg-sequelize](1537ms) Executed (default): SELECT `id`, `article_id`, `user_id`, `degree`, `create_time`, `modify_time` FROM `xd_xd_record_article_attitude` AS `xd_xd_record_article_attitude` WHERE `xd_xd_record_article_attitude`.`user_id` = 10006 AND `xd_xd_record_article_attitude`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:45:10,894 INFO 7177 [egg-sequelize](1536ms) Executed (default): SELECT `id`, `user_id`, `article_id`, `duration_time`, `src`, `create_time` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:45:11,056 INFO 7177 [egg-sequelize](134ms) Executed (default): INSERT INTO `xd_xd_record_article_view` (`id`,`user_id`,`article_id`,`duration_time`,`src`,`create_time`) VALUES (DEFAULT,10006,10345,0,11,CURRENT_TIMESTAMP);
+2021-05-22 22:45:11,081 INFO 7177 [egg-sequelize](158ms) Executed (default): UPDATE `xd_xd_article_dynamic_prop` SET `views_count`=views_count + 1 WHERE `article_id` = 10345
+2021-05-22 22:45:11,189 INFO 7177 [egg-sequelize](105ms) Executed (20b09d00-fe31-4551-80d3-5c994da41b72): COMMIT;
+2021-05-22 22:45:28,809 INFO 7177 [egg-sequelize](62ms) Executed (b6d9dcb2-807b-476a-aeb8-918b53a89452): START TRANSACTION;
+2021-05-22 22:45:28,927 INFO 7177 [egg-sequelize](114ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `content`, `isChoiceness`, `publishTime`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_detail` AS `xd_xd_vi_client_article_detail` WHERE `xd_xd_vi_client_article_detail`.`id` = 10345;
+2021-05-22 22:45:35,563 ERROR 7177 [-/::1/-/6821ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7177
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:45:35,568 INFO 7177 [egg-sequelize](561ms) Executed (default): SELECT `id`, `article_id`, `user_id`, `degree`, `create_time`, `modify_time` FROM `xd_xd_record_article_attitude` AS `xd_xd_record_article_attitude` WHERE `xd_xd_record_article_attitude`.`user_id` = 10006 AND `xd_xd_record_article_attitude`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:45:35,569 INFO 7177 [egg-sequelize](560ms) Executed (default): SELECT `id`, `user_id`, `article_id`, `duration_time`, `src`, `create_time` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:45:35,709 INFO 7177 [egg-sequelize](120ms) Executed (default): INSERT INTO `xd_xd_record_article_view` (`id`,`user_id`,`article_id`,`duration_time`,`src`,`create_time`) VALUES (DEFAULT,10006,10345,0,11,CURRENT_TIMESTAMP);
+2021-05-22 22:45:35,713 INFO 7177 [egg-sequelize](123ms) Executed (default): UPDATE `xd_xd_article_dynamic_prop` SET `views_count`=views_count + 1 WHERE `article_id` = 10345
+2021-05-22 22:45:35,801 INFO 7177 [egg-sequelize](86ms) Executed (b6d9dcb2-807b-476a-aeb8-918b53a89452): COMMIT;
+2021-05-22 22:45:59,920 INFO 7177 [egg-sequelize](61ms) Executed (56e4d115-d048-4931-bc75-4c4ba7c66650): START TRANSACTION;
+2021-05-22 22:45:59,990 INFO 7177 [egg-sequelize](65ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `content`, `isChoiceness`, `publishTime`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_detail` AS `xd_xd_vi_client_article_detail` WHERE `xd_xd_vi_client_article_detail`.`id` = 10345;
+2021-05-22 22:46:03,320 ERROR 7177 [-/::1/-/3468ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7177
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:46:03,324 INFO 7177 [egg-sequelize](1225ms) Executed (default): SELECT `id`, `article_id`, `user_id`, `degree`, `create_time`, `modify_time` FROM `xd_xd_record_article_attitude` AS `xd_xd_record_article_attitude` WHERE `xd_xd_record_article_attitude`.`user_id` = 10006 AND `xd_xd_record_article_attitude`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:46:03,326 INFO 7177 [egg-sequelize](1226ms) Executed (default): SELECT `id`, `user_id`, `article_id`, `duration_time`, `src`, `create_time` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:46:03,495 INFO 7177 [egg-sequelize](154ms) Executed (default): UPDATE `xd_xd_article_dynamic_prop` SET `views_count`=views_count + 1 WHERE `article_id` = 10345
+2021-05-22 22:46:03,496 INFO 7177 [egg-sequelize](155ms) Executed (default): INSERT INTO `xd_xd_record_article_view` (`id`,`user_id`,`article_id`,`duration_time`,`src`,`create_time`) VALUES (DEFAULT,10006,10345,0,11,CURRENT_TIMESTAMP);
+2021-05-22 22:46:03,564 INFO 7177 [egg-sequelize](63ms) Executed (56e4d115-d048-4931-bc75-4c4ba7c66650): COMMIT;
+2021-05-22 22:46:39,437 INFO 7177 [egg-sequelize](113ms) Executed (db9d265c-eae5-4c82-8776-76b7eeeafa31): START TRANSACTION;
+2021-05-22 22:46:39,521 INFO 7177 [egg-sequelize](79ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `content`, `isChoiceness`, `publishTime`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_detail` AS `xd_xd_vi_client_article_detail` WHERE `xd_xd_vi_client_article_detail`.`id` = 10345;
+2021-05-22 22:46:42,221 ERROR 7177 [-/::1/-/2902ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7177
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:46:42,229 INFO 7177 [egg-sequelize](675ms) Executed (default): SELECT `id`, `article_id`, `user_id`, `degree`, `create_time`, `modify_time` FROM `xd_xd_record_article_attitude` AS `xd_xd_record_article_attitude` WHERE `xd_xd_record_article_attitude`.`user_id` = 10006 AND `xd_xd_record_article_attitude`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:46:42,230 INFO 7177 [egg-sequelize](676ms) Executed (default): SELECT `id`, `user_id`, `article_id`, `duration_time`, `src`, `create_time` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:46:42,406 INFO 7177 [egg-sequelize](144ms) Executed (default): INSERT INTO `xd_xd_record_article_view` (`id`,`user_id`,`article_id`,`duration_time`,`src`,`create_time`) VALUES (DEFAULT,10006,10345,0,11,CURRENT_TIMESTAMP);
+2021-05-22 22:46:42,412 INFO 7177 [egg-sequelize](148ms) Executed (default): UPDATE `xd_xd_article_dynamic_prop` SET `views_count`=views_count + 1 WHERE `article_id` = 10345
+2021-05-22 22:46:42,509 INFO 7177 [egg-sequelize](93ms) Executed (db9d265c-eae5-4c82-8776-76b7eeeafa31): COMMIT;
+2021-05-22 22:47:08,403 INFO 7229 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-22 22:47:09,217 INFO 7229 [egg-sequelize](74ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:47:09,334 INFO 7229 [egg-sequelize](92ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-22 22:47:09,432 INFO 7229 [egg-sequelize](65ms) Executed (default): SELECT `article_id`, `publish_time` FROM `xd_xd_article` AS `xd_xd_article` WHERE `xd_xd_article`.`status` = 4;
+2021-05-22 22:47:17,102 INFO 7229 [egg-sequelize](65ms) Executed (1b3d90e5-f2a0-46ec-8109-52001180f0e9): START TRANSACTION;
+2021-05-22 22:47:17,512 INFO 7229 [egg-sequelize](102ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `content`, `isChoiceness`, `publishTime`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_detail` AS `xd_xd_vi_client_article_detail` WHERE `xd_xd_vi_client_article_detail`.`id` = 10345;
+2021-05-22 22:47:34,419 ERROR 7229 [-/::1/-/17396ms GET /web/article/10345] nodejs.Error: 14 UNAVAILABLE: failed to connect to all addresses
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 14
+metadata: {"_internal_repr":{},"flags":0}
+details: "failed to connect to all addresses"
+pid: 7229
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:47:34,432 INFO 7229 [egg-sequelize](6326ms) Executed (default): SELECT `id`, `article_id`, `user_id`, `degree`, `create_time`, `modify_time` FROM `xd_xd_record_article_attitude` AS `xd_xd_record_article_attitude` WHERE `xd_xd_record_article_attitude`.`user_id` = 10006 AND `xd_xd_record_article_attitude`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:47:34,591 INFO 7229 [egg-sequelize](156ms) Executed (default): SELECT `id`, `user_id`, `article_id`, `duration_time`, `src`, `create_time` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:47:34,681 INFO 7229 [egg-sequelize](77ms) Executed (default): INSERT INTO `xd_xd_record_article_view` (`id`,`user_id`,`article_id`,`duration_time`,`src`,`create_time`) VALUES (DEFAULT,10006,10345,0,11,CURRENT_TIMESTAMP);
+2021-05-22 22:47:34,753 INFO 7229 [egg-sequelize](71ms) Executed (default): UPDATE `xd_xd_article_dynamic_prop` SET `views_count`=views_count + 1 WHERE `article_id` = 10345
+2021-05-22 22:47:34,823 INFO 7229 [egg-sequelize](63ms) Executed (1b3d90e5-f2a0-46ec-8109-52001180f0e9): COMMIT;
+2021-05-22 22:47:54,703 INFO 7263 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-22 22:47:55,507 INFO 7263 [egg-sequelize](74ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 22:47:55,627 INFO 7263 [egg-sequelize](85ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-22 22:47:55,758 INFO 7263 [egg-sequelize](87ms) Executed (default): SELECT `article_id`, `publish_time` FROM `xd_xd_article` AS `xd_xd_article` WHERE `xd_xd_article`.`status` = 4;
+2021-05-22 22:48:07,243 INFO 7263 [egg-sequelize](121ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `isChoiceness`, `publishTime`, `status`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_list` AS `xd_xd_vi_client_article_list` WHERE `xd_xd_vi_client_article_list`.`publishTime` < '2021-05-22 23:59:59' ORDER BY `xd_xd_vi_client_article_list`.`publishTime` DESC, `xd_xd_vi_client_article_list`.`id` DESC LIMIT 10;
+2021-05-22 22:48:07,346 INFO 7263 [egg-sequelize](95ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10373 LIMIT 1;
+2021-05-22 22:48:07,431 INFO 7263 [egg-sequelize](74ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10372 LIMIT 1;
+2021-05-22 22:48:07,506 INFO 7263 [egg-sequelize](67ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10367 LIMIT 1;
+2021-05-22 22:48:07,585 INFO 7263 [egg-sequelize](73ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10366 LIMIT 1;
+2021-05-22 22:48:07,673 INFO 7263 [egg-sequelize](83ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10364 LIMIT 1;
+2021-05-22 22:48:07,750 INFO 7263 [egg-sequelize](68ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10362 LIMIT 1;
+2021-05-22 22:48:07,822 INFO 7263 [egg-sequelize](64ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10361 LIMIT 1;
+2021-05-22 22:48:07,909 INFO 7263 [egg-sequelize](79ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10360 LIMIT 1;
+2021-05-22 22:48:07,992 INFO 7263 [egg-sequelize](76ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10359 LIMIT 1;
+2021-05-22 22:48:08,077 INFO 7263 [egg-sequelize](79ms) Executed (default): SELECT `id` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10358 LIMIT 1;
+2021-05-22 22:48:31,886 INFO 7263 [egg-sequelize](63ms) Executed (95444c8c-92f1-4916-83b0-738b1da1490f): START TRANSACTION;
+2021-05-22 22:48:32,298 INFO 7263 [egg-sequelize](79ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `content`, `isChoiceness`, `publishTime`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_detail` AS `xd_xd_vi_client_article_detail` WHERE `xd_xd_vi_client_article_detail`.`id` = 10345;
+2021-05-22 22:49:36,357 ERROR 7263 [-/::1/-/64540ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7263
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:49:36,371 INFO 7263 [egg-sequelize](2150ms) Executed (default): SELECT `id`, `article_id`, `user_id`, `degree`, `create_time`, `modify_time` FROM `xd_xd_record_article_attitude` AS `xd_xd_record_article_attitude` WHERE `xd_xd_record_article_attitude`.`user_id` = 10006 AND `xd_xd_record_article_attitude`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:49:36,480 INFO 7263 [egg-sequelize](108ms) Executed (default): SELECT `id`, `user_id`, `article_id`, `duration_time`, `src`, `create_time` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:49:36,571 INFO 7263 [egg-sequelize](80ms) Executed (default): INSERT INTO `xd_xd_record_article_view` (`id`,`user_id`,`article_id`,`duration_time`,`src`,`create_time`) VALUES (DEFAULT,10006,10345,0,11,CURRENT_TIMESTAMP);
+2021-05-22 22:49:36,596 INFO 7263 [egg-sequelize](60ms) Executed (default): UPDATE `xd_xd_article_dynamic_prop` SET `views_count`=views_count + 1 WHERE `article_id` = 10345
+2021-05-22 22:49:36,673 INFO 7263 [egg-sequelize](73ms) Executed (95444c8c-92f1-4916-83b0-738b1da1490f): COMMIT;
+2021-05-22 22:49:38,190 INFO 7263 [egg-sequelize](63ms) Executed (f2a31320-232c-4781-a9bc-6eba8e8877bf): START TRANSACTION;
+2021-05-22 22:49:38,270 INFO 7263 [egg-sequelize](75ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `content`, `isChoiceness`, `publishTime`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_detail` AS `xd_xd_vi_client_article_detail` WHERE `xd_xd_vi_client_article_detail`.`id` = 10345;
+2021-05-22 22:49:41,134 ERROR 7263 [-/::1/-/3010ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7263
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 22:49:41,141 INFO 7263 [egg-sequelize](2864ms) Executed (default): SELECT `id`, `article_id`, `user_id`, `degree`, `create_time`, `modify_time` FROM `xd_xd_record_article_attitude` AS `xd_xd_record_article_attitude` WHERE `xd_xd_record_article_attitude`.`user_id` = 10006 AND `xd_xd_record_article_attitude`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:49:41,143 INFO 7263 [egg-sequelize](2865ms) Executed (default): SELECT `id`, `user_id`, `article_id`, `duration_time`, `src`, `create_time` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10345 LIMIT 1;
+2021-05-22 22:49:41,247 INFO 7263 [egg-sequelize](83ms) Executed (default): INSERT INTO `xd_xd_record_article_view` (`id`,`user_id`,`article_id`,`duration_time`,`src`,`create_time`) VALUES (DEFAULT,10006,10345,0,11,CURRENT_TIMESTAMP);
+2021-05-22 22:49:41,249 INFO 7263 [egg-sequelize](74ms) Executed (default): UPDATE `xd_xd_article_dynamic_prop` SET `views_count`=views_count + 1 WHERE `article_id` = 10345
+2021-05-22 22:49:41,322 INFO 7263 [egg-sequelize](71ms) Executed (f2a31320-232c-4781-a9bc-6eba8e8877bf): COMMIT;
+2021-05-22 23:05:08,974 INFO 7263 [egg-sequelize](67ms) Executed (25d62ccb-77a0-4709-93d7-1d5c16815a8b): START TRANSACTION;
+2021-05-22 23:05:09,378 INFO 7263 [egg-sequelize](72ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `content`, `isChoiceness`, `publishTime`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_detail` AS `xd_xd_vi_client_article_detail` WHERE `xd_xd_vi_client_article_detail`.`id` = 10345;
+2021-05-22 23:05:23,279 ERROR 7263 [-/::1/-/14699ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7263
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:05:23,288 INFO 7263 [egg-sequelize](13891ms) Executed (default): SELECT `id`, `article_id`, `user_id`, `degree`, `create_time`, `modify_time` FROM `xd_xd_record_article_attitude` AS `xd_xd_record_article_attitude` WHERE `xd_xd_record_article_attitude`.`user_id` = 10006 AND `xd_xd_record_article_attitude`.`article_id` = 10345 LIMIT 1;
+2021-05-22 23:05:23,419 INFO 7263 [egg-sequelize](129ms) Executed (default): SELECT `id`, `user_id`, `article_id`, `duration_time`, `src`, `create_time` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10345 LIMIT 1;
+2021-05-22 23:05:23,509 INFO 7263 [egg-sequelize](75ms) Executed (default): INSERT INTO `xd_xd_record_article_view` (`id`,`user_id`,`article_id`,`duration_time`,`src`,`create_time`) VALUES (DEFAULT,10006,10345,0,11,CURRENT_TIMESTAMP);
+2021-05-22 23:05:23,611 INFO 7263 [egg-sequelize](101ms) Executed (default): UPDATE `xd_xd_article_dynamic_prop` SET `views_count`=views_count + 1 WHERE `article_id` = 10345
+2021-05-22 23:05:23,702 INFO 7263 [egg-sequelize](85ms) Executed (25d62ccb-77a0-4709-93d7-1d5c16815a8b): COMMIT;
+2021-05-22 23:07:43,233 INFO 7263 [egg-sequelize](84ms) Executed (e4ab6f96-79c3-4cd5-94c7-1ccba9b4d711): START TRANSACTION;
+2021-05-22 23:07:43,339 INFO 7263 [egg-sequelize](99ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `content`, `isChoiceness`, `publishTime`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_detail` AS `xd_xd_vi_client_article_detail` WHERE `xd_xd_vi_client_article_detail`.`id` = 10345;
+2021-05-22 23:08:58,120 ERROR 7263 [-/::1/-/74985ms GET /web/article/10345] nodejs.Error: 12 UNIMPLEMENTED: unknown service cz.collection.v1.Collection
+    at Object.exports.createStatusError (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/grpc/src/client_interceptors.js:847:24)
+    at callbackTrampoline (internal/async_hooks.js:131:14)
+code: 12
+metadata: {"_internal_repr":{},"flags":0}
+details: "unknown service cz.collection.v1.Collection"
+pid: 7263
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:08:58,360 INFO 7263 [egg-sequelize](261ms) Executed (default): SELECT `id`, `article_id`, `user_id`, `degree`, `create_time`, `modify_time` FROM `xd_xd_record_article_attitude` AS `xd_xd_record_article_attitude` WHERE `xd_xd_record_article_attitude`.`user_id` = 10006 AND `xd_xd_record_article_attitude`.`article_id` = 10345 LIMIT 1;
+2021-05-22 23:08:58,362 INFO 7263 [egg-sequelize](262ms) Executed (default): SELECT `id`, `user_id`, `article_id`, `duration_time`, `src`, `create_time` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10345 LIMIT 1;
+2021-05-22 23:08:58,629 INFO 7263 [egg-sequelize](248ms) Executed (default): UPDATE `xd_xd_article_dynamic_prop` SET `views_count`=views_count + 1 WHERE `article_id` = 10345
+2021-05-22 23:08:58,631 INFO 7263 [egg-sequelize](251ms) Executed (default): INSERT INTO `xd_xd_record_article_view` (`id`,`user_id`,`article_id`,`duration_time`,`src`,`create_time`) VALUES (DEFAULT,10006,10345,0,11,CURRENT_TIMESTAMP);
+2021-05-22 23:08:58,711 INFO 7263 [egg-sequelize](78ms) Executed (e4ab6f96-79c3-4cd5-94c7-1ccba9b4d711): COMMIT;
+2021-05-22 23:10:26,126 INFO 7263 [egg-sequelize](73ms) Executed (433ae582-3a6a-4845-bbc5-c9891c4322cb): START TRANSACTION;
+2021-05-22 23:10:26,215 INFO 7263 [egg-sequelize](84ms) Executed (default): SELECT `id`, `author`, `title`, `summary`, `cover`, `sectionId`, `sectionName`, `content`, `isChoiceness`, `publishTime`, `viewsCount`, `likesCount`, `collCount`, `shareCount`, `commentsCount` FROM `xd_xd_vi_client_article_detail` AS `xd_xd_vi_client_article_detail` WHERE `xd_xd_vi_client_article_detail`.`id` = 10345;
+2021-05-22 23:10:31,930 INFO 7263 [egg-sequelize](96ms) Executed (default): SELECT `id`, `article_id`, `user_id`, `degree`, `create_time`, `modify_time` FROM `xd_xd_record_article_attitude` AS `xd_xd_record_article_attitude` WHERE `xd_xd_record_article_attitude`.`user_id` = 10006 AND `xd_xd_record_article_attitude`.`article_id` = 10345 LIMIT 1;
+2021-05-22 23:10:31,938 INFO 7263 [egg-sequelize](104ms) Executed (default): SELECT `id`, `user_id`, `article_id`, `duration_time`, `src`, `create_time` FROM `xd_xd_record_article_view` AS `xd_xd_record_article_view` WHERE `xd_xd_record_article_view`.`user_id` = 10006 AND `xd_xd_record_article_view`.`article_id` = 10345 LIMIT 1;
+2021-05-22 23:10:32,031 INFO 7263 [egg-sequelize](81ms) Executed (default): INSERT INTO `xd_xd_record_article_view` (`id`,`user_id`,`article_id`,`duration_time`,`src`,`create_time`) VALUES (DEFAULT,10006,10345,0,11,CURRENT_TIMESTAMP);
+2021-05-22 23:10:32,032 INFO 7263 [egg-sequelize](81ms) Executed (default): UPDATE `xd_xd_article_dynamic_prop` SET `views_count`=views_count + 1 WHERE `article_id` = 10345
+2021-05-22 23:10:42,103 INFO 7263 [egg-sequelize](97ms) Executed (433ae582-3a6a-4845-bbc5-c9891c4322cb): COMMIT;
+2021-05-22 23:11:43,928 INFO 7263 [egg-knex] knex singleton has been destroyed
+2021-05-22 23:12:29,178 INFO 7901 [egg-logview] mount log /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/logs at http://127.0.0.1:7001/__logs
+2021-05-22 23:12:30,123 INFO 7901 [egg-sequelize](67ms) Executed (default): SELECT 1+1 AS result
+2021-05-22 23:12:30,218 INFO 7901 [egg-sequelize](68ms) Executed (default): SELECT `app_id` AS `appId`, `app_wx_secret` AS `appWxSecret`, `app_wx_id` AS `appWxId`, `app_wx_url` AS `appWxUrl`, `app_name` AS `appName` FROM `xd_xd_app` AS `xd_xd_app` WHERE `xd_xd_app`.`app_id` = 11;
+2021-05-22 23:18:17,779 ERROR 7901 [-/::1/-/19ms GET /web/index/newest] nodejs.PropertyRequiredError: 缺少参数 : ps
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserRankController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserRankController.getIndexNewestArticleList (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/index.js:30:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:18:33,231 ERROR 7901 [-/::1/-/9ms GET /web/index/newest] nodejs.PropertyRequiredError: 缺少参数 : ps
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserRankController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserRankController.getIndexNewestArticleList (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/index.js:30:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:19:06,040 ERROR 7901 [-/::1/-/2ms GET /web/index/newest] nodejs.PropertyRequiredError: 缺少参数 : ps
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserRankController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserRankController.getIndexNewestArticleList (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/index.js:30:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:19:28,162 ERROR 7901 [-/::1/-/2ms GET /web/index/newest] nodejs.PropertyRequiredError: 缺少参数 : ps
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserRankController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserRankController.getIndexNewestArticleList (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/index.js:30:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:20:51,450 ERROR 7901 [-/::1/-/6ms GET /web/index/newest] nodejs.PropertyRequiredError: 缺少参数 : ps
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserRankController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserRankController.getIndexNewestArticleList (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/index.js:30:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:21:51,354 ERROR 7901 [-/::1/-/54410ms GET /web/index/newest] nodejs.PropertyRequiredError: 缺少参数 : ps
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserRankController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserRankController.getIndexNewestArticleList (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/index.js:30:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:22:54,839 ERROR 7901 [-/::1/-/5861ms GET /web/index/newest] nodejs.PropertyRequiredError: 缺少参数 : ps
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserRankController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserRankController.getIndexNewestArticleList (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/index.js:30:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:23:32,394 ERROR 7901 [-/::1/-/10ms GET /web/index/newest] nodejs.PropertyRequiredError: 缺少参数 : ps
+    at Object.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:75:23)
+    at UserRankController.validate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/controller/ApiController.js:25:18)
+    at UserRankController.getIndexNewestArticleList (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/index.js:30:18)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at converted (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:17:15)
+name: "PropertyRequiredError"
+err_code: -1
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:26:01,146 INFO 7901 [egg-sequelize](190ms) Executed (default): select `article`.`id`, `article`.`title`, `article`.`summary`, `article`.`viewsCount`, `article`.`cover`, `article`.`publishTime` from `xd_xd_vi_client_article_list` as `article` inner join `xd_xd_article_tag_rel` as `at` on `at`.`article_id` = `article`.`id` where `at`.`tag_id` = 259 and `article`.`sectionId` = 10 and `publishTime` < '2021-05-22 23:26:00.587' order by `publishTime` DESC, `article`.`id` DESC limit 1
+2021-05-22 23:26:01,244 INFO 7901 [egg-sequelize](73ms) Executed (default): SELECT `id`, `title`, `summary`, `viewsCount`, `cover`, `publishTime` FROM `xd_xd_vi_client_article_list` AS `xd_xd_vi_client_article_list` WHERE `xd_xd_vi_client_article_list`.`publishTime` < '2021-05-22 23:26:01' ORDER BY `xd_xd_vi_client_article_list`.`publishTime` DESC, `xd_xd_vi_client_article_list`.`id` DESC LIMIT 2;
+2021-05-22 23:27:08,978 INFO 7901 [egg-sequelize](88ms) Executed (default): select `article`.`id`, `article`.`title`, `article`.`summary`, `article`.`viewsCount`, `article`.`cover`, `article`.`publishTime` from `xd_xd_vi_client_article_list` as `article` inner join `xd_xd_article_tag_rel` as `at` on `at`.`article_id` = `article`.`id` where `at`.`tag_id` = 259 and `article`.`sectionId` = 10 and `publishTime` < '2021-05-22 23:27:08.884' order by `publishTime` DESC, `article`.`id` DESC limit 1
+2021-05-22 23:27:09,047 INFO 7901 [egg-sequelize](64ms) Executed (default): SELECT `id`, `title`, `summary`, `viewsCount`, `cover`, `publishTime` FROM `xd_xd_vi_client_article_list` AS `xd_xd_vi_client_article_list` WHERE `xd_xd_vi_client_article_list`.`publishTime` < '2021-05-22 23:27:08' ORDER BY `xd_xd_vi_client_article_list`.`publishTime` DESC, `xd_xd_vi_client_article_list`.`id` DESC LIMIT 2;
+2021-05-22 23:33:30,207 WARN 7901 A client (::1:50616) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-05-22 23:33:50,671 WARN 7901 A client (::1:50697) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-05-22 23:34:00,493 WARN 7901 A client (::1:50738) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-05-22 23:34:42,118 WARN 7901 A client (::1:50903) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-05-22 23:34:44,795 WARN 7901 A client (::1:50916) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-05-22 23:36:27,351 WARN 7901 A client (::1:51336) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-05-22 23:38:07,163 ERROR 7901 [-/::1/-/14576ms PUT /web/comment/4/like] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19
+From previous event:
+    at ConnectionManager.connect (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50
+From previous event:
+    at ConnectionManager._connect (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+    at Object.create (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:101:28)
+    at Pool._createResource (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/generic-pool/lib/Pool.js:308:42)
+    at Pool._dispense (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/generic-pool/lib/Pool.js:226:12)
+    at Pool.acquire (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/generic-pool/lib/Pool.js:455:10)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:292:24
+    at processImmediate (internal/timers.js:461:21)
+    at process.callbackTrampoline (internal/async_hooks.js:131:14)
+From previous event:
+    at ConnectionManager.getConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:291:20)
+    at Transaction.prepareEnvironment (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/transaction.js:125:60)
+    at Sequelize.transaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/sequelize.js:996:43)
+    at Object.getTransaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:17:37)
+    at CommentService.getTransaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/service/ApiService.js:12:24)
+    at CommentService.doLike (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/comment/web/op.js:53:30)
+    at CommentController.doLike (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/comment.js:41:68)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
+2021-05-22 23:38:26,480 ERROR 7901 [-/::1/-/10033ms PUT /web/comment/4/like] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19
+From previous event:
+    at ConnectionManager.connect (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50
+From previous event:
+    at ConnectionManager._connect (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+    at Object.create (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:101:28)
+    at Pool._createResource (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/generic-pool/lib/Pool.js:308:42)
+    at Pool._dispense (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/generic-pool/lib/Pool.js:226:12)
+    at Pool.acquire (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/generic-pool/lib/Pool.js:455:10)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:292:24
+    at processImmediate (internal/timers.js:461:21)
+    at process.callbackTrampoline (internal/async_hooks.js:131:14)
+From previous event:
+    at ConnectionManager.getConnection (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:291:20)
+    at Transaction.prepareEnvironment (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/transaction.js:125:60)
+    at Sequelize.transaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/sequelize/lib/sequelize.js:996:43)
+    at Object.getTransaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/extend/context.js:17:37)
+    at CommentService.getTransaction (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/core/service/ApiService.js:12:24)
+    at CommentService.doLike (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/service/comment/web/op.js:53:30)
+    at CommentController.doLike (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/controller/web/comment.js:41:68)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:45:18)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:44:32)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:111:29)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at clientAuthenticate (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/clientAuthenticate.js:6:15)
+    at fn (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at CORS (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/app/middleware/cors.js:13:20)
+    at dispatch (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at createGenerator (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/koa-convert/index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:65:19)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:118:63)
+    at next (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:69:7)
+    at /Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/bakatora/ws/proj/cz/micro_tmp/app/service/main/cz/node_modules/co/index.js:50:10)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 7901
+hostname: bakatoradeMacBook-Pro.local
+
