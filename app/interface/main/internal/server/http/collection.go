@@ -1,6 +1,7 @@
 package http
 
 import (
+	"cz/app/interface/main/internal/model"
 	pb "cz/app/service/main/collection/api/v1"
 	"github.com/gin-gonic/gin"
 	"time"
@@ -50,7 +51,23 @@ func (g *GinHandler) getCollectionListHandler(ctx *gin.Context) {
 		Error(ctx, err)
 		return
 	}
-	JSON(ctx, res)
+	list := []*model.CollectionListItem{}
+	for _, rawItem := range res.List {
+		list = append(list, &model.CollectionListItem{
+			CollId:     int(rawItem.CollId),
+			ItemId:     int(rawItem.ItemId),
+			CollType:   1,
+			CollName:   rawItem.CollName,
+			ModifyTime: rawItem.ModifyTime,
+		})
+	}
+	JSON(ctx, struct {
+		List []*model.CollectionListItem `json:"list"`
+		Lm   string                      `json:"lm"`
+	}{
+		List: list,
+		Lm:   res.Lm,
+	})
 }
 
 func (g *GinHandler) doCollect(ctx *gin.Context) {
@@ -91,7 +108,7 @@ func (g *GinHandler) undoCollect(ctx *gin.Context) {
 		return
 	}
 	_, err = g.collectionClient.UndoCollect(ctx.Request.Context(), &pb.UndoCollectReq{
-		CollId:   args.CollId,
+		CollId: args.CollId,
 	})
 	if err != nil {
 		Error(ctx, err)

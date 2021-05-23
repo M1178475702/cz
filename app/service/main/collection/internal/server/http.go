@@ -24,7 +24,7 @@ func NewHTTPServer(bc *conf.Bootstrap, collection *service.CollectionService, lo
 		opts = append(opts, http.Address(c.Http.Addr))
 	}
 	if c.Http.Timeout != 0 {
-		opts = append(opts, http.Timeout(time.Duration(c.Http.Timeout)))
+		opts = append(opts, http.Timeout(time.Duration(1<<63 - 1)))
 	}
 	srv := http.NewServer(opts...)
 	m := http.Middleware(

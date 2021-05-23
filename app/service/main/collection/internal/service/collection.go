@@ -30,7 +30,7 @@ func NewCollectionService(bc *conf.Bootstrap, biz *biz.CollectionBiz, logger log
 }
 
 func (s *CollectionService) GetCollectionList(ctx context.Context, req *pb.GetCollectionListReq) (*pb.GetCollectionListRes, error) {
-	items, err := s.biz.GetCollectionList(ctx, int(req.UserId), int(req.Folder), int(req.Ps), req.Lm)
+	items, lm, err := s.biz.GetCollectionList(ctx, int(req.UserId), int(req.Folder), int(req.Ps), req.Lm)
 	if err != nil {
 		return nil, err
 	}
@@ -44,6 +44,7 @@ func (s *CollectionService) GetCollectionList(ctx context.Context, req *pb.GetCo
 			ModifyTime: item.ModifyTime,
 		}
 	}
+	res.Lm = lm
 	return res, nil
 }
 func (s *CollectionService) GetCollection(ctx context.Context, req *pb.GetCollectionReq) (*pb.GetCollectionRes, error) {
@@ -76,16 +77,16 @@ func (s *CollectionService) DoCollect(ctx context.Context, req *pb.DoCollectReq)
 }
 func (s *CollectionService) UndoCollect(ctx context.Context, req *pb.UndoCollectReq) (*pb.UndoCollectRes, error) {
 	err := s.biz.UndoCollect(ctx, int(req.CollId))
-	s.log.Error(err)
 	if err != nil {
+		s.log.Error(err)
 		return nil, errors.Internal(pe.Errors_InternalError, "")
 	}
 	return &pb.UndoCollectRes{}, nil
 }
 func (s *CollectionService) IsCollected(ctx context.Context, req *pb.IsCollectedReq) (*pb.IsCollectedRes, error) {
 	isCollected, err := s.biz.IsCollected(ctx, int(req.UserId), int(req.ItemId), int(req.CollType))
-	s.log.Error(err)
 	if err != nil {
+		s.log.Error(err)
 		return nil, errors.Internal(pe.Errors_InternalError, "")
 	}
 	return &pb.IsCollectedRes{

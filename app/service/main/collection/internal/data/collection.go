@@ -8,15 +8,16 @@ import (
 )
 
 const (
-	sqlSelectCollectionList = "select coll_id, item_id, coll_name, modify_time, coll_type from xd_xd_collection where user_id = ? and folder = ? and status = ? and modify_time < ? limit 0, ?"
-	sqlCreateCollection = "insert into xd_xd_collection (user_id, item_id, coll_name, coll_type, folder, status) values(?,?,?,?,?,?)"
-	sqlIncreaseCollectionCount = "update xd_xd_collect_count set count = count - ? where id = ?"
-	sqlDecreaseCollectionCount = "update xd_xd_collect_count set count = count - ? where id = ?"
-	sqlUpdateCollectionStatus = "update xd_xd_collection set status = ? where coll_id = ?"
+	sqlSelectCollectionList              = "select coll_id, item_id, coll_name, modify_time, coll_type from xd_xd_collection where user_id = ? and folder = ? and status = ? and modify_time < ? limit 0, ?"
+	sqlCreateCollection                  = "insert into xd_xd_collection (user_id, item_id, coll_name, coll_type, folder, status) values(?,?,?,?,?,?)"
+	sqlIncreaseCollectionCount           = "update xd_xd_collect_count set count = count + ? where id = ?"
+	sqlDecreaseCollectionCount           = "update xd_xd_collect_count set count = count - ? where id = ?"
+	sqlUpdateCollectionStatus            = "update xd_xd_collection set status = ? where coll_id = ?"
 	sqlSelectCollectionListWithItemScope = "select coll_id, item_id, coll_type, coll_name, status from xd_xd_collection where user_id = ? and item_id in (?) and status = ? "
 )
 
-func (d *Data) GetCollectionList(ctx context.Context, userId, folder, status, ps int, lm string) (items []*model.CollectionListItem, err error){
+func (d *Data) GetCollectionList(ctx context.Context, userId, folder, status, ps int, lm string) (items []*model.CollectionListItem, err error) {
+	//todo  lm -> offset ; verify lm
 	rows, err := d.db.WithContext(ctx).Raw(sqlSelectCollectionList, userId, folder, status, lm, ps).Rows()
 
 	if err != nil {
@@ -25,7 +26,7 @@ func (d *Data) GetCollectionList(ctx context.Context, userId, folder, status, ps
 	}
 	for rows.Next() {
 		item := &model.CollectionListItem{}
-		err = rows.Scan(&item.ItemId,  &item.CollId, &item.CollName,&item.ModifyTime, &item.CollType)
+		err = rows.Scan(&item.ItemId, &item.CollId, &item.CollName, &item.ModifyTime, &item.CollType)
 		if err != nil {
 			err = errors.Wrapf(err, "data.GetCollectionList scan error")
 			return
@@ -43,7 +44,7 @@ func (d *Data) GetCollectionByUIC(ctx context.Context, userId, itemId, collType,
 		Where("status = ?", status).
 		Where("coll_type = ?", collType).First(&collection).Error
 	if err != nil {
-		if err == gorm.ErrRecordNotFound{
+		if err == gorm.ErrRecordNotFound {
 			collection = nil
 			err = nil
 			return
@@ -67,9 +68,18 @@ func (d *Data) GetCollectionById(ctx context.Context, collId int) (collection *m
 	return
 }
 
-func (d *Data) TxCreateCollection(tx *gorm.DB, userId, itemId, collType, folder int, collName string) (collection *model.Collection, err error){
-	collection = new(model.Collection)
-	err = tx.Exec(sqlCreateCollection, userId, itemId, collName, collType, folder, 1).Scan(&collection).Error
+func (d *Data) TxCreateCollection(tx *gorm.DB, userId, itemId, collType, folder int, collName string) (collection *model.Collection, err error) {
+	collection = &model.Collection{
+		CollId:   0,
+		UserId:   userId,
+		ItemId:   itemId,
+		CollName: collName,
+		CollType: collType,
+		Folder:   folder,
+		Status:   1,
+	}
+
+	err = tx.Create(collection).Error
 	if err != nil {
 		err = errors.Wrapf(err, "data.TxCreateCollection error")
 		return
@@ -89,12 +99,12 @@ func (d *Data) GetCollectionCount(ctx context.Context, itemId, collType int) (cc
 	return
 }
 
-func (d *Data) TxCreateCollectionCount(tx *gorm.DB, itemId, collType int) (collId int, err error){
+func (d *Data) TxCreateCollectionCount(tx *gorm.DB, itemId, collType int) (err error) {
 	ccnt := new(model.CollectionCount)
 	ccnt.Count = 0
 	ccnt.ItemId = itemId
 	ccnt.CollType = collType
-	err = tx.Create(&ccnt).Error
+	err = tx.Create(ccnt).Error
 	if err != nil {
 		err = errors.Wrapf(err, "data.TxCreateCollectionCount error")
 	}
@@ -123,5 +133,3 @@ func (d *Data) TxUpdateCollectionStatus(tx *gorm.DB, collId, status int) (err er
 	}
 	return
 }
-
-

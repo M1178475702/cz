@@ -29,12 +29,13 @@ func NewCollectionBiz(bc *conf.Bootstrap, dao *data.Data, logger log.Logger) *Co
 	return biz
 }
 
-func (b *CollectionBiz) GetCollectionList(ctx context.Context, userId, folder, ps int, lm string) (items []*model.CollectionListItem, err error){
+func (b *CollectionBiz) GetCollectionList(ctx context.Context, userId, folder, ps int, lm string) (items []*model.CollectionListItem, newLm string, err error){
 	items, err = b.dao.GetCollectionList(ctx, userId, folder, CollTypeDo, ps, lm)
 	if err != nil {
 		b.log.Error(err)
 		return
 	}
+	newLm = items[0].ModifyTime
 	return
 }
 
@@ -51,18 +52,22 @@ func (b *CollectionBiz) DoCollect(ctx context.Context, userId, itemId, collType,
 	//check api is exist
 	collection, err := b.dao.GetCollectionByUIC(ctx, userId, itemId, collType, CollTypeDo)
 	if err != nil {
-		b.log.Error()
+		b.log.Error(err)
 		return
 	}
 	tx, clean, err := b.dao.BeginTx(ctx)
 	if err != nil {
 		return
 	}
-	defer clean()
+	defer clean(&err)
 
 	//create or update status
 	if collection == nil {
 		collection, err = b.dao.TxCreateCollection(tx, userId, itemId, collType, folder, collName)
+		if err != nil {
+			return
+		}
+		err = b.dao.TxCreateCollectionCount(tx, itemId, collType)
 		if err != nil {
 			return
 		}
@@ -78,6 +83,7 @@ func (b *CollectionBiz) DoCollect(ctx context.Context, userId, itemId, collType,
 		}
 	}
 	//increase collected count of article
+
 	err = b.dao.TxIncreaseCollectionCount(tx, collection.CollId, 1)
 	if err != nil {
 		return
@@ -99,7 +105,7 @@ func (b *CollectionBiz) UndoCollect(ctx context.Context, collId int) (err error)
 	if err != nil {
 		return
 	}
-	defer clean()
+	defer clean(&err)
 
 	err = b.dao.TxUpdateCollectionStatus(tx, collId, CollTypeUndo)
 	if err != nil {

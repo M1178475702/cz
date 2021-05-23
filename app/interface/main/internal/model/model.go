@@ -7,32 +7,22 @@ type User struct {
 }
 
 type CollectionListItem struct {
-	CollId     int    `gorm:"column:coll_id"`
-	ItemId     int    `gorm:"column:item_id"`
-	CollType   int    `gorm:"column:coll_type"`
-	CollName   string `gorm:"column:coll_name"`
-	ModifyTime string `gorm:"column:modify_time"`
+	CollId     int    `json:"coll_id"`
+	ItemId     int    `json:"item_id"`
+	CollType   int    `json:"coll_type"`
+	CollName   string `json:"coll_name"`
+	ModifyTime string `json:"modify_time"`
 }
 
 type Collection struct {
-	CollId     int    `gorm:"column:coll_id"`
-	UserId     int    `gorm:"column:user_id"`
-	ItemId     int    `gorm:"column:item_id"`
-	CollName   string `gorm:"column:coll_name"`
-	CollType   int    `gorm:"column:coll_type"`
-	Folder     int    `gorm:"column:folder"`
-	Status     int    `gorm:"column:status"`
-	CreateTime string `gorm:"column:create_time"`
-	ModifyName string `gorm:"column:modify_time"`
+	CollId     int    `json:"coll_id"`
+	UserId     int    `json:"user_id"`
+	ItemId     int    `json:"item_id"`
+	CollName   string `json:"coll_name"`
+	CollType   int    `json:"coll_type"`
+	Folder     int    `json:"folder"`
+	Status     int    `json:"status"`
+	CreateTime string `json:"create_time"`
+	ModifyName string `json:"modify_time"`
 }
 
-type CollectionCount struct {
-	Id       int `gorm:"column:id"`
-	Count    int `gorm:"column:count"`
-	ItemId   int `gorm:"column:item_id"`
-	CollType int `gorm:"column:coll_type"`
-}
-
-func (c *CollectionCount) TableName() string {
-	return "xd_xd_collect_count"
-}

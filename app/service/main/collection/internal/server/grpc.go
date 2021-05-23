@@ -33,7 +33,7 @@ func NewGRPCServer(c *conf.Server, collection *service.CollectionService, logger
 		opts = append(opts, grpc.Address(c.Grpc.Addr))
 	}
 	if c.Grpc.Timeout != 0 {
-		opts = append(opts, grpc.Timeout(time.Duration(c.Grpc.Timeout)))
+		opts = append(opts, grpc.Timeout(time.Duration(1<<63 - 1)))
 	}
 	srv := grpc.NewServer(opts...)
 	v1.RegisterCollectionServer(srv, collection)

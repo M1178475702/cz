@@ -11,7 +11,7 @@ type CollectionListItem struct {
 	ItemId     int    `gorm:"column:item_id"`
 	CollType   int    `gorm:"column:coll_type"`
 	CollName   string `gorm:"column:coll_name"`
-	ModifyTime string `gorm:"column:modify_time"`
+	ModifyTime string `gorm:"column:modify_time;<-:false"`
 }
 
 type Collection struct {
@@ -22,8 +22,12 @@ type Collection struct {
 	CollType   int    `gorm:"column:coll_type"`
 	Folder     int    `gorm:"column:folder"`
 	Status     int    `gorm:"column:status"`
-	CreateTime string `gorm:"column:create_time"`
-	ModifyName string `gorm:"column:modify_time"`
+	CreateTime string `gorm:"column:create_time;<-:false"`
+	ModifyName string `gorm:"column:modify_time;<-:false"`
+}
+
+func (c *Collection) TableName() string {
+	return "xd_xd_collection"
 }
 
 type CollectionCount struct {

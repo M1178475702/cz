@@ -45,14 +45,14 @@ func NewData(c *conf.Bootstrap, logger log.Logger) (*Data, func(), error) {
 	return data, cleanup, nil
 }
 
-func (d *Data) BeginTx(ctx context.Context) (tx *gorm.DB, clean func(), err error) {
+func (d *Data) BeginTx(ctx context.Context) (tx *gorm.DB, clean func(*error), err error) {
 	tx = d.db.WithContext(ctx).Begin()
 	err = tx.Error
 	if err != nil {
 		return
 	}
-	clean = func() {
-		if err != nil {
+	clean = func(e *error) {
+		if *e != nil {
 			tx.Rollback()
 			return
 		}
