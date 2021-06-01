@@ -32,6 +32,7 @@ func NewCollectionService(bc *conf.Bootstrap, biz *biz.CollectionBiz, logger log
 func (s *CollectionService) GetCollectionList(ctx context.Context, req *pb.GetCollectionListReq) (*pb.GetCollectionListRes, error) {
 	items, lm, err := s.biz.GetCollectionList(ctx, int(req.UserId), int(req.Folder), int(req.Ps), req.Lm)
 	if err != nil {
+		s.log.Error(err)
 		return nil, err
 	}
 	res := &pb.GetCollectionListRes{}
@@ -47,6 +48,29 @@ func (s *CollectionService) GetCollectionList(ctx context.Context, req *pb.GetCo
 	res.Lm = lm
 	return res, nil
 }
+
+func (s *CollectionService) GetCollectionListByOffset(ctx context.Context, req *pb.GetCollectionListByOffsetReq) (*pb.GetCollectionListByOffsetRes, error) {
+	items, count, err := s.biz.GetCollectionListByOffset(ctx, int(req.UserId), int(req.Folder), int(req.Offset), int(req.Ps))
+	if err != nil {
+		s.log.Error(err)
+		return nil, err
+	}
+	res := &pb.GetCollectionListByOffsetRes{}
+	res.List = make([]*pb.ModelCollectionListItem, len(items))
+	for i, item := range items {
+		res.List[i] = &pb.ModelCollectionListItem{
+			CollId:     int32(item.CollId),
+			CollName:   item.CollName,
+			ItemId:     int64(item.ItemId),
+			ModifyTime: item.ModifyTime,
+		}
+	}
+	res.Count = int32(count)
+	return res, nil
+}
+
+
+
 func (s *CollectionService) GetCollection(ctx context.Context, req *pb.GetCollectionReq) (*pb.GetCollectionRes, error) {
 	collection, err := s.biz.GetCollection(ctx, int(req.UserId), int(req.ItemId), int(req.CollType))
 	if err != nil {

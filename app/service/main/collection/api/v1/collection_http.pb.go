@@ -26,6 +26,8 @@ type CollectionHandler interface {
 
 	GetCollectionList(context.Context, *GetCollectionListReq) (*GetCollectionListRes, error)
 
+	GetCollectionListByOffset(context.Context, *GetCollectionListByOffsetReq) (*GetCollectionListByOffsetRes, error)
+
 	IsCollected(context.Context, *IsCollectedReq) (*IsCollectedRes, error)
 
 	UndoCollect(context.Context, *UndoCollectReq) (*UndoCollectRes, error)
@@ -153,6 +155,30 @@ func NewCollectionHandler(srv CollectionHandler, opts ...http1.HandleOption) htt
 			return
 		}
 		reply := out.(*IsCollectedRes)
+		if err := h.Encode(w, r, reply); err != nil {
+			h.Error(w, r, err)
+		}
+	}).Methods("POST")
+
+	r.HandleFunc("/cz.collection.v1.Collection/getCollectionListByOffset", func(w http.ResponseWriter, r *http.Request) {
+		var in GetCollectionListByOffsetReq
+		if err := h.Decode(r, &in); err != nil {
+			h.Error(w, r, err)
+			return
+		}
+
+		next := func(ctx context.Context, req interface{}) (interface{}, error) {
+			return srv.GetCollectionListByOffset(ctx, req.(*GetCollectionListByOffsetReq))
+		}
+		if h.Middleware != nil {
+			next = h.Middleware(next)
+		}
+		out, err := next(r.Context(), &in)
+		if err != nil {
+			h.Error(w, r, err)
+			return
+		}
+		reply := out.(*GetCollectionListByOffsetRes)
 		if err := h.Encode(w, r, reply); err != nil {
 			h.Error(w, r, err)
 		}

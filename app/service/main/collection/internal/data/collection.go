@@ -14,6 +14,8 @@ const (
 	sqlDecreaseCollectionCount           = "update xd_xd_collect_count set count = count - ? where id = ?"
 	sqlUpdateCollectionStatus            = "update xd_xd_collection set status = ? where coll_id = ?"
 	sqlSelectCollectionListWithItemScope = "select coll_id, item_id, coll_type, coll_name, status from xd_xd_collection where user_id = ? and item_id in (?) and status = ? "
+	sqlSelectCollectionListByOffset      = "select coll_id, item_id, coll_name, modify_time, coll_type from xd_xd_collection where user_id = ? and folder = ? and status = ? limit ?, ?"
+	sqlSelectCollectionCount             = "select count(*) from xd_xd_collection where user_id = ? and folder = ? and status = ?"
 )
 
 func (d *Data) GetCollectionList(ctx context.Context, userId, folder, status, ps int, lm string) (items []*model.CollectionListItem, err error) {
@@ -31,7 +33,43 @@ func (d *Data) GetCollectionList(ctx context.Context, userId, folder, status, ps
 			err = errors.Wrapf(err, "data.GetCollectionList scan error")
 			return
 		}
+		//item.ModifyTime, err = util.DbTimeParse(item.ModifyTime)
+		//if err != nil {
+		//	return
+		//}
 		items = append(items, item)
+	}
+	return
+}
+
+func (d *Data) GetCollectionListByOffset(ctx context.Context, userId, folder, status, offset, ps int) (items []*model.CollectionListItem, err error) {
+	//todo  lm -> offset ; verify lm
+	rows, err := d.db.WithContext(ctx).Raw(sqlSelectCollectionListByOffset, userId, folder, status, offset, ps).Rows()
+	if err != nil {
+		err = errors.Wrapf(err, "data.GetCollectionListByOffset select")
+		return
+	}
+	for rows.Next() {
+		item := &model.CollectionListItem{}
+		err = rows.Scan(&item.ItemId, &item.CollId, &item.CollName, &item.ModifyTime, &item.CollType)
+		if err != nil {
+			err = errors.Wrapf(err, "data.GetCollectionList scan")
+			return
+		}
+		//item.ModifyTime, err = util.DbTimeParse(item.ModifyTime)
+		//if err != nil {
+		//	return
+		//}
+		items = append(items, item)
+	}
+	return
+}
+
+func (d *Data) GetTotalCollectionCount(ctx context.Context, userId, folder, status int) (count int64, err error) {
+	err = d.db.WithContext(ctx).Raw(sqlSelectCollectionCount, userId, folder, status).Count(&count).Error
+	if err != nil {
+		err = errors.Wrapf(err, "data.GetCollectionListByOffset select")
+		return
 	}
 	return
 }

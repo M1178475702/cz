@@ -31,6 +31,18 @@ message GetCollectionListRes {
   repeated ModelCollectionListItem list = 1;
   string lm = 2;
 }
+message GetCollectionListByOffsetReq {
+  int32 userId = 1;
+  int32 folder = 2;
+  int32 ps = 3;
+  int32 offset = 4;
+}
+
+// The response message containing the greetings
+message GetCollectionListByOffsetRes {
+  repeated ModelCollectionListItem list = 1;
+  int32 count = 2;
+}
 
 message GetCollectionReq {
   int32 userId = 1;
@@ -93,4 +105,6 @@ service Collection {
   rpc undoCollect (UndoCollectReq) returns (UndoCollectRes) {};
 
   rpc isCollected (IsCollectedReq) returns (IsCollectedRes) {};
+
+  rpc getCollectionListByOffset(GetCollectionListByOffsetReq) returns (GetCollectionListByOffsetRes) {};
 }

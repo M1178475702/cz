@@ -39,7 +39,8 @@ func NewGinHandler(bc *conf.Bootstrap, logger log.Logger) *GinHandler {
 	g.engine = router
 	collection := router.Group("/web/collection")
 	{
-		collection.GET("/list", VerifyUser, g.getCollectionListHandler)
+		collection.GET("/list", VerifyUser, g.getCollectionList)
+		collection.GET("/list/offset", VerifyUser, g.getCollectionListByOffset)
 		collection.POST("/do", VerifyUser, g.doCollect)
 		collection.POST("/undo", VerifyUser, g.undoCollect)
 	}

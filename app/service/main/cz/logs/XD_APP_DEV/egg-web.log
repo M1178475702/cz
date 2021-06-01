@@ -147,3 +147,101 @@
 2021-05-23 12:58:51,643 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
 2021-05-23 12:58:51,647 WARN 7901 [ClusterClient:WingmanClientBase] follower closed, and try to init it again
 2021-05-23 12:58:51,650 WARN 7901 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-23 15:20:00,202 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 15:20:00,225 WARN 7901 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-23 17:24:10,011 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 17:24:10,066 WARN 7901 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-23 17:24:10,087 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 17:24:10,087 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 17:24:10,088 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 17:24:10,089 WARN 7901 [ClusterClient:WingmanClientBase] follower closed, and try to init it again
+2021-05-23 17:24:10,094 WARN 7901 [ClusterClient:TimerTaskManager] follower closed, and try to init it again
+2021-05-23 17:24:10,099 WARN 7901 [ClusterClient:ArticlePublishJobManager] follower closed, and try to init it again
+2021-05-23 17:39:11,086 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 17:39:11,087 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 17:39:11,088 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 17:39:11,088 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 17:39:11,088 WARN 7901 [ClusterClient:WingmanClientBase] follower closed, and try to init it again
+2021-05-23 17:39:11,134 WARN 7901 [ClusterClient:TimerTaskManager] follower closed, and try to init it again
+2021-05-23 17:39:11,136 WARN 7901 [ClusterClient:ArticlePublishJobManager] follower closed, and try to init it again
+2021-05-23 17:39:11,140 WARN 7901 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-23 17:54:12,014 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 17:54:12,014 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 17:54:12,015 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 17:54:12,016 WARN 7901 [ClusterClient:TimerTaskManager] follower closed, and try to init it again
+2021-05-23 17:54:12,069 WARN 7901 [ClusterClient:ArticlePublishJobManager] follower closed, and try to init it again
+2021-05-23 17:54:12,071 WARN 7901 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-23 17:54:12,074 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 17:54:12,084 WARN 7901 [ClusterClient:WingmanClientBase] follower closed, and try to init it again
+2021-05-23 18:09:13,009 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 18:09:13,068 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 18:09:13,068 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 18:09:13,069 WARN 7901 [ClusterClient:TimerTaskManager] follower closed, and try to init it again
+2021-05-23 18:09:13,071 WARN 7901 [ClusterClient:ArticlePublishJobManager] follower closed, and try to init it again
+2021-05-23 18:09:13,077 WARN 7901 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-23 18:09:13,079 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 18:09:13,087 WARN 7901 [ClusterClient:WingmanClientBase] follower closed, and try to init it again
+2021-05-23 18:24:14,014 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 18:24:14,015 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 18:24:14,016 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 18:24:14,016 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 18:24:14,017 WARN 7901 [ClusterClient:WingmanClientBase] follower closed, and try to init it again
+2021-05-23 18:24:14,018 WARN 7901 [ClusterClient:TimerTaskManager] follower closed, and try to init it again
+2021-05-23 18:24:14,065 WARN 7901 [ClusterClient:ArticlePublishJobManager] follower closed, and try to init it again
+2021-05-23 18:24:14,067 WARN 7901 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-23 18:39:19,598 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 18:39:19,604 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 18:39:19,605 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 18:39:19,606 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 18:39:19,608 WARN 7901 [ClusterClient:WingmanClientBase] follower closed, and try to init it again
+2021-05-23 18:39:19,641 WARN 7901 [ClusterClient:TimerTaskManager] follower closed, and try to init it again
+2021-05-23 18:39:19,645 WARN 7901 [ClusterClient:ArticlePublishJobManager] follower closed, and try to init it again
+2021-05-23 18:39:19,649 WARN 7901 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-23 18:54:23,094 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 18:54:23,099 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 18:54:23,101 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 18:54:23,102 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 18:54:23,104 WARN 7901 [ClusterClient:WingmanClientBase] follower closed, and try to init it again
+2021-05-23 18:54:23,128 WARN 7901 [ClusterClient:TimerTaskManager] follower closed, and try to init it again
+2021-05-23 18:54:23,145 WARN 7901 [ClusterClient:ArticlePublishJobManager] follower closed, and try to init it again
+2021-05-23 18:54:23,151 WARN 7901 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-23 19:09:26,663 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 19:09:26,674 WARN 7901 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-23 19:09:26,687 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 19:09:26,688 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 19:09:26,699 WARN 7901 [ClusterClient:TimerTaskManager] follower closed, and try to init it again
+2021-05-23 19:09:27,115 WARN 7901 [ClusterClient:ArticlePublishJobManager] follower closed, and try to init it again
+2021-05-23 19:09:27,157 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 19:09:27,178 WARN 7901 [ClusterClient:WingmanClientBase] follower closed, and try to init it again
+2021-05-23 19:24:30,779 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 19:24:30,784 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 19:24:30,787 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 19:24:30,788 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 19:24:30,789 WARN 7901 [ClusterClient:WingmanClientBase] follower closed, and try to init it again
+2021-05-23 19:24:30,793 WARN 7901 [ClusterClient:TimerTaskManager] follower closed, and try to init it again
+2021-05-23 19:24:30,804 WARN 7901 [ClusterClient:ArticlePublishJobManager] follower closed, and try to init it again
+2021-05-23 19:24:30,809 WARN 7901 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-23 20:12:21,988 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 20:12:21,995 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 20:12:21,996 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 20:12:21,997 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 20:12:21,998 WARN 7901 [ClusterClient:WingmanClientBase] follower closed, and try to init it again
+2021-05-23 20:12:22,011 WARN 7901 [ClusterClient:TimerTaskManager] follower closed, and try to init it again
+2021-05-23 20:12:22,029 WARN 7901 [ClusterClient:ArticlePublishJobManager] follower closed, and try to init it again
+2021-05-23 20:12:22,069 WARN 7901 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-23 20:24:26,419 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 20:24:26,592 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 20:24:26,594 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 20:24:27,700 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 20:24:27,702 WARN 7901 [ClusterClient:WingmanClientBase] follower closed, and try to init it again
+2021-05-23 20:24:27,710 WARN 7901 [ClusterClient:TimerTaskManager] follower closed, and try to init it again
+2021-05-23 20:24:27,769 WARN 7901 [ClusterClient:ArticlePublishJobManager] follower closed, and try to init it again
+2021-05-23 20:24:27,793 WARN 7901 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-23 20:34:48,260 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 20:34:48,276 WARN 7901 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-23 20:34:48,579 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 20:34:49,460 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 20:34:49,478 WARN 7901 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-23 20:34:49,481 WARN 7901 [ClusterClient:WingmanClientBase] follower closed, and try to init it again
+2021-05-23 20:34:49,764 WARN 7901 [ClusterClient:TimerTaskManager] follower closed, and try to init it again
+2021-05-23 20:34:49,795 WARN 7901 [ClusterClient:ArticlePublishJobManager] follower closed, and try to init it again

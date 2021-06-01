@@ -8,18 +8,18 @@ import (
 	"fmt"
 	"github.com/cockroachdb/errors"
 	"github.com/go-kratos/kratos/v2/log"
+	"time"
 )
 
 type CollectionBiz struct {
 	dao *data.Data
-	log  *log.Helper
+	log *log.Helper
 }
 
 const (
-	CollTypeDo = 1
+	CollTypeDo   = 1
 	CollTypeUndo = 2
 )
-
 
 func NewCollectionBiz(bc *conf.Bootstrap, dao *data.Data, logger log.Logger) *CollectionBiz {
 	biz := &CollectionBiz{
@@ -29,17 +29,33 @@ func NewCollectionBiz(bc *conf.Bootstrap, dao *data.Data, logger log.Logger) *Co
 	return biz
 }
 
-func (b *CollectionBiz) GetCollectionList(ctx context.Context, userId, folder, ps int, lm string) (items []*model.CollectionListItem, newLm string, err error){
+func (b *CollectionBiz) GetCollectionList(ctx context.Context, userId, folder, ps int, lm string) (items []*model.CollectionListItem, newLm string, err error) {
 	items, err = b.dao.GetCollectionList(ctx, userId, folder, CollTypeDo, ps, lm)
 	if err != nil {
-		b.log.Error(err)
 		return
 	}
-	newLm = items[0].ModifyTime
+	if len(items) != 0 {
+		newLm = items[len(items)-1].ModifyTime
+	} else {
+		newLm = time.Now().Format("2006-01-02 15:04:05")
+	}
 	return
 }
 
-func (b *CollectionBiz) GetCollection(ctx context.Context, userId, itemId, collType int) (collection *model.Collection, err error){
+func (b *CollectionBiz) GetCollectionListByOffset(ctx context.Context, userId, folder, offset, ps int) (items []*model.CollectionListItem, count int, err error) {
+	items, err = b.dao.GetCollectionListByOffset(ctx, userId, folder, CollTypeDo, offset, ps)
+	if err != nil {
+		return
+	}
+	totalCollectionCount, err := b.dao.GetTotalCollectionCount(ctx, userId, folder, CollTypeDo)
+	if err != nil {
+		return nil, 0, err
+	}
+	count = int(totalCollectionCount)
+	return
+}
+
+func (b *CollectionBiz) GetCollection(ctx context.Context, userId, itemId, collType int) (collection *model.Collection, err error) {
 	collection, err = b.dao.GetCollectionByUIC(ctx, userId, itemId, collType, CollTypeDo)
 	if err != nil {
 		b.log.Error(err)
@@ -119,8 +135,7 @@ func (b *CollectionBiz) UndoCollect(ctx context.Context, collId int) (err error)
 	return
 }
 
-
-func (b *CollectionBiz) IsCollected(ctx context.Context, userId int, itemId, collType int) (isCollected bool,err error) {
+func (b *CollectionBiz) IsCollected(ctx context.Context, userId int, itemId, collType int) (isCollected bool, err error) {
 	collection, err := b.dao.GetCollectionByUIC(ctx, userId, itemId, collType, CollTypeDo)
 	if err != nil {
 		b.log.Error(err)
@@ -133,4 +148,3 @@ func (b *CollectionBiz) IsCollected(ctx context.Context, userId int, itemId, col
 	isCollected = true
 	return
 }
-

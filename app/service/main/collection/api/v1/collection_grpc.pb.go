@@ -24,6 +24,7 @@ type CollectionClient interface {
 	DoCollect(ctx context.Context, in *DoCollectReq, opts ...grpc.CallOption) (*DoCollectRes, error)
 	UndoCollect(ctx context.Context, in *UndoCollectReq, opts ...grpc.CallOption) (*UndoCollectRes, error)
 	IsCollected(ctx context.Context, in *IsCollectedReq, opts ...grpc.CallOption) (*IsCollectedRes, error)
+	GetCollectionListByOffset(ctx context.Context, in *GetCollectionListByOffsetReq, opts ...grpc.CallOption) (*GetCollectionListByOffsetRes, error)
 }
 
 type collectionClient struct {
@@ -79,6 +80,15 @@ func (c *collectionClient) IsCollected(ctx context.Context, in *IsCollectedReq, 
 	return out, nil
 }
 
+func (c *collectionClient) GetCollectionListByOffset(ctx context.Context, in *GetCollectionListByOffsetReq, opts ...grpc.CallOption) (*GetCollectionListByOffsetRes, error) {
+	out := new(GetCollectionListByOffsetRes)
+	err := c.cc.Invoke(ctx, "/cz.collection.v1.Collection/getCollectionListByOffset", in, out, opts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
 // CollectionServer is the server API for Collection service.
 // All implementations must embed UnimplementedCollectionServer
 // for forward compatibility
@@ -89,6 +99,7 @@ type CollectionServer interface {
 	DoCollect(context.Context, *DoCollectReq) (*DoCollectRes, error)
 	UndoCollect(context.Context, *UndoCollectReq) (*UndoCollectRes, error)
 	IsCollected(context.Context, *IsCollectedReq) (*IsCollectedRes, error)
+	GetCollectionListByOffset(context.Context, *GetCollectionListByOffsetReq) (*GetCollectionListByOffsetRes, error)
 	mustEmbedUnimplementedCollectionServer()
 }
 
@@ -110,6 +121,9 @@ func (UnimplementedCollectionServer) UndoCollect(context.Context, *UndoCollectRe
 }
 func (UnimplementedCollectionServer) IsCollected(context.Context, *IsCollectedReq) (*IsCollectedRes, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method IsCollected not implemented")
+}
+func (UnimplementedCollectionServer) GetCollectionListByOffset(context.Context, *GetCollectionListByOffsetReq) (*GetCollectionListByOffsetRes, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method GetCollectionListByOffset not implemented")
 }
 func (UnimplementedCollectionServer) mustEmbedUnimplementedCollectionServer() {}
 
@@ -214,6 +228,24 @@ func _Collection_IsCollected_Handler(srv interface{}, ctx context.Context, dec f
 	return interceptor(ctx, in, info, handler)
 }
 
+func _Collection_GetCollectionListByOffset_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(GetCollectionListByOffsetReq)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(CollectionServer).GetCollectionListByOffset(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: "/cz.collection.v1.Collection/getCollectionListByOffset",
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(CollectionServer).GetCollectionListByOffset(ctx, req.(*GetCollectionListByOffsetReq))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
 // Collection_ServiceDesc is the grpc.ServiceDesc for Collection service.
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
@@ -240,6 +272,10 @@ var Collection_ServiceDesc = grpc.ServiceDesc{
 		{
 			MethodName: "isCollected",
 			Handler:    _Collection_IsCollected_Handler,
+		},
+		{
+			MethodName: "getCollectionListByOffset",
+			Handler:    _Collection_GetCollectionListByOffset_Handler,
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
